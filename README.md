@@ -19,24 +19,24 @@
 
 <details><summary>C++</summary>
     <ul>
-        <li><a href="Data_Structures/01_Stack.cpp">01. Stack</a></li>
-		<li><a href="Data_Structures/02_Queue.cpp">02. Queue</a></li>
-        <li><a href="Data_Structures/03_Linkedlist.cpp">03. Linkedlist</a></li>
-        <li><a href="Data_Structures/04_Double_Linked_List.cpp">04. Double Linkedlist</a></li>
-        <li><a href="Data_Structures/05_Hash_Table.cpp">05. Hash Tablet</a></li>
-        <li><a href="Data_Structures/06_Hash_Table_with_Chaining.cpp">06. Hash Table with Chaining</a></li>
-        <li><a href="Data_Structures/07_Hash_Table_with_Linear_Probing.cpp">07. Hash Table with Linear Probing</a></li>
-        <li><a href="Data_Structures/08_Binary_Search_Tree.cpp">08. Binary Search Tree</a></li>
-        <li><a href="Data_Structures/09_Heap.cpp">09. Heap</a></li>
+        <li><a href="Data_Structures/c++/01_Stack.cpp">01. Stack</a></li>
+		<li><a href="Data_Structures/c++/02_Queue.cpp">02. Queue</a></li>
+        <li><a href="Data_Structures/c++/03_Linkedlist.cpp">03. Linkedlist</a></li>
+        <li><a href="Data_Structures/c++/04_Double_Linked_List.cpp">04. Double Linkedlist</a></li>
+        <li><a href="Data_Structures/c++/05_Hash_Table.cpp">05. Hash Tablet</a></li>
+        <li><a href="Data_Structures/c++/06_Hash_Table_with_Chaining.cpp">06. Hash Table with Chaining</a></li>
+        <li><a href="Data_Structures/c++/07_Hash_Table_with_Linear_Probing.cpp">07. Hash Table with Linear Probing</a></li>
+        <li><a href="Data_Structures/c++/08_Binary_Search_Tree.cpp">08. Binary Search Tree</a></li>
+        <li><a href="Data_Structures/c++/09_Heap.cpp">09. Heap</a></li>
     </ul>
 </details>
 
 <details><summary>Python</summary>
     <ul>
-        <li><a href="Data_Structures/01_음계.cpp">01. 음계</a></li>
-		<li><a href="Data_Structures/01_음계(풀이).cpp">01. 음계(풀이버전)</a></li>
-        <li><a href="Data_Structures/02_블랙잭.cpp">02. 블랙잭</a></li>
-		<li><a href="Data_Structures/02_블랙잭(풀이).cpp">02. 블랙잭(풀이버전)</a></li>
+        <li><a href="Data_Structures/python/01_음계.cpp">01. 음계</a></li>
+		<li><a href="Data_Structures/python/01_음계(풀이).cpp">01. 음계(풀이버전)</a></li>
+        <li><a href="Data_Structures/python/02_블랙잭.cpp">02. 블랙잭</a></li>
+		<li><a href="Data_Structures/python/02_블랙잭(풀이).cpp">02. 블랙잭(풀이버전)</a></li>
     </ul>
 </details>
 
