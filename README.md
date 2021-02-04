@@ -33,10 +33,10 @@
 
 <details><summary>Python</summary>
     <ul>
-        <li><a href="Data_Structures/python/01_음계.cpp">01. 음계</a></li>
-		<li><a href="Data_Structures/python/01_음계(풀이).cpp">01. 음계(풀이버전)</a></li>
-        <li><a href="Data_Structures/python/02_블랙잭.cpp">02. 블랙잭</a></li>
-		<li><a href="Data_Structures/python/02_블랙잭(풀이).cpp">02. 블랙잭(풀이버전)</a></li>
+        <li><a href="Data_Structures/python/01_음계.py">01. 음계</a></li>
+		<li><a href="Data_Structures/python/01_음계(풀이).py">01. 음계(풀이버전)</a></li>
+        <li><a href="Data_Structures/python/02_블랙잭.py">02. 블랙잭</a></li>
+		<li><a href="Data_Structures/python/02_블랙잭(풀이).py">02. 블랙잭(풀이버전)</a></li>
     </ul>
 </details>
 
