@@ -17,22 +17,35 @@
 
 ## Data Structures
 
-- [01. Stack](Data_Structures/01_Stack.cpp)
-- [02. Queue](Data_Structures/02_Queue.cpp)
-- [03. Linkedlist](Data_Structures/04_Linkedlist.cpp)
-- [04. Double Linkedlist](Data_Structures/04_Double_Linked_List.cpp)
-- [05. Hash Table](Data_Structures/05_Hash_Table.cpp)
-- [06. Hash Table with Chaining](Data_Structures/06_Hash_Table_with_Chaining.cpp)
-- [07. Hash Table with Linear Probing](Data_Structures/07_Hash_Table_with_Linear_Probing.cpp)
-- [08. Binary Search Tree](Data_Structures/08_Binary_Search_Tree.cpp)
-- [09. Heap](Data_Structures/09_Heap.cpp)
+<details><summary>C++</summary>
+    <ul>
+        <li><a href="Data_Structures/01_Stack.cpp">01. Stack</a></li>
+		<li><a href="Data_Structures/02_Queue.cpp">02. Queue</a></li>
+        <li><a href="Data_Structures/03_Linkedlist.cpp">03. Linkedlist</a></li>
+        <li><a href="Data_Structures/04_Double_Linked_List.cpp">04. Double Linkedlist</a></li>
+        <li><a href="Data_Structures/05_Hash_Table.cpp">05. Hash Tablet</a></li>
+        <li><a href="Data_Structures/06_Hash_Table_with_Chaining.cpp">06. Hash Table with Chaining</a></li>
+        <li><a href="Data_Structures/07_Hash_Table_with_Linear_Probing.cpp">07. Hash Table with Linear Probing</a></li>
+        <li><a href="Data_Structures/08_Binary_Search_Tree.cpp">08. Binary Search Tree</a></li>
+        <li><a href="Data_Structures/09_Heap.cpp">09. Heap</a></li>
+    </ul>
+</details>
+
+<details><summary>Python</summary>
+    <ul>
+        <li><a href="Data_Structures/01_음계.cpp">01. 음계</a></li>
+		<li><a href="Data_Structures/01_음계(풀이).cpp">01. 음계(풀이버전)</a></li>
+        <li><a href="Data_Structures/02_블랙잭.cpp">02. 블랙잭</a></li>
+		<li><a href="Data_Structures/02_블랙잭(풀이).cpp">02. 블랙잭(풀이버전)</a></li>
+    </ul>
+</details>
 
 
 
 ## Implementation
 
 <details><summary>C++</summary>
-    <ol>
+    <ul>
         <li><a href="Implementation/00_2차원배열_3배.cpp">00. 2차원배열 3배</a></li>
         <li><a href="Implementation/00_2차원배열_회전.cpp">00. 2차원배열 회전</a></li>
         <li><a href="Implementation/01_럭키스트레이트(풀이).cpp">01. 럭키스트레이트</a></li>
@@ -43,20 +56,8 @@
         <li><a href="Implementation/06_기둥과보설치.cpp">06. 기둥과보설치</li>
         <li><a href="Implementation/07_치킨배달.cpp">07. 치킨배달</a></li>
         <li><a href="Implementation/08_외벽전검.cpp">08. 외벽전검</a></li>
-    </ol>
-
+    </ul>
 </details>
-
-- [00. 2차원배열 3배](Implementation/00_2차원배열_3배.cpp)
-- [00. 2차원배열 회전](Implementation/00_2차원배열_회전.cpp)
-- [01. 럭키스트레이트](Implementation/01_럭키스트레이트(풀이).cpp)
-- [02. 문자열재정렬](Implementation/02_문자열재정렬.cpp)
-- [03. 문자열압축](Implementation/03_문자열압축.cpp)
-- [04. 자물쇠와열쇠](Implementation/04_자물쇠와열쇠.cpp)
-- [05. 뱀](Implementation/05_뱀.cpp)
-- [06. 기둥과보설치](Implementation/06_기둥과보설치.cpp)
-- [07. 치킨배달](Implementation/07_치킨배달.cpp)
-- [08. 외벽전검](Implementation/08_외벽전검.cpp)
 
 
 
