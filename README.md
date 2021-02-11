@@ -39,8 +39,13 @@
         <li><a href="Data_Structures/python/03_스택수열.py">03. 스택수열</a></li>
         <li><a href="Data_Structures/python/04_프린터큐.py">04. 프린터큐</a></li>
         <li><a href="Data_Structures/python/05_키로거(해설).py">05. 키로거</a></li>
+        <li><a href="Data_Structures/python/06_SHA-256.py">06. SHA-256</a></li>
+        <li><a href="Data_Structures/python/07_수찾기.py">07. 수찾기</a></li>
+        <li><a href="Data_Structures/python/07_수찾기(set).py">07. 수찾기(set)</a></li>
+        <li><a href="Data_Structures/python/08_친구네트워크.py">08. 친구네트워크</a></li>
     </ul>
 </details>
+
 
 
 
