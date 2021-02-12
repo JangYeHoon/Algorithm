@@ -72,15 +72,30 @@
 
 ## Sorting
 
-- [00_Bubble_Sort][Sorting/00_Bubble_Sort.cpp]
-- [00_Insertion_Sort](Sorting/00_Insertion_Sort.cpp)
-- [00. Selection Sort](Sorting/00_Selection_Sort.cpp)
-- [00. Count Sort](Sorting/00_Count_Sort.cpp)
-- [00. Merge Sort](Sorting/00_Merge_Sort.cpp)
-- [00. Quick Sort](Sorting/00_Quick_Sort.cpp)
-- [01. 위에서아래로](Sorting/01_위에서아래로.cpp)
-- [02. 성적이 낮은 순서대로 학생 출력](Sorting/02_성적이낮은순서대로학생출력(해설).cpp)
-- [03. 두배열의 원소교체](Sorting/03_두배열의원소교체.cpp)
+<details><summary>C++</summary>
+    <ul>
+        <li><a href="Sorting/c++/00_Bubble_Sort.cpp">00. Bubble Sort</a></li>
+        <li><a href="Sorting/c++/00_Insertion_Sort.cpp">00. Insertion Sort</a></li>
+        <li><a href="Sorting/c++/00_Selection_Sort.cpp">00. Selection Sort</a></li>
+        <li><a href="Sorting/c++/00_Count_Sort.cpp">00. Count Sort</a></li>
+        <li><a href="Sorting/c++/00_Merge_Sort.cpp">00. Merge Sort</a></li>
+        <li><a href="Sorting/c++/00_Quick_Sort.cpp">00. Quick Sort</a></li>
+        <li><a href="Sorting/c++/01_위에서아래로.cpp">01. 위에서 아래로</a></li>
+        <li><a href="Sorting/c++/02_성적이낮은순서대로학생출력(해설).cpp">02. 성적이 낮은 순서대로 학생 출력</a></li>
+        <li><a href="Sorting/c++/03_두배열의원소교체.cpp">03. 두 배열의 원소 교체</a></li>
+    </ul>
+</details>
+<details><summary>Python</summary>
+    <ul>
+        <li><a href="Sorting/python/01_수정렬하기.py">01. 수정렬하기</a></li>
+        <li><a href="Sorting/python/02_소트인사이드.py">02. 소트인사이드</a></li>
+        <li><a href="Sorting/python/02_소트인사이드(다른풀이).py">02. 소트인사이드(다른풀이)</a></li>
+        <li><a href="Sorting/python/03_나이순정렬.py">03. 나이순정렬</a></li>
+        <li><a href="Sorting/python/04_좌표정렬.py">04. 좌표정렬(lambda)</a></li>
+        <li><a href="Sorting/python/04_좌표정렬(다른풀이).py">04. 좌표정렬(다른풀이)</a></li>
+        <li><a href="Sorting/python/05_수정렬하기3.py">05. 수정렬하기3(Counting Sort)</a></li>
+    </ul>
+</details>
 
 
 
