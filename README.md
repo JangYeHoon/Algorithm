@@ -47,10 +47,6 @@
 </details>
 
 
-
-
-
-
 ## Implementation
 
 <details><summary>C++</summary>
@@ -91,11 +87,12 @@
         <li><a href="Sorting/python/02_소트인사이드.py">02. 소트인사이드</a></li>
         <li><a href="Sorting/python/02_소트인사이드(다른풀이).py">02. 소트인사이드(다른풀이)</a></li>
         <li><a href="Sorting/python/03_나이순정렬.py">03. 나이순정렬</a></li>
-        <li><a href="Sorting/python/04_좌표정렬.py">04. 좌표정렬(lambda)</a></li>
+        <li><a href="Sorting/python/04_좌표정렬하기.py">04. 좌표정렬(lambda)</a></li>
         <li><a href="Sorting/python/04_좌표정렬(다른풀이).py">04. 좌표정렬(다른풀이)</a></li>
         <li><a href="Sorting/python/05_수정렬하기3.py">05. 수정렬하기3(Counting Sort)</a></li>
     </ul>
 </details>
+
 
 
 
