@@ -89,10 +89,13 @@
         <li><a href="Sorting/python/03_나이순정렬.py">03. 나이순정렬</a></li>
         <li><a href="Sorting/python/04_좌표정렬하기.py">04. 좌표정렬(lambda)</a></li>
         <li><a href="Sorting/python/04_좌표정렬(다른풀이).py">04. 좌표정렬(다른풀이)</a></li>
-        <li><a href="Sorting/python/05_수정렬하기3.py">05. 수정렬하기3(Counting Sort)</a></li>
+        <li><a href="Sorting/python/05_수정렬하기3(계수정렬).py">05. 수정렬하기3(Counting Sort)</a></li>
+        <li><a href="Sorting/python/06_수정렬하기2.py">06. 수정렬하기2</a></li>
+        <li><a href="Sorting/python/06_Merge_Sort.py">06. Merge_Sort</a></li>
+        <li><a href="Sorting/python/06_Quick_Sort.py">06. Quick Sort</a></li>
+        <li><a href="Sorting/python/07_K번째수.py">07. K번째 수</a></li>
     </ul>
 </details>
-
 
 
 
@@ -162,14 +165,26 @@
 
 ## Search
 
-- [00. Binary Search(반복)](Search/00_Binary_Search(반복).cpp)
-- [00. Binary Search(재귀)](Search/00_Binary_Search(재귀).cpp)
-- [00. Sequential Search](Search/00_Sequential_Search.cpp)
-- [01_부품찾기(계수정렬)](Search/01_부품찾기(계수정렬).cpp)
-- [01. 부품찾기(이진탐색)](Search/01_부품찾기(이진탐색).cpp)
-- [01. 부품찾기(집합자료형)](Search/01_부품찾기(집합자료형).cpp)
-- [02. 떡볶이 떡 만들기(반복)](Search/02_떡볶이떡만들기(반복).cpp)
-- [02. 떡볶이 떡 만들기(재귀)](Search/02_떡볶이떡만들기(재귀).cpp)
+<details><summary>C++</summary>
+    <ul>
+        <li><a href="Search/c++/00_Binary_Search(반복).cpp">00. Binary Search(반복)</a></li>
+        <li><a href="Search/c++/00_Binary_Search(재귀).cpp">00. Binary Search(재귀)</a></li>
+        <li><a href="Search/c++/00_Sequential_Search.cpp">00. Sequential Search</a></li>
+        <li><a href="Search/c++/01_부품찾기(계수정렬).cpp">01. 부품찾기(계수정렬)</a></li>
+        <li><a href="Search/c++/01_부품찾기(이진탐색).cpp">01. 부품찾기(이진탐색)</a></li>
+        <li><a href="Search/c++/01_부품찾기(집합자료형).cpp">01. 부품찾기(집합자료형)</a></li>
+        <li><a href="Search/c++/02_떡볶이떡만들기(반복).cpp">02. 떡볶이떡만들기(반복)</a></li>
+        <li><a href="Search/c++/02_떡볶이떡만들기(재귀).cpp">02. 떡볶이떡만들기(재귀)</a></li>
+    </ul>
+</details>
+<details><summary>Python</summary>
+    <ul>
+        <li><a href="Search/python/01_문서검색.py">01. 문서검색</a></li>
+        <li><a href="Search/python/02_새.py">02. 새</a></li>
+        <li><a href="Search/python/03_베스트셀러.py">03. 베스트셀러</a></li>
+        <li><a href="Search/python/03_베스트셀러(다른풀이).py">03. 베스트셀러(다른풀이)</a></li>
+    </ul>
+</details>
 
 
 
