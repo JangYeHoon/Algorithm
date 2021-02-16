@@ -183,8 +183,11 @@
         <li><a href="Search/python/02_새.py">02. 새</a></li>
         <li><a href="Search/python/03_베스트셀러.py">03. 베스트셀러</a></li>
         <li><a href="Search/python/03_베스트셀러(다른풀이).py">03. 베스트셀러(다른풀이)</a></li>
+        <li><a href="Search/python/04_트로피진열.py">04. 트로피진열</a></li>
+        <li><a href="Search/python/05_성지키기.py">05. 성지키기</a></li>
     </ul>
 </details>
+
 
 
 
