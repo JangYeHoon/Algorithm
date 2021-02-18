@@ -186,8 +186,11 @@
         <li><a href="Search/python/04_트로피진열.py">04. 트로피진열</a></li>
         <li><a href="Search/python/05_성지키기.py">05. 성지키기</a></li>
         <li><a href="Search/python/06_공유기설치.py">06. 공유기설치</a></li>
+        <li><a href="Search/python/07_중량제한.py">07. 중량제한</a></li>
+        <li><a href="Search/python/08_트리순회.py">08. 트리순회</a></li>
     </ul>
 </details>
+
 
 
 
