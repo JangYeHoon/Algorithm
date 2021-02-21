@@ -188,11 +188,9 @@
         <li><a href="Search/python/06_공유기설치.py">06. 공유기설치</a></li>
         <li><a href="Search/python/07_중량제한.py">07. 중량제한</a></li>
         <li><a href="Search/python/08_트리순회.py">08. 트리순회</a></li>
+        <li><a href="Search/python/09_트리의높이와너비.py">09. 트리의 높이와 너비</a></li>
     </ul>
 </details>
-
-
-
 
 
 
