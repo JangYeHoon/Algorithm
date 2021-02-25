@@ -191,8 +191,11 @@
         <li><a href="Search/python/09_트리의높이와너비.py">09. 트리의 높이와 너비</a>
         <li><a href="Search/python/10_최소힙.py">10. 최소힙</a></li>
         <li><a href="Search/python/11_카드정렬하기.py">11. 카드정렬하기</a></li>
+        <li><a href="Search/python/12_문제집(위상정렬_heapq).py">12. 문제집(위상정렬_heapq)</a></li>
+        <li><a href="Search/python/12_문제집(위상정렬_우선순위큐).py">12. 문제집(위상정렬_우선순위큐)</a></li>
     </ul>
 </details>
+
 
 
 
