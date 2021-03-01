@@ -126,7 +126,7 @@
 <details><summary>C++</summary>
     <ul>
         <li><a href="Dynamic_Programming/c++/00_factorial(재귀).cpp">00. Factorial</a></li>
-		<li><a herf="Dynamic_Programming/c++/00_fibo(반복).cpp">00. Fibo(반복)</a></li>
+		<li><a href="Dynamic_Programming/c++/00_fibo(반복).cpp">00. Fibo(반복)</a></li>
         <li><a href="Dynamic_Programming/c++/00_fibo(재귀).cpp">00. Fibo(재귀)</a></li>
         <li><a href="Dynamic_Programming/c++/01_1이되는과정(재귀).cpp">01. 1이 되는 과정(재귀)</a></li>
         <li><a href="Dynamic_Programming/c++/01_1이되는과정.cpp">01_1이 되는 과정</a></li>
@@ -140,11 +140,11 @@
     <ul>
         <li><a href="Dynamic_Programming/python/01_피보나치수.py">01. 피보나치수</a></li>
         <li><a href="Dynamic_Programming/python/01_피보나치수(반복).py">01. 피보나치수(반복)</a></li>
-        <li><a herf="Dynamic_Programming/python/01_피보나치수(반복다른풀이).py">01. 피보나치수(반복_다른풀이)</a></li>
-        <li><a herf="Dynamic_Programming/python/02_Z.py">02. Z</a></li>
-        <li><a herf="Dynamic_Programming/python/02_Z(시간줄이).py">02. Z(시간단축)</a></li>
-        <li><a herf="Dynamic_Programming/python/03_0만들기.py">03. 0만들기</a></li>
-        <li><a herf="Dynamic_Programming/python/04_01타일.py">04. 01타일</a></li>
+        <li><a href="Dynamic_Programming/python/01_피보나치수(반복다른풀이).py">01. 피보나치수(반복_다른풀이)</a></li>
+        <li><a href="Dynamic_Programming/python/02_Z.py">02. Z</a></li>
+        <li><a href="Dynamic_Programming/python/02_Z(시간줄임).py">02. Z(시간단축)</a></li>
+        <li><a href="Dynamic_Programming/python/03_0만들기.py">03. 0만들기</a></li>
+        <li><a href="Dynamic_Programming/python/04_01타일.py">04. 01타일</a></li>
     </ul>
 </details>
 
