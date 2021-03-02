@@ -145,8 +145,11 @@
         <li><a href="Dynamic_Programming/python/02_Z(시간줄임).py">02. Z(시간단축)</a></li>
         <li><a href="Dynamic_Programming/python/03_0만들기.py">03. 0만들기</a></li>
         <li><a href="Dynamic_Programming/python/04_01타일.py">04. 01타일</a></li>
+        <li><a href="Dynamic_Programming/python/05_평범한배낭.py">05. 평범한 배낭</a></li>
+        <li><a href="Dynamic_Programming/python/06_가장긴증가하는부분수열.py">06. 가장 긴 증가하는 부분 수열</a></li>
     </ul>
 </details>
+
 
 
 
