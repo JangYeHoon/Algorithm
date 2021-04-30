@@ -147,6 +147,7 @@
         <li><a href="Dynamic_Programming/python/04_01타일.py">04. 01타일</a></li>
         <li><a href="Dynamic_Programming/python/05_평범한배낭.py">05. 평범한 배낭</a></li>
         <li><a href="Dynamic_Programming/python/06_가장긴증가하는부분수열.py">06. 가장 긴 증가하는 부분 수열</a></li>
+        <li><a href="Dynamic_Programming/python/07_LCS.py">07. LCS(최장 공통 부분 수열)</a></li>
     </ul>
 </details>
 
