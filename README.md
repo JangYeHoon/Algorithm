@@ -149,6 +149,7 @@
         <li><a href="Dynamic_Programming/python/06_가장긴증가하는부분수열.py">06. 가장 긴 증가하는 부분 수열</a></li>
         <li><a href="Dynamic_Programming/python/07_LCS.py">07. LCS(최장 공통 부분 수열)</a></li>
         <li><a href="Dynamic_Programming/python/08_기타리스트.py">08. 기타리스트</a></li>
+        <li><a herf="Dynamic_Programming/python/09_가장높은탑쌓기.py">09. 가장 높은 탑 쌓기</a></li>
     </ul>
 </details>
 
