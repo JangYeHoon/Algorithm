@@ -5,8 +5,8 @@
 1. [Data Structures](#data-structures)
 2. [Implementation](#implementation)
 3. [Sorting](#sorting)
-4. [Breadth-first Search (BFS)](#breadth-first-search-(bfs))
-5. [Depth-first Search (DFS)](#depth-first-search-(dfs))
+4. [Breadth-first Search (BFS)](#breadth-first-search-bfs)
+5. [Depth-first Search (DFS)](#depth-first-search-dfs)
 6. [Dynamic Programming](#dynamic-programming)
 7. [Graph](#graph)
 8. [Greedy](#greedy)
@@ -101,13 +101,20 @@
 
 ## Breadth-first Search (BFS)
 
-- [00. bfs](Breadth-first_search(BFS)/00_bfs.cpp)
-- [01. 미로탈출](Breadth-first_search(BFS)/01_미로탈출.cpp)
-- [02. 특정거리의 도시찾기](Breadth-first_search(BFS)/02_특정거리의_도시찾기.cpp)
-- [03. 경쟁적전염](Breadth-first_search(BFS)/03_경쟁적전염(bfs풀이).cpp)
-- [03. 경쟁적전염(반복)](Breadth-first_search(BFS)/03_경쟁적전염.cpp)
-
-
+<details><summary>C++</summary>
+    <ul>
+        <li><a href="Breadth-first_search(BFS)/c++/00_bfs.cpp">00. bfs</a></li>
+        <li><a href="Breadth-first_search(BFS)/c++/01_미로탈출.cpp">01. 미로탈출</a></li>
+        <li><a href="Breadth-first_search(BFS)/c++/02_특정거리의_도시찾기.cpp">02. 특정거리의 도시찾기</a></li>
+        <li><a href="Breadth-first_search(BFS)/c++/03_경쟁적전염(bfs풀이).cpp">03. 경쟁적전염(bfs)</a></li>
+        <li><a href="Breadth-first_search(BFS)/c++/03_경쟁적전염.cpp">03. 경쟁적전염(반복)</a></li>
+    </ul>
+</details>
+<details><summary>Python</summary>
+    <ul>
+        <li><a href="Breadth-first_search(BFS)/python/01_숨바꼭질.py">01. 숨바꼭질</a></li>
+    </ul>
+</details>
 
 ## Depth-first Search (DFS)
 
@@ -159,17 +166,26 @@
 
 ## Graph
 
-- [00. 기본적인 서로소 집합 알고리즘](Graph/00_기본적인_서로소_집합_알고리즘.cpp)
-- [00. 개선된 서로소 집합 알고리즘](Graph/00_개선된_서로소_집합_알고리즘.cpp)
-- [00. 서로소 집합을 활용한 사이클 판별](Graph/00_서로소_집합을_활용한_사이클_판별.cpp)
-- [01. 크루스칼 알고리즘](Graph/01_Kruskal_Algorithm.cpp)
-- [02. 프림 알고리즘](Graph/02_Prim_Algorithm.cpp)
-- [02. 프림 알고리즘(with 우선순위 큐)](Graph/02_Prim_Algorithm_PriorityQueue.cpp)
-- [03. Topology Sort](Graph/03_Topology_Sort.cpp)
-- [04. 팀결성](Graph/04_팀결성.cpp)
-- [05. 도시분할계획](Graph/05_도시분할계획.cpp)
-- [06. 커리큘럼](Graph/06_커리큘럼)
-
+<details><summary>C++</summary>
+    <ul>
+        <li><a href="Graph/c++/00_기본적인_서로소_집합_알고리즘.cpp">00. 기본적인 서로소 집합 알고리즘</a></li>
+        <li><a href="Graph/c++/00_개선된_서로소_집합_알고리즘.cpp">00. 개선된 서로소 집합 알고리즘</a></li>
+        <li><a href="Graph/c++/00_서로소_집합을_활용한_사이클_판별.cpp">00. 서로소 집합을 활용한 사이클 판별</a></li>
+        <li><a href="Graph/c++/01_Kruskal_Algorithm.cpp">01. 크루스칼 알고리즘</a></li>
+        <li><a href="Graph/c++/02_Prim_Algorithm.cpp">02. 프림 알고리즘</a></li>
+        <li><a href="Graph/c++/02_Prim_Algorithm_PriorityQueue.cpp">02. 프림 알고리즘(with 우선순위 큐)</a></li>
+        <li><a href="Graph/c++/03_Topology_Sort.cpp">03. Topology Sort</a></li>
+        <li><a href="Graph/c++/04_팀결성.cpp">04. 팀결성</a></li>
+        <li><a href="Graph/c++/05_도시분할계획.cpp">05. 도시분할계획</a></li>
+        <li><a href="Graph/c++/06_커리큘럼.cpp">06. 커리큘럼</a></li>
+        <li><a href="Graph/c++/07_DFS와BFS.cpp">07. DFS와 BFS(풀이중)</a></li>
+    </ul>
+</details>
+<details><summary>Python</summary>
+    <ul>
+        <li><a href="Graph/python/01_DFS와BFS.py">01. DFS와 BFS</a></li>
+    </ul>
+</details>
 
 
 ## Greedy
