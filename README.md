@@ -5,8 +5,8 @@
 1. [Data Structures](#data-structures)
 2. [Implementation](#implementation)
 3. [Sorting](#sorting)
-4. [Breadth-first Search (BFS)](#breadth-first-search-(bfs))
-5. [Depth-first Search (DFS)](#depth-first-search-(dfs))
+4. [Breadth-first Search (BFS)](#breadth-first-search-bfs)
+5. [Depth-first Search (DFS)](#depth-first-search-dfs)
 6. [Dynamic Programming](#dynamic-programming)
 7. [Graph](#graph)
 8. [Greedy](#greedy)
@@ -181,7 +181,7 @@
         <li><a href="Graph/c++/07_DFS와BFS.cpp">07. DFS와 BFS(풀이중)</a></li>
     </ul>
 </details>
-<details><summary>C++</summary>
+<details><summary>Python</summary>
     <ul>
         <li><a href="Graph/python/01_DFS와BFS.py">01. DFS와 BFS</a></li>
     </ul>
