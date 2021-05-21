@@ -12,8 +12,7 @@
 8. [Greedy](#greedy)
 9. [Search](#search)
 10. [Shortest Path](#shortest-path)
-
-
+---
 
 ## Data Structures
 
@@ -46,7 +45,6 @@
     </ul>
 </details>
 
-
 ## Implementation
 
 <details><summary>C++</summary>
@@ -63,8 +61,6 @@
         <li><a href="Implementation/08_외벽전검.cpp">08. 외벽전검</a></li>
     </ul>
 </details>
-
-
 
 ## Sorting
 
@@ -97,8 +93,6 @@
     </ul>
 </details>
 
-
-
 ## Breadth-first Search (BFS)
 
 <details><summary>C++</summary>
@@ -113,6 +107,7 @@
 <details><summary>Python</summary>
     <ul>
         <li><a href="Breadth-first_search(BFS)/python/01_숨바꼭질.py">01. 숨바꼭질</a></li>
+        <li><a href="Breadth-first_search(BFS)/python/02_바이러스.py">02. 바이러스</a></li>
     </ul>
 </details>
 
@@ -125,8 +120,22 @@
 - [04. 연산지끼워넣기](Depth-first_search(DFS)/04_연산자끼워넣기(dfs풀이).cpp)
 - [04. 연산자끼워넣기(조합풀이)](Depth-first_search(DFS)/04_연산자끼워넣기.cpp)
 - [05. 감시피하기](Depth-first_search(DFS)/05_감시피하기.cpp)
-
-
+<details><summary>C++</summary>
+    <ul>
+        <li><a href="Depth-first_search(DFS)/c++/00_dfs.cpp">00. dfs</a></li>
+        <li><a href="Depth-first_search(DFS)/c++/01_N_Queens.cpp">01. N Queens</a></li>
+        <li><a href="Depth-first_search(DFS)/c++/02_음료수얼려먹기.cpp">02. 음료수얼려먹기</a></li>
+        <li><a href="Depth-first_search(DFS)/c++/03_괄호변환.cpp">03. 괄호변환</a></li>
+        <li><a href="Depth-first_search(DFS)/c++/04_연산자끼워넣기(bfs풀이).cpp">04. 연산자끼워넣기(bfs풀이)</a></li>
+        <li><a href="Depth-first_search(DFS)/c++/04_연산자끼워넣기(조합풀이).cpp">04. 연산자끼워넣기(조합풀이)</a></li>
+        <li><a href="Depth-first_search(DFS)/c++/05_감시피하기.cpp">05. 감시피하기</a></li>
+    </ul>
+</details>
+<details><summary>Python</summary>
+    <ul>
+        <li><a href="Depth-first_search(DFS)/python/01_숨바꼭질.py">01. 숨바꼭질</a></li>
+    </ul>
+</details>
 
 ## Dynamic Programming
 
@@ -160,10 +169,6 @@
     </ul>
 </details>
 
-
-
-
-
 ## Graph
 
 <details><summary>C++</summary>
@@ -187,7 +192,6 @@
     </ul>
 </details>
 
-
 ## Greedy
 
 - [00. 동전문제](Greedy/00_동전문제.cpp)
@@ -198,8 +202,6 @@
 - [04. 만들수없는금액](Greedy/04_만들수없는금액.cpp)
 - [05. 볼링공고르기](Greedy/05_볼링공고르기.cpp)
 - [06. 무지의 먹방 라이브](Greedy/06_무지의먹방라이브.cpp)
-
-
 
 ## Search
 
@@ -233,10 +235,6 @@
         <li><a href="Search/python/12_문제집(위상정렬_우선순위큐).py">12. 문제집(위상정렬_우선순위큐)</a></li>
     </ul>
 </details>
-
-
-
-
 
 ## Shortest Path
 
