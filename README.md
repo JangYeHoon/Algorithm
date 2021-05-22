@@ -108,18 +108,12 @@
     <ul>
         <li><a href="Breadth-first_search(BFS)/python/01_숨바꼭질.py">01. 숨바꼭질</a></li>
         <li><a href="Breadth-first_search(BFS)/python/02_바이러스.py">02. 바이러스</a></li>
+        <li><a href="Breadth-first_search(BFS)/python/03_유기농배추.py">03. 유기농배추</a></li>
     </ul>
 </details>
 
 ## Depth-first Search (DFS)
 
-- [00. dfs](Depth-first_search(DFS)/00_dfs.cpp)
-- [01. N Queens](Depth-first_search(DFS)/01_N_Queens.cpp)
-- [02. 음료수얼려먹기](Depth-first_search(DFS)/02_음료수얼려먹기.cpp)
-- [03. 괄호변환](Depth-first_search(DFS)/03_괄호변환.cpp)
-- [04. 연산지끼워넣기](Depth-first_search(DFS)/04_연산자끼워넣기(dfs풀이).cpp)
-- [04. 연산자끼워넣기(조합풀이)](Depth-first_search(DFS)/04_연산자끼워넣기.cpp)
-- [05. 감시피하기](Depth-first_search(DFS)/05_감시피하기.cpp)
 <details><summary>C++</summary>
     <ul>
         <li><a href="Depth-first_search(DFS)/c++/00_dfs.cpp">00. dfs</a></li>
@@ -134,6 +128,7 @@
 <details><summary>Python</summary>
     <ul>
         <li><a href="Depth-first_search(DFS)/python/01_숨바꼭질.py">01. 숨바꼭질</a></li>
+        <li><a href="Depth-first_search(DFS)/python/02_유기농배추.py">02. 유기농배추</a></li>
     </ul>
 </details>
 
