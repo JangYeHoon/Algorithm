@@ -109,6 +109,7 @@
         <li><a href="Breadth-first_search(BFS)/python/01_숨바꼭질.py">01. 숨바꼭질</a></li>
         <li><a href="Breadth-first_search(BFS)/python/02_바이러스.py">02. 바이러스</a></li>
         <li><a href="Breadth-first_search(BFS)/python/03_유기농배추.py">03. 유기농배추</a></li>
+        <li><a href="Breadth-first_search(BFS)/python/04_효율적인해킹.py">04. 효율적인해킹</a></li>
     </ul>
 </details>
 
