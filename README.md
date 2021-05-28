@@ -235,8 +235,18 @@
 
 ## Shortest Path
 
-- [00. Dijkstra(간단)](Shortest_Path/00_Dijkstra(간단).cpp)
-- [00. Dijkstra(개선)](Shortest_Path/00_Dijkstra(개선).cpp)
-- [00. Floyd-Warshall](Shortest_Path/00_Floyd-Warshall.cpp)
-- [01_미래도시](Shortest_Path/00_미래도시.cpp)
-- [02. 전보](Shortest_Path/02_전보.cpp)
+<details><summary>C++</summary>
+    <ul>
+        <li><a href="Shortest_Path/c++/00_Dijkstra(간단).cpp">00. Dijkstra(간단)</a></li>
+        <li><a href="Shortest_Path/c++/00_Dijkstra(개선).cpp">00. Dijkstra(개선)</a></li>
+        <li><a href="Shortest_Path/c++/00_Floyd-Warshall.cpp">00. Floyd Warshall</a></li>
+        <li><a href="Shortest_Path/c++/01_미래도시.cpp">01. 미래도시</a></li>
+        <li><a href="Shortest_Path/c++/02_전보.cpp">02. 전보</a></li>
+    </ul>
+</details>
+<details><summary>Python</summary>
+    <ul>
+        <li><a href="Shortest_Path/python/00_Dijkstra.py">00. Dijkstra</a></li>
+        <li><a href="Shortest_Path/python/01_해킹.py">01. 해킹</a></li>
+    </ul>
+</details>
