@@ -12,10 +12,10 @@ def Dijkstra():
         if distance[now] < dist:
             continue
         for i in adj[now]:
-            cost = dist + i[1]
-            if distance[i[0]] > cost and not dropped[now][i[0]]:
-                distance[i[0]] = cost
-                heapq.heappush(heap_data, (cost, i[0]))
+            cost = dist + adj[now][i]
+            if distance[i] > cost:
+                distance[i] = cost
+                heapq.heappush(heap_data, (cost, i))
 
 def bfs():
     q = deque()
@@ -25,9 +25,9 @@ def bfs():
         if now == start:
             continue
         for prev, cost in reverse_adj[now]:
-            if distance[now] == distance[prev] + cost:
-                if not dropped[prev][now]:
-                    dropped[prev][now] = True
+            if distance[now] == distance[prev] + adj[prev][now]:
+                if (prev, now) not in dropped:
+                    dropped.append((prev, now))
                     q.append(prev)
 
 while True:
@@ -35,21 +35,24 @@ while True:
     if n == 0:
         break
     start, end = map(int, input().split())
-    adj = [[] for _ in range(n)]
-    reverse_adj = [[] for _ in range(n)]
-
+    adj = [dict() for _ in range(n + 1)]
+    reverse_adj = [[] for _ in range(n + 1)]
+    
     for _ in range(m):
         x, y, cost = map(int, input().split())
-        adj[x].append((y, cost))
+        adj[x][y] = cost
         reverse_adj[y].append((x, cost))
     
-    dropped = [[False] * (n) for _ in range(n)]
-    distance = [1e9] * (n)
+    distance = [1e9] * (n + 1)
     Dijkstra()
 
+    dropped = list()
     bfs()
 
-    distance = [1e9] * (n)
+    for u, v in dropped:
+        del adj[u][v]
+
+    distance = [1e9] * (n + 1)
     Dijkstra()
     
     if distance[end] != 1e9:
