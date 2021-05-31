@@ -186,6 +186,7 @@
 <details><summary>Python</summary>
     <ul>
         <li><a href="Graph/python/01_DFS와BFS.py">01. DFS와 BFS</a></li>
+        <li><a href="Graph/python/02_Kruskal's_Algorithm.py">02. Kruskal's Algorithm</a></li>
     </ul>
 </details>
 
