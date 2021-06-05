@@ -193,14 +193,24 @@
 
 ## Greedy
 
-- [00. 동전문제](Greedy/00_동전문제.cpp)
-- [00. 배낭문제](Greedy/00_배낭문제.cpp)
-- [01. 모험가길드](Greedy/01_모험가길드.cpp)
-- [02. 곱하기 혹은 더하기](Greedy/02_곱하기혹은더하기.cpp)
-- [03. 문자열 뒤집기](Greedy/03_문자열뒤집기.cpp)
-- [04. 만들수없는금액](Greedy/04_만들수없는금액.cpp)
-- [05. 볼링공고르기](Greedy/05_볼링공고르기.cpp)
-- [06. 무지의 먹방 라이브](Greedy/06_무지의먹방라이브.cpp)
+<details><summary>C++</summary>
+    <ul>
+        <li><a href="Greedy/c++/00_동전문제.cpp">00. 동전문제</a></li>
+        <li><a href="Greedy/c++/00_배낭문제.cpp">00. 배낭문제</a></li>
+        <li><a href="Greedy/c++/01_모험가길드.cpp">01. 모험가길드</a></li>
+        <li><a href="Greedy/c++/02_곱하기혹은더하기.cpp">02. 곱하기 혹은 더하기</a></li>
+        <li><a href="Greedy/c++/03_문자열뒤집기.cpp">03. 문자열 뒤집기</a></li>
+        <li><a href="Greedy/c++/04_만들수없는금액.cpp">04. 만들 수 없는 금액</a></li>
+        <li><a href="Greedy/c++/05_볼링공고르기.cpp">05. 볼링공 고르기</a></li>
+        <li><a href="Greedy/c++/06_무지의먹방라이브.cpp">06. 무지의 먹방 라이브</a></li>
+    </ul>
+</details>
+<details><summary>Python</summary>
+    <ul>
+        <li><a href="Greedy/python/01_거스름돈.py">01. 거스름돈</a></li>
+        <li><a href="Greedy/python/02_뒤집기.py">02. 뒤집기</a></li>
+    </ul>
+</details>
 
 ## Search
 
