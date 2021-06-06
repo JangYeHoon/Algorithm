@@ -209,8 +209,10 @@
     <ul>
         <li><a href="Greedy/python/01_거스름돈.py">01. 거스름돈</a></li>
         <li><a href="Greedy/python/02_뒤집기.py">02. 뒤집기</a></li>
+        <li><a href="Greedy/python/03_등수매기기.py">03. 등수매기기(진행중)</a></li>
     </ul>
 </details>
+
 
 ## Search
 
