@@ -1,7 +1,14 @@
 n = int(input())
-arr = [0] * (n + 1)
+arr = []
 
 for _ in range(n):
     x = int(input())
-    arr[x] += 1
+    arr.append(x)
 
+arr.sort()
+
+result = 0
+for i in range(0, n):
+    result += abs((i + 1) - arr[i])
+
+print(result)
