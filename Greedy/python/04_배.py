@@ -1,24 +1,34 @@
+import sys
+
 n = int(input())
-crane = list(map(int, input().split()))
+cranes = list(map(int, input().split()))
 
 m = int(input())
-box = list(map(int, input().split()))
+boxes = list(map(int, input().split()))
 
-box.sort(reverse=True)
-crane.sort(reverse=True)
+if max(cranes) < max(boxes):
+    print(-1)
+    sys.exit()
 
-time = 0
-while box:
-    if box[0] > crane[0]:
+cranes.sort(reverse=True)
+boxes.sort(reverse=True)
+
+position = [0] * n
+checked = [False] * m
+
+result = 0
+count = 0
+while True:
+    if count == len(boxes):
         break
     for i in range(n):
-        for j in box:
-            if crane[i] > j:
-                box.remove(j)
+        while position[i] < len(boxes):
+            if not checked[position[i]] and cranes[i] >= boxes[position[i]]:
+                checked[position[i]] = True
+                position[i] += 1
+                count += 1
                 break
-    time += 1
+            position[i] += 1
+    result += 1
 
-if len(box):
-    print(-1)
-else:
-    print(time)
+print(result)
