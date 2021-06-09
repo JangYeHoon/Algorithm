@@ -211,6 +211,7 @@
         <li><a href="Greedy/python/02_뒤집기.py">02. 뒤집기</a></li>
         <li><a href="Greedy/python/03_등수매기기.py">03. 등수매기기</a></li>
         <li><a href="Greedy/python/04_배.py">04. 배</a></li>
+        <li><a href="Greedy/python/05_센서.py">05. 센서</a></li>
     </ul>
 </details>
 
