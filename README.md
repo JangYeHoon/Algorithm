@@ -1,6 +1,6 @@
 # Algorithm
 
-목차
+## 목차
 
 1. [Data Structures](#data-structures)
 2. [Implementation](#implementation)
@@ -12,6 +12,7 @@
 8. [Greedy](#greedy)
 9. [Search](#search)
 10. [Shortest Path](#shortest-path)
+11. [Back Tracking](#back-tracking)
 ---
 
 ## Data Structures
@@ -270,5 +271,13 @@
         <li><a href="Shortest_Path/python/01_해킹.py">01. 해킹</a></li>
         <li><a href="Shortest_Path/python/02_거의최단경로.py">02. 거의최단경로</a></li>
         <li><a href="Shortest_Path/python/02_거의최단경로(dict).py">02. 거의최단경로(dict)</a></li>
+    </ul>
+</details>
+
+## Back Tracking
+
+<details><summary>Python</summary>
+    <ul>
+        <li><a href="BackTracking/python/01_N_Queen.py">01. N Queen</a></li>
     </ul>
 </details>
