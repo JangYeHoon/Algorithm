@@ -276,8 +276,14 @@
 
 ## Back Tracking
 
+<details><summary>C++</summary>
+    <ul>
+        <li><a href="BackTracking/c++/01_N_Queen.cpp">01. N Queen</a></li>
+    </ul>
+</details>
 <details><summary>Python</summary>
     <ul>
         <li><a href="BackTracking/python/01_N_Queen.py">01. N Queen</a></li>
+        <li><a href="BackTracking/python/02_알파벳.py">02. 알파벳 - 진행중</a></li>
     </ul>
 </details>
