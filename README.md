@@ -181,7 +181,7 @@
         <li><a href="Graph/c++/04_팀결성.cpp">04. 팀결성</a></li>
         <li><a href="Graph/c++/05_도시분할계획.cpp">05. 도시분할계획</a></li>
         <li><a href="Graph/c++/06_커리큘럼.cpp">06. 커리큘럼</a></li>
-        <li><a href="Graph/c++/07_DFS와BFS.cpp">07. DFS와 BFS(풀이중)</a></li>
+        <li><a href="Graph/c++/07_DFS와BFS.cpp">07. DFS와 BFS</a></li>
     </ul>
 </details>
 <details><summary>Python</summary>
@@ -284,6 +284,6 @@
 <details><summary>Python</summary>
     <ul>
         <li><a href="BackTracking/python/01_N_Queen.py">01. N Queen</a></li>
-        <li><a href="BackTracking/python/02_알파벳.py">02. 알파벳 - 진행중</a></li>
+        <li><a href="BackTracking/python/02_알파벳.py">02. 알파벳</a></li>
     </ul>
 </details>
