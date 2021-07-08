@@ -65,9 +65,10 @@
 <details><summary>Python</summary>
     <ul>
         <li><a href="Implementation/python/01_행복.py">01. 행복</a></li>
-        <li><a href="Implementation/python/02_수빈이와수열">02. 수빈이와 수열</a></li>
+        <li><a href="Implementation/python/02_수빈이와수열.py">02. 수빈이와 수열</a></li>
     </ul>
 </details>
+
 
 ## Sorting
 
@@ -225,8 +226,6 @@
     </ul>
 </details>
 
-
-
 ## Search
 
 <details><summary>C++</summary>
@@ -295,3 +294,4 @@
         <li><a href="BackTracking/python/03_암호만들기(dfs).py">03. 암호만들기(조합 dfs로 직접 구현)</a></li>
     </ul>
 </details>
+
