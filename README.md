@@ -62,6 +62,12 @@
         <li><a href="Implementation/08_외벽전검.cpp">08. 외벽전검</a></li>
     </ul>
 </details>
+<details><summary>Python</summary>
+    <ul>
+        <li><a href="Implementation/python/01_행복.py">01. 행복</a></li>
+        <li><a href="Implementation/python/02_수빈이와수열">02. 수빈이와 수열</a></li>
+    </ul>
+</details>
 
 ## Sorting
 
