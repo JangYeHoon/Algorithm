@@ -66,6 +66,8 @@
     <ul>
         <li><a href="Implementation/python/01_행복.py">01. 행복</a></li>
         <li><a href="Implementation/python/02_수빈이와수열.py">02. 수빈이와 수열</a></li>
+        <li><a href="Implementation/python/03_이름궁합테스트.py">03. 이름 궁합 테스트</a></li>
+        <li><a href="Implementation/python/04_보너스점수.py">04. 보너스 점수</a></li>
     </ul>
 </details>
 
