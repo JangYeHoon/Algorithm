@@ -1,3 +1,4 @@
+# 풀이 : 2
 N = int(input())
 key = list(map(int, input().split(' ')))
 key_dict = {}
