@@ -71,6 +71,8 @@
         <li><a href="Implementation/python/02_수빈이와수열.py">02. 수빈이와 수열</a></li>
         <li><a href="Implementation/python/03_이름궁합테스트.py">03. 이름 궁합 테스트</a></li>
         <li><a href="Implementation/python/04_보너스점수.py">04. 보너스 점수</a></li>
+        <li><a href="Implementation/python/05_TheCandyWar.py">05. The Candy War</a></li>
+        <li><a href="Implementation/python/06_MixingMilk.py">06. Mixing Milk</a></li>
     </ul>
 </details>
 
