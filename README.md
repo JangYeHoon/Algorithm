@@ -171,6 +171,7 @@
         <li><a href="Dynamic_Programming/python/01_피보나치수(반복다른풀이).py">01. 피보나치수(반복_다른풀이)</a></li>
         <li><a href="Dynamic_Programming/python/02_Z.py">02. Z</a></li>
         <li><a href="Dynamic_Programming/python/02_Z(시간줄임).py">02. Z(시간단축)</a></li>
+        <li><a href="Dynamic_Programming/python/02_Z(수학풀이).py">02. Z(수학풀이)</a></li>
         <li><a href="Dynamic_Programming/python/03_0만들기.py">03. 0만들기</a></li>
         <li><a href="Dynamic_Programming/python/04_01타일.py">04. 01타일</a></li>
         <li><a href="Dynamic_Programming/python/05_평범한배낭.py">05. 평범한 배낭</a></li>
