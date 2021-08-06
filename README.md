@@ -73,6 +73,8 @@
         <li><a href="Implementation/python/04_보너스점수.py">04. 보너스 점수</a></li>
         <li><a href="Implementation/python/05_TheCandyWar.py">05. The Candy War</a></li>
         <li><a href="Implementation/python/06_MixingMilk.py">06. Mixing Milk</a></li>
+        <li><a href="Implementation/python/07_주사위세개.py">07. 주사위 세개(답 확인 필요)</a></li>
+        <li><a href="Implementation/python/08_주사위네개.py">08. 주사위 네개(답 확인 필요)</a></li>
     </ul>
 </details>
 
