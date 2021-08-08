@@ -2,9 +2,8 @@ n, dice = int(input()), []
 result = 0
 
 for i in range(n):
-    dice.append(list(map(int, input().split())))
+    dice.append(sorted(list(map(int, input().split()))))
     cnt = len(set(dice[i]))
-    dice[i].sort()
 
     if cnt == 1:
         result = max(result, 50000 + dice[i][0] * 5000)
