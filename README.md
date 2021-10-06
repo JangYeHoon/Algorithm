@@ -154,6 +154,7 @@
         <li><a href="Depth-first_search(DFS)/python/01_숨바꼭질.py">01. 숨바꼭질</a></li>
         <li><a href="Depth-first_search(DFS)/python/02_유기농배추.py">02. 유기농배추</a></li>
         <li><a href="Depth-first_search(DFS)/python/03_효율적인해킹.py">03. 효율적인해킹(메모리초과)</a></li>
+        <li><a href="Depth-first_search(DFS)/python/04_MooyoMooyo.py">04. Mooyo Mooyo</a></li>
     </ul>
 </details>
 
