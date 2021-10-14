@@ -277,6 +277,7 @@
         <li><a href="Search/python/12_문제집(위상정렬_heapq).py">12. 문제집(위상정렬_heapq)</a></li>
         <li><a href="Search/python/12_문제집(위상정렬_우선순위큐).py">12. 문제집(위상정렬_우선순위큐)</a></li>
         <li><a href="Search/python/13_유기농배추.py">13. 유기농 배추</a></li>
+        <li><a href="Search/python/14_배열돌리기4.py">14. 배열 돌리기 4</a></li>
     </ul>
 </details>
 
