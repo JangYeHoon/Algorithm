@@ -189,6 +189,7 @@
         <li><a href="Dynamic_Programming/python/07_LCS.py">07. LCS(최장 공통 부분 수열)</a></li>
         <li><a href="Dynamic_Programming/python/08_기타리스트.py">08. 기타리스트</a></li>
         <li><a herf="Dynamic_Programming/python/09_가장높은탑쌓기.py">09. 가장 높은 탑 쌓기</a></li>
+        <li><a herf="Dynamic_Programming/python/10_정수삼각형.py">10. 정수 삼각형</a></li>
     </ul>
 </details>
 
