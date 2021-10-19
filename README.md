@@ -190,6 +190,7 @@
         <li><a href="Dynamic_Programming/python/08_기타리스트.py">08. 기타리스트</a></li>
         <li><a herf="Dynamic_Programming/python/09_가장높은탑쌓기.py">09. 가장 높은 탑 쌓기</a></li>
         <li><a herf="Dynamic_Programming/python/10_정수삼각형.py">10. 정수 삼각형</a></li>
+        <li><a herf="Dynamic_Programming/python/11_가장큰증가부분수열.py">11. 가장 큰 증가 부분 수열</a></li>
     </ul>
 </details>
 
