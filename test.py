@@ -1,22 +1,11 @@
-from copy import deepcopy
+N, M = map(int, input().split())
+A = [list(map(int, input().split())) for _ in range(N)]
+DP = [[0 for _ in range(M + 1)] for _ in range(N + 1)]
 
-N, A = int(input()), list(map(int, input().split()))
-DP = deepcopy(A)
-rev = [i for i in range(N)]
+for i in range(1, N + 1):
+    for j in range(1, M + 1):
+        DP[i][j] = DP[i - 1][j] + DP[i][j - 1] - DP[i - 1][j - 1] + A[i - 1][j - 1]
 
-for i in range(1, N):
-    for j in range(i):
-        if A[i] > A[j] and DP[i] < A[i] + DP[j]:
-            DP[i] = A[i] + DP[j]
-            rev[i] = j
-
-print(max(DP))
-
-idx = DP.index(max(DP))
-seq = []
-while rev[idx] != idx:
-    seq.append(A[idx])
-    idx = rev[idx]
-seq.append(A[idx])
-for i in sorted(seq):
-    print(i, end=' ')
+for _ in range(int(input())):
+    i, j, x, y = map(int, input().split())
+    print(DP[x][y] - DP[i - 1][y] - DP[x][j - 1] + DP[i - 1][j - 1])
