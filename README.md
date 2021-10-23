@@ -193,6 +193,7 @@
         <li><a herf="Dynamic_Programming/python/11_가장큰증가부분수열.py">11. 가장 큰 증가 부분 수열</a></li>
         <li><a herf="Dynamic_Programming/python/12_2차원배열의합.py">12. 2차원 배열의 합</a></li>
         <li><a herf="Dynamic_Programming/python/13_가장큰정사각형.py">13. 가장 큰 정사각형</a></li>
+        <li><a herf="Dynamic_Programming/python/14_본대산책.py">14. 본대 산책</a></li>
     </ul>
 </details>
 
