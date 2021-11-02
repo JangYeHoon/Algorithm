@@ -1,14 +1,9 @@
-N, M = map(int, input().split())
-matrix = [[0 for _ in range(M + 1)] for _ in range(N + 1)]
-DP = [[0 for _ in range(M + 1)] for _ in range(N + 1)]
+N = input()
+S = '1' * len(N)
 
-for i in range(N):
-    for idx, j in enumerate(list(map(int, list(input())))):
-        matrix[i + 1][idx + 1] = j
-
-for i in range(1, N + 1):
-    for j in range(1, M + 1):
-        if matrix[i][j]:
-            DP[i][j] = min(DP[i - 1][j], DP[i][j - 1], DP[i - 1][j - 1]) + 1
-
-print(max([max(i) for i in DP]) ** 2)
+if len(N) == 1:
+    print(1)
+elif int(N) >= int(S):
+    print(len(N))
+else:
+    print(len(N) - 1)

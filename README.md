@@ -249,6 +249,7 @@
         <li><a href="Greedy/python/07_컵라면.py">07. 컵라면</a></li>
         <li><a href="Greedy/python/08_APC는왜서브태스크대회가되었을까.py">08. ACP는 왜 서브태스크 대회가 되었을까</a></li>
         <li><a href="Greedy/python/08_APC는왜서브태스크대회가되었을까-2.py">08. ACP는 왜 서브태스크 대회가 되었을까 - 2</a></li>
+        <li><a href="Greedy/python/09_근우의다이어리꾸미기.py">09. 근우의 다이어리 꾸미기</a></li>
     </ul>
 </details>
 
