@@ -194,7 +194,7 @@
         <li><a herf="Dynamic_Programming/python/12_2차원배열의합.py">12. 2차원 배열의 합</a></li>
         <li><a herf="Dynamic_Programming/python/13_가장큰정사각형.py">13. 가장 큰 정사각형</a></li>
         <li><a herf="Dynamic_Programming/python/14_본대산책.py">14. 본대 산책</a></li>
-        <li><a herf="Dynamic_Programming/python/15_파일합치기.py">15. 파일합치기(진행중)</a></li>
+        <li><a herf="Dynamic_Programming/python/15_파일합치기.py">15. 파일합치기</a></li>
     </ul>
 </details>
 
@@ -250,6 +250,7 @@
         <li><a href="Greedy/python/08_APC는왜서브태스크대회가되었을까.py">08. ACP는 왜 서브태스크 대회가 되었을까</a></li>
         <li><a href="Greedy/python/08_APC는왜서브태스크대회가되었을까-2.py">08. ACP는 왜 서브태스크 대회가 되었을까 - 2</a></li>
         <li><a href="Greedy/python/09_근우의다이어리꾸미기.py">09. 근우의 다이어리 꾸미기</a></li>
+        <li><a href="Greedy/python/10_저울.py">10. 저울</a></li>
     </ul>
 </details>
 
