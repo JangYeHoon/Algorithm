@@ -1,4 +1,6 @@
-# 뒤집기, 근우다이어리, 저울, 행렬, 소수의곱
+# fast campus 강의
+# https://www.acmicpc.net/problem/1080
+# 1
 
 N, M = map(int, input().split())
 A = [list(map(int, list(input()))) for _ in range(N)]
@@ -15,5 +17,4 @@ for i in range(N - 2):
         if A[i][j] != B[i][j]:
             flip(i, j, A)
             result += 1
-
 print(result if A == B else -1)

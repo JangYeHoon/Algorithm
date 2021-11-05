@@ -251,6 +251,8 @@
         <li><a href="Greedy/python/08_APC는왜서브태스크대회가되었을까-2.py">08. ACP는 왜 서브태스크 대회가 되었을까 - 2</a></li>
         <li><a href="Greedy/python/09_근우의다이어리꾸미기.py">09. 근우의 다이어리 꾸미기</a></li>
         <li><a href="Greedy/python/10_저울.py">10. 저울</a></li>
+        <li><a href="Greedy/python/11_행렬.py">11. 행렬</a></li>
+        <li><a href="Greedy/python/12_소수의곱.py">12. 소수의 곱</a></li>
     </ul>
 </details>
 
