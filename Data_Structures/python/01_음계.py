@@ -1,3 +1,6 @@
+# 
+# https://www.acmicpc.net/problem/2920
+# 1
 list_temp = list(map(int, input().split()))
 
 result = False

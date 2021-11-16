@@ -20,15 +20,7 @@
 
 <details><summary>C++</summary>
     <ul>
-        <li><a href="Data_Structures/c++/basic/01_Stack.cpp">01. Stack</a></li>
-		<li><a href="Data_Structures/c++/basic/02_Queue.cpp">02. Queue</a></li>
-        <li><a href="Data_Structures/c++/basic/03_Linkedlist.cpp">03. Linkedlist</a></li>
-        <li><a href="Data_Structures/c++/basic/04_Double_Linked_List.cpp">04. Double Linkedlist</a></li>
-        <li><a href="Data_Structures/c++/basic/05_Hash_Table.cpp">05. Hash Tablet</a></li>
-        <li><a href="Data_Structures/c++/basic/06_Hash_Table_with_Chaining.cpp">06. Hash Table with Chaining</a></li>
-        <li><a href="Data_Structures/c++/basic/07_Hash_Table_with_Linear_Probing.cpp">07. Hash Table with Linear Probing</a></li>
-        <li><a href="Data_Structures/c++/basic/08_Binary_Search_Tree.cpp">08. Binary Search Tree</a></li>
-        <li><a href="Data_Structures/c++/basic/09_Heap.cpp">09. Heap</a></li>
+        <li><a href="Data_Structures/c++/01_음계.cpp">01. 음계</a></li>
     </ul>
 </details>
 <details><summary>Python</summary>
