@@ -325,8 +325,8 @@
 </details>
 <details><summary>BFS & DFS</summary>
     <ul>
-        <li><a href="Memorization/Breadth-first_search(BFS)/00_bfs.cpp">00. bfs</a></li>
-        <li><a href="Memorization/Depth-first_search(DFS)/00_dfs.cpp">00. dfs</a></li>
+        <li><a href="Memorization/BFS_DFS/00_bfs.cpp">00. bfs</a></li>
+        <li><a href="Memorization/BFS_DFS/00_dfs.cpp">00. dfs</a></li>
     </ul>
 </details>
 <details><summary>Dynamic Programming</summary>
@@ -362,9 +362,9 @@
 </details>
 <details><summary>Shortest Path</summary>
     <ul>
-        <li><a href="Shortest_Path/c++/00_Dijkstra(간단).cpp">00. Dijkstra(간단)</a></li>
-        <li><a href="Shortest_Path/c++/00_Dijkstra(개선).cpp">00. Dijkstra(개선)</a></li>
-        <li><a href="Shortest_Path/c++/00_Floyd-Warshall.cpp">00. Floyd Warshall</a></li>
-        <li><a href="Shortest_Path/python/00_Dijkstra.py">00. Dijkstra(python)</a></li>
+        <li><a href="Memorization/Shortest_Path/00_Dijkstra(간단).cpp">00. Dijkstra(간단)</a></li>
+        <li><a href="Memorization/Shortest_Path/00_Dijkstra(개선).cpp">00. Dijkstra(개선)</a></li>
+        <li><a href="Memorization/Shortest_Path/00_Floyd-Warshall.cpp">00. Floyd Warshall</a></li>
+        <li><a href="Memorization/Shortest_Path/00_Dijkstra.py">00. Dijkstra(python)</a></li>
     </ul>
 </details>
