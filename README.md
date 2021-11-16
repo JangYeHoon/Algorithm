@@ -13,21 +13,22 @@
 9. [Search](#search)
 10. [Shortest Path](#shortest-path)
 11. [Back Tracking](#back-tracking)
+12. [Memorization](#memorization)
 ---
 
 ## Data Structures
 
 <details><summary>C++</summary>
     <ul>
-        <li><a href="Data_Structures/c++/01_Stack.cpp">01. Stack</a></li>
-		<li><a href="Data_Structures/c++/02_Queue.cpp">02. Queue</a></li>
-        <li><a href="Data_Structures/c++/03_Linkedlist.cpp">03. Linkedlist</a></li>
-        <li><a href="Data_Structures/c++/04_Double_Linked_List.cpp">04. Double Linkedlist</a></li>
-        <li><a href="Data_Structures/c++/05_Hash_Table.cpp">05. Hash Tablet</a></li>
-        <li><a href="Data_Structures/c++/06_Hash_Table_with_Chaining.cpp">06. Hash Table with Chaining</a></li>
-        <li><a href="Data_Structures/c++/07_Hash_Table_with_Linear_Probing.cpp">07. Hash Table with Linear Probing</a></li>
-        <li><a href="Data_Structures/c++/08_Binary_Search_Tree.cpp">08. Binary Search Tree</a></li>
-        <li><a href="Data_Structures/c++/09_Heap.cpp">09. Heap</a></li>
+        <li><a href="Data_Structures/c++/basic/01_Stack.cpp">01. Stack</a></li>
+		<li><a href="Data_Structures/c++/basic/02_Queue.cpp">02. Queue</a></li>
+        <li><a href="Data_Structures/c++/basic/03_Linkedlist.cpp">03. Linkedlist</a></li>
+        <li><a href="Data_Structures/c++/basic/04_Double_Linked_List.cpp">04. Double Linkedlist</a></li>
+        <li><a href="Data_Structures/c++/basic/05_Hash_Table.cpp">05. Hash Tablet</a></li>
+        <li><a href="Data_Structures/c++/basic/06_Hash_Table_with_Chaining.cpp">06. Hash Table with Chaining</a></li>
+        <li><a href="Data_Structures/c++/basic/07_Hash_Table_with_Linear_Probing.cpp">07. Hash Table with Linear Probing</a></li>
+        <li><a href="Data_Structures/c++/basic/08_Binary_Search_Tree.cpp">08. Binary Search Tree</a></li>
+        <li><a href="Data_Structures/c++/basic/09_Heap.cpp">09. Heap</a></li>
     </ul>
 </details>
 <details><summary>Python</summary>
@@ -53,8 +54,6 @@
 
 <details><summary>C++</summary>
     <ul>
-        <li><a href="Implementation/c++/00_2차원배열_3배.cpp">00. 2차원배열 3배</a></li>
-        <li><a href="Implementation/c++/00_2차원배열_회전.cpp">00. 2차원배열 회전</a></li>
         <li><a href="Implementation/c++/01_럭키스트레이트(풀이).cpp">01. 럭키스트레이트</a></li>
         <li><a href="Implementation/c++/02_문자열재정렬.cpp">02. 문자열재정렬</a></li>
         <li><a href="Implementation/c++/03_문자열압축.cpp">03. 문자열압축</a></li>
@@ -89,12 +88,6 @@
 
 <details><summary>C++</summary>
     <ul>
-        <li><a href="Sorting/c++/00_Bubble_Sort.cpp">00. Bubble Sort</a></li>
-        <li><a href="Sorting/c++/00_Insertion_Sort.cpp">00. Insertion Sort</a></li>
-        <li><a href="Sorting/c++/00_Selection_Sort.cpp">00. Selection Sort</a></li>
-        <li><a href="Sorting/c++/00_Count_Sort.cpp">00. Count Sort</a></li>
-        <li><a href="Sorting/c++/00_Merge_Sort.cpp">00. Merge Sort</a></li>
-        <li><a href="Sorting/c++/00_Quick_Sort.cpp">00. Quick Sort</a></li>
         <li><a href="Sorting/c++/01_위에서아래로.cpp">01. 위에서 아래로</a></li>
         <li><a href="Sorting/c++/02_성적이낮은순서대로학생출력(해설).cpp">02. 성적이 낮은 순서대로 학생 출력</a></li>
         <li><a href="Sorting/c++/03_두배열의원소교체.cpp">03. 두 배열의 원소 교체</a></li>
@@ -120,7 +113,6 @@
 
 <details><summary>C++</summary>
     <ul>
-        <li><a href="Breadth-first_search(BFS)/c++/00_bfs.cpp">00. bfs</a></li>
         <li><a href="Breadth-first_search(BFS)/c++/01_미로탈출.cpp">01. 미로탈출</a></li>
         <li><a href="Breadth-first_search(BFS)/c++/02_특정거리의_도시찾기.cpp">02. 특정거리의 도시찾기</a></li>
         <li><a href="Breadth-first_search(BFS)/c++/03_경쟁적전염(bfs풀이).cpp">03. 경쟁적전염(bfs)</a></li>
@@ -140,7 +132,6 @@
 
 <details><summary>C++</summary>
     <ul>
-        <li><a href="Depth-first_search(DFS)/c++/00_dfs.cpp">00. dfs</a></li>
         <li><a href="Depth-first_search(DFS)/c++/01_N_Queens.cpp">01. N Queens</a></li>
         <li><a href="Depth-first_search(DFS)/c++/02_음료수얼려먹기.cpp">02. 음료수얼려먹기</a></li>
         <li><a href="Depth-first_search(DFS)/c++/03_괄호변환.cpp">03. 괄호변환</a></li>
@@ -163,13 +154,10 @@
 
 <details><summary>C++</summary>
     <ul>
-        <li><a href="Dynamic_Programming/c++/00_factorial(재귀).cpp">00. Factorial</a></li>
-		<li><a href="Dynamic_Programming/c++/00_fibo(반복).cpp">00. Fibo(반복)</a></li>
-        <li><a href="Dynamic_Programming/c++/00_fibo(재귀).cpp">00. Fibo(재귀)</a></li>
         <li><a href="Dynamic_Programming/c++/01_1이되는과정(재귀).cpp">01. 1이 되는 과정(재귀)</a></li>
         <li><a href="Dynamic_Programming/c++/01_1이되는과정.cpp">01_1이 되는 과정</a></li>
         <li><a href="Dynamic_Programming/c++/02_경우의수(재귀).cpp">02. 경우의 수(재귀)</a></li>
-        <li><a href="Dynamic_Programming/c++/02_경우의수.cpp">02. 경우으 수</a></li>
+        <li><a href="Dynamic_Programming/c++/02_경우의수.cpp">02. 경우의수</a></li>
         <li><a href="Dynamic_Programming/c++/03_바닥공사.cpp">03. 바닥공사</a></li>
         <li><a href="Dynamic_Programming/c++/04_효율적인화폐구성.cpp">04. 효율적인화폐구성</a></li>
     </ul>
@@ -202,13 +190,6 @@
 
 <details><summary>C++</summary>
     <ul>
-        <li><a href="Graph/c++/00_기본적인_서로소_집합_알고리즘.cpp">00. 기본적인 서로소 집합 알고리즘</a></li>
-        <li><a href="Graph/c++/00_개선된_서로소_집합_알고리즘.cpp">00. 개선된 서로소 집합 알고리즘</a></li>
-        <li><a href="Graph/c++/00_서로소_집합을_활용한_사이클_판별.cpp">00. 서로소 집합을 활용한 사이클 판별</a></li>
-        <li><a href="Graph/c++/01_Kruskal_Algorithm.cpp">01. 크루스칼 알고리즘</a></li>
-        <li><a href="Graph/c++/02_Prim_Algorithm.cpp">02. 프림 알고리즘</a></li>
-        <li><a href="Graph/c++/02_Prim_Algorithm_PriorityQueue.cpp">02. 프림 알고리즘(with 우선순위 큐)</a></li>
-        <li><a href="Graph/c++/03_Topology_Sort.cpp">03. Topology Sort</a></li>
         <li><a href="Graph/c++/04_팀결성.cpp">04. 팀결성</a></li>
         <li><a href="Graph/c++/05_도시분할계획.cpp">05. 도시분할계획</a></li>
         <li><a href="Graph/c++/06_커리큘럼.cpp">06. 커리큘럼</a></li>
@@ -227,8 +208,6 @@
 
 <details><summary>C++</summary>
     <ul>
-        <li><a href="Greedy/c++/00_동전문제.cpp">00. 동전문제</a></li>
-        <li><a href="Greedy/c++/00_배낭문제.cpp">00. 배낭문제</a></li>
         <li><a href="Greedy/c++/01_모험가길드.cpp">01. 모험가길드</a></li>
         <li><a href="Greedy/c++/02_곱하기혹은더하기.cpp">02. 곱하기 혹은 더하기</a></li>
         <li><a href="Greedy/c++/03_문자열뒤집기.cpp">03. 문자열 뒤집기</a></li>
@@ -260,9 +239,6 @@
 
 <details><summary>C++</summary>
     <ul>
-        <li><a href="Search/c++/00_Binary_Search(반복).cpp">00. Binary Search(반복)</a></li>
-        <li><a href="Search/c++/00_Binary_Search(재귀).cpp">00. Binary Search(재귀)</a></li>
-        <li><a href="Search/c++/00_Sequential_Search.cpp">00. Sequential Search</a></li>
         <li><a href="Search/c++/01_부품찾기(계수정렬).cpp">01. 부품찾기(계수정렬)</a></li>
         <li><a href="Search/c++/01_부품찾기(이진탐색).cpp">01. 부품찾기(이진탐색)</a></li>
         <li><a href="Search/c++/01_부품찾기(집합자료형).cpp">01. 부품찾기(집합자료형)</a></li>
@@ -295,16 +271,12 @@
 
 <details><summary>C++</summary>
     <ul>
-        <li><a href="Shortest_Path/c++/00_Dijkstra(간단).cpp">00. Dijkstra(간단)</a></li>
-        <li><a href="Shortest_Path/c++/00_Dijkstra(개선).cpp">00. Dijkstra(개선)</a></li>
-        <li><a href="Shortest_Path/c++/00_Floyd-Warshall.cpp">00. Floyd Warshall</a></li>
         <li><a href="Shortest_Path/c++/01_미래도시.cpp">01. 미래도시</a></li>
         <li><a href="Shortest_Path/c++/02_전보.cpp">02. 전보</a></li>
     </ul>
 </details>
 <details><summary>Python</summary>
     <ul>
-        <li><a href="Shortest_Path/python/00_Dijkstra.py">00. Dijkstra</a></li>
         <li><a href="Shortest_Path/python/01_해킹.py">01. 해킹</a></li>
         <li><a href="Shortest_Path/python/02_거의최단경로.py">02. 거의최단경로</a></li>
         <li><a href="Shortest_Path/python/02_거의최단경로(dict).py">02. 거의최단경로(dict)</a></li>
@@ -327,3 +299,72 @@
     </ul>
 </details>
 
+## Memorization
+
+<details><summary>Data Structure</summary>
+    <ul>
+        <li><a href="Memorization/Data_Structures/01_Stack.cpp">01. Stack</a></li>
+		<li><a href="Memorization/Data_Structures/02_Queue.cpp">02. Queue</a></li>
+        <li><a href="Memorization/Data_Structures/03_Linkedlist.cpp">03. Linkedlist</a></li>
+        <li><a href="Memorization/Data_Structures/04_Double_Linked_List.cpp">04. Double Linkedlist</a></li>
+        <li><a href="Memorization/Data_Structures/05_Hash_Table.cpp">05. Hash Tablet</a></li>
+        <li><a href="Memorization/Data_Structures/06_Hash_Table_with_Chaining.cpp">06. Hash Table with Chaining</a></li>
+        <li><a href="Memorization/Data_Structures/07_Hash_Table_with_Linear_Probing.cpp">07. Hash Table with Linear Probing</a></li>
+        <li><a href="Memorization/Data_Structures/08_Binary_Search_Tree.cpp">08. Binary Search Tree</a></li>
+        <li><a href="Memorization/Data_Structures/09_Heap.cpp">09. Heap</a></li>
+    </ul>
+</details>
+<details><summary>Sorting</summary>
+    <ul>
+        <li><a href="Memorization/Sorting/00_Bubble_Sort.cpp">00. Bubble Sort</a></li>
+        <li><a href="Memorization/Sorting/00_Insertion_Sort.cpp">00. Insertion Sort</a></li>
+        <li><a href="Memorization/Sorting/00_Selection_Sort.cpp">00. Selection Sort</a></li>
+        <li><a href="Memorization/Sorting/00_Count_Sort.cpp">00. Count Sort</a></li>
+        <li><a href="Memorization/Sorting/00_Merge_Sort.cpp">00. Merge Sort</a></li>
+        <li><a href="Memorization/Sorting/00_Quick_Sort.cpp">00. Quick Sort</a></li>
+</details>
+<details><summary>BFS & DFS</summary>
+    <ul>
+        <li><a href="Memorization/Breadth-first_search(BFS)/00_bfs.cpp">00. bfs</a></li>
+        <li><a href="Memorization/Depth-first_search(DFS)/00_dfs.cpp">00. dfs</a></li>
+    </ul>
+</details>
+<details><summary>Dynamic Programming</summary>
+    <ul>
+        <li><a href="Memorization/Dynamic_Programming/00_factorial(재귀).cpp">00. Factorial</a></li>
+		<li><a href="Memorization/Dynamic_Programming/00_fibo(반복).cpp">00. Fibo(반복)</a></li>
+        <li><a href="Memorization/Dynamic_Programming/00_fibo(재귀).cpp">00. Fibo(재귀)</a></li>
+    </ul>
+</details>
+<details><summary>Graph</summary>
+    <ul>
+        <li><a href="Memorization/Graph/00_기본적인_서로소_집합_알고리즘.cpp">00. 기본적인 서로소 집합 알고리즘</a></li>
+        <li><a href="Memorization/Graph/00_개선된_서로소_집합_알고리즘.cpp">00. 개선된 서로소 집합 알고리즘</a></li>
+        <li><a href="Memorization/Graph/00_서로소_집합을_활용한_사이클_판별.cpp">00. 서로소 집합을 활용한 사이클 판별</a></li>
+        <li><a href="Memorization/Graph/01_Kruskal_Algorithm.cpp">01. 크루스칼 알고리즘</a></li>
+        <li><a href="Memorization/Graph/02_Prim_Algorithm.cpp">02. 프림 알고리즘</a></li>
+        <li><a href="Memorization/Graph/02_Prim_Algorithm_PriorityQueue.cpp">02. 프림 알고리즘(with 우선순위 큐)</a></li>
+        <li><a href="Memorization/Graph/03_Topology_Sort.cpp">03. Topology Sort</a></li>
+    </ul>
+</details>
+<details><summary>Implementation</summary>
+    <ul>
+        <li><a href="Memorization/Implementation/00_2차원배열_3배.cpp">00. 2차원배열 3배</a></li>
+        <li><a href="Memorization/Implementation/00_2차원배열_회전.cpp">00. 2차원배열 회전</a></li>
+    </ul>
+</details>
+<details><summary>Search</summary>
+    <ul>
+        <li><a href="Memorization/Search/00_Binary_Search(반복).cpp">00. Binary Search(반복)</a></li>
+        <li><a href="Memorization/Search/00_Binary_Search(재귀).cpp">00. Binary Search(재귀)</a></li>
+        <li><a href="Memorization/Search/00_Sequential_Search.cpp">00. Sequential Search</a></li>
+    </ul>
+</details>
+<details><summary>Shortest Path</summary>
+    <ul>
+        <li><a href="Shortest_Path/c++/00_Dijkstra(간단).cpp">00. Dijkstra(간단)</a></li>
+        <li><a href="Shortest_Path/c++/00_Dijkstra(개선).cpp">00. Dijkstra(개선)</a></li>
+        <li><a href="Shortest_Path/c++/00_Floyd-Warshall.cpp">00. Floyd Warshall</a></li>
+        <li><a href="Shortest_Path/python/00_Dijkstra.py">00. Dijkstra(python)</a></li>
+    </ul>
+</details>
