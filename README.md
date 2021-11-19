@@ -21,14 +21,13 @@
 <details><summary>C++</summary>
     <ul>
         <li><a href="Data_Structures/c++/01_음계.cpp">01. 음계</a></li>
+        <li><a href="Data_Structures/c++/02_블랙잭.cpp">02. 블랙잭</a></li>
     </ul>
 </details>
 <details><summary>Python</summary>
     <ul>
         <li><a href="Data_Structures/python/01_음계.py">01. 음계</a></li>
-		<li><a href="Data_Structures/python/01_음계(풀이).py">01. 음계(풀이버전)</a></li>
         <li><a href="Data_Structures/python/02_블랙잭.py">02. 블랙잭</a></li>
-		<li><a href="Data_Structures/python/02_블랙잭(풀이).py">02. 블랙잭(풀이버전)</a></li>
         <li><a href="Data_Structures/python/03_스택수열.py">03. 스택수열</a></li>
         <li><a href="Data_Structures/python/04_프린터큐.py">04. 프린터큐</a></li>
         <li><a href="Data_Structures/python/05_키로거(해설).py">05. 키로거</a></li>

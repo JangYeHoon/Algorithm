@@ -1,25 +1,20 @@
 # 
 # https://www.acmicpc.net/problem/2920
 # 1
-list_temp = list(map(int, input().split()))
+a = list(map(int, input().split(' ')))
 
-result = False
+ascending = True
+descending = True
 
-for i in range(0, 8):
-    if list_temp[i] != i + 1:
-        result = True
-        break
-    elif i+1 == 8:
-        print("ascending")
+for i in range(1, 8):
+    if a[i] > a[i - 1]:
+        descending = False
+    elif a[i] < a[i - 1]:
+        ascending = False
 
-if result == True:
-    for i in range(0, 8):
-        if list_temp[i] != 8-i:
-            result = True
-            break
-        elif i+1 == 8:
-            print("descending")
-            result = False
-
-if result == True:
-    print("mixed")
+if ascending:
+    print('ascending')
+elif descending:
+    print('descending')
+else:
+    print('mixed')
