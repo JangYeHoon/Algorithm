@@ -22,6 +22,7 @@
     <ul>
         <li><a href="Data_Structures/c++/01_음계.cpp">01. 음계</a></li>
         <li><a href="Data_Structures/c++/02_블랙잭.cpp">02. 블랙잭</a></li>
+        <li><a href="Data_Structures/c++/03_스택수열.cpp">03. 스택수열</a></li>
     </ul>
 </details>
 <details><summary>Python</summary>

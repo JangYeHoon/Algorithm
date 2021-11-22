@@ -1,3 +1,7 @@
+#
+# https://www.acmicpc.net/problem/1874
+# 1
+
 n = int(input())
 
 count = 1
