@@ -3,38 +3,37 @@
 // 1
 
 #include <iostream>
+#include <stack>
+#include <vector>
 using namespace std;
 
-int main()
-{
-	int n;
-	cin >> n;
+int n, cnt = 1;
+stack<int> s;
+vector<char> result;
 
-	int count = 1;
-	int s[100001] = { 0, };
-	int top = 0, r = 0;
-	char result[400001];
-    
+int main() {
+	cin >> n;
 	for (int i = 0; i < n; i++) {
-		int tmp = 0;
-		cin >> tmp;
-		while (count <= tmp) {
-			s[top++] = count;
-			result[r++] = '+';
-			result[r++] = '\n';
-			count += 1;
+		int x;
+		cin >> x;
+		// 입력 받은 데이터에 도달할 때까지 삽입 
+		while (cnt <= x) {
+			s.push(cnt);
+			cnt += 1;
+			result.push_back('+');
 		}
-		
-		if (s[--top] == tmp) {
-			result[r++] = '-';
-			result[r++] = '\n';
+		// 스택의 최상의 원소가 데이터와 같을 때 출력 
+		if (s.top() == x) {
+			s.pop();
+			result.push_back('-');
 		}
 		else {
-			cout << "NO" << endl;
+			cout << "NO";
 			return 0;
 		}
 	}
-	result[r++] = '\0';
-
-	cout << result;
+	// 결과를 차례대로 출력 
+	for (auto x : result) {
+		cout << x << '\n';
+	}
 }
