@@ -1,4 +1,4 @@
-//
+// fast campus 강의
 // https://www.acmicpc.net/source/35583700
 // 1
 

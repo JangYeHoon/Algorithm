@@ -1,3 +1,7 @@
+# fast campus 강의
+# https://www.acmicpc.net/problem/1966
+# 1
+
 test_case = int(input())
 
 for _ in range(test_case):

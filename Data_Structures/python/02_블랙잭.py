@@ -1,3 +1,7 @@
+# fast campus 강의
+# https://www.acmicpc.net/source/35583700
+# 1
+
 n, m = map(int, input().split(' '))
 data = list(map(int, input().split(' ')))
 

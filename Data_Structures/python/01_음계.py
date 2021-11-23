@@ -1,4 +1,4 @@
-# 
+# fast campus 강의
 # https://www.acmicpc.net/problem/2920
 # 1
 a = list(map(int, input().split(' ')))
