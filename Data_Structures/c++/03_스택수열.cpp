@@ -1,29 +1,30 @@
 // fast campus 강의
 // https://www.acmicpc.net/problem/1874
-// 1
+// 2
 
 #include <iostream>
 #include <stack>
 #include <vector>
+
 using namespace std;
 
-int n, cnt = 1;
-stack<int> s;
-vector<char> result;
-
-int main() {
+int main()
+{
+	int n = 0;
 	cin >> n;
+
+	stack<int> s;
+	vector<char> result;
+	int cnt = 1;
 	for (int i = 0; i < n; i++) {
-		int x;
-		cin >> x;
-		// 입력 받은 데이터에 도달할 때까지 삽입 
-		while (cnt <= x) {
-			s.push(cnt);
-			cnt += 1;
+		int tmp;
+		cin >> tmp;
+		while (tmp >= cnt) {
+			s.push(cnt++);
 			result.push_back('+');
 		}
-		// 스택의 최상의 원소가 데이터와 같을 때 출력 
-		if (s.top() == x) {
+
+		if (tmp == s.top()) {
 			s.pop();
 			result.push_back('-');
 		}
@@ -32,8 +33,7 @@ int main() {
 			return 0;
 		}
 	}
-	// 결과를 차례대로 출력 
-	for (auto x : result) {
-		cout << x << '\n';
-	}
+
+	for (auto i : result)
+		cout << i << '\n';
 }

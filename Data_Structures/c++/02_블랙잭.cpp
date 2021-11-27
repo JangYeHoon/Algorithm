@@ -1,10 +1,11 @@
 // fast campus 강의
 // https://www.acmicpc.net/source/35583700
-// 1
+// 2
 
 #include <iostream>
-#include <vector>
 #include <algorithm>
+#include <vector>
+
 using namespace std;
 
 int main()
@@ -17,28 +18,22 @@ int main()
 		cin >> card[i];
 		comb[i] = false;
 	}
-	for (int i = 0; i < 3; i++)
-		comb[i] = true;
 
+	for (int i = 0; i < 3; i++)
+			comb[i] = true;
 	sort(comb.begin(), comb.end());
 
 	int result = 0;
 	do {
 		int tmp = 0;
-		for (int i = 0; i < N; i++) {
-			if (comb[i]) {
+		for (int i = 0; i < N; i++)
+			if (comb[i])
 				tmp += card[i];
-			}
-		}
-		if (tmp <= M) {
+		if (tmp <= M)
 			result = max(result, tmp);
-		}
-
 	} while (next_permutation(comb.begin(), comb.end()));
 
 	cout << result << endl;
-
-	return 0;
 }
 
 // 다른 풀이
