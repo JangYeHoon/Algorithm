@@ -1,19 +1,7 @@
-# 뒤집기, 근우다이어리, 저울, 행렬, 소수의곱
+# 키로거, SHA-265(python), 
 
-N, M = map(int, input().split())
-A = [list(map(int, list(input()))) for _ in range(N)]
-B = [list(map(int, list(input()))) for _ in range(N)]
+import hashlib
 
-def flip(x, y, A):
-    for i in range(3):
-        for j in range(3):
-            A[x + i][y + j] ^= 1
-
-result = 0
-for i in range(N - 2):
-    for j in range(M - 2):
-        if A[i][j] != B[i][j]:
-            flip(i, j, A)
-            result += 1
-
-print(result if A == B else -1)
+s = input()
+result = hashlib.sha256(s.encode()).hexdigest()
+print(result)

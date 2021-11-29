@@ -1,18 +1,22 @@
+# fast campus 강의
+# https://www.acmicpc.net/problem/5397
+# 1
+
 test_case = int(input())
 
 for _ in range(0, test_case):
     s = input()
-    stack = []
-    result = []
+    left_stack = []
+    right_stack = []
     for c in s:
-        if c == "<" and len(stack) > 0:
-            stack.pop()
-        elif c == ">" and len(result) > len(stack):
-            stack.append(1)
-        elif c == "-" and len(result) > 0:
-            del result[len(stack) - 1]
-            stack.pop()
+        if c == "<" and left_stack:
+            right_stack.append(left_stack.pop())
+        elif c == ">" and right_stack:
+            left_stack.append(right_stack.pop())
+        elif c == "-" and left_stack:
+            left_stack.pop()
         elif c != "<" and c != ">" and c != "-":
-            result.insert(len(stack), c)
-            stack.append(1)
-    print(''.join(result))
+            left_stack.append(c)
+
+    left_stack.extend(reversed(right_stack))
+    print(''.join(left_stack))
