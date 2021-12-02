@@ -1,7 +1,8 @@
-# 키로거, SHA-265(python), 
+# 키로거, SHA-265(python), 수찾기
 
-import hashlib
+N = int(input())
+A = {i : 1 for i in list(map(int, input().split()))}
+M = int(input())
 
-s = input()
-result = hashlib.sha256(s.encode()).hexdigest()
-print(result)
+for i in range(M):
+    print(A.get(i, 0))
