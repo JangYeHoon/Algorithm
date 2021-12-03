@@ -1,3 +1,7 @@
+# fast campus 강의
+# https://www.acmicpc.net/problem/4195
+# 1
+
 def find(x):
     if x == parent[x]:
         return x

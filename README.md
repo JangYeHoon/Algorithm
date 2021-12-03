@@ -26,6 +26,8 @@
         <li><a href="Data_Structures/c++/04_프린터큐.cpp">04. 프린터 큐</a></li>
         <li><a href="Data_Structures/c++/05_키로거.cpp">05. 키로거</a></li>
         <li><a href="Data_Structures/c++/06_SHA-256.cpp">06. SHA-256</a></li>
+        <li><a href="Data_Structures/c++/07_수찾기.cpp">07. 수찾기</a></li>
+        <li><a href="Data_Structures/c++/08_친구네트워크.cpp">08. 친구네트워크</a></li>
     </ul>
 </details>
 <details><summary>Python</summary>
