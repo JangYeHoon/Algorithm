@@ -1,4 +1,4 @@
-# 키로거, SHA-265(python), 수찾기, 친구네트워크
+# 
 
 def findParent(x):
     if x == parent[x]:
@@ -14,22 +14,22 @@ def unionParent(x, y):
 
     if x != y:
         parent[y] = x
-        network_count[x] += network_count[y]
+        number[x] += number[y]
 
 for _ in range(int(input())):
     F = int(input())
     parent = {}
-    network_count = {}
+    number = {}
 
     for _ in range(F):
-        x, y = input().split()
+        f1, f2 = input().split()
 
-        if x not in parent:
-            parent[x] = x
-            network_count[x] = 1
-        if y not in parent:
-            parent[y] = y
-            network_count[y] = 1
-
-        unionParent(x, y)
-        print(network_count[findParent(x)])
+        if f1 not in parent:
+            parent[f1] = f1
+            number[f1] = 1
+        if f2 not in parent:
+            parent[f2] = f2
+            number[f2] = 1
+        
+        unionParent(f1, f2)
+        print(number[findParent(f1)])

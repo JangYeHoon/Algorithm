@@ -1,20 +1,18 @@
 // fast campus 강의
 // https://www.acmicpc.net/problem/4195
-// 1
+// 2
 
 #include <iostream>
 #include <map>
 
 using namespace std;
 
-int test_case;
 int parent[200001];
 int number[200001];
-char f1[21], f2[21];
 
 int findParent(int x)
 {
-	if (parent[x] == x)
+	if (x == parent[x])
 		return x;
 	return parent[x] = findParent(parent[x]);
 }
@@ -32,29 +30,30 @@ void unionParent(int x, int y)
 
 int main()
 {
-	cin >> test_case;
+	int tc, F;
+	char f1[21], f2[21];
+	cin >> tc;
 
-	for (int t = 0; t < test_case; t++) {
-		map<string, int> data;
-		int f;
-		int cnt = 1;    // map의 중복 제거를 위한 값
+	for (int t = 0; t < tc; t++) {
+		cin >> F;
+		map<string, int> m;
+		int count = 1;
 
-		cin >> f;
-		for (int i = 1; i <= 2 * f; i++) {
+		for (int i = 1; i <= 2 * F; i++) {
 			parent[i] = i;
 			number[i] = 1;
 		}
 
-		for (int i = 0; i < f; i++) {
+		for (int i = 0; i < F; i++) {
 			scanf("%s %s", &f1, &f2);
 
-			if (data.count(f1) == 0)
-				data[f1] = cnt++;
-			if (data.count(f2) == 0)
-				data[f2] = cnt++;
+			if (!m.count(f1))
+				m[f1] = count++;
+			if (!m.count(f2))
+				m[f2] = count++;
 
-			unionParent(data[f1], data[f2]);		// 두 친구가 같은 부모를 가진 연결된 친구인지 확인
-			cout << number[findParent(data[f1])] << '\n';
+			unionParent(m[f1], m[f2]);
+			cout << number[findParent(m[f1])] << '\n';
 		}
 	}
 }

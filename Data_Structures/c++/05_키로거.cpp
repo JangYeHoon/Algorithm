@@ -1,8 +1,7 @@
 // fast campus 강의
 // https://www.acmicpc.net/problem/5397
-// 1
+// 2
 #include <iostream>
-#include <stack>
 #include <vector>
 #include <algorithm>
 
@@ -10,43 +9,44 @@ using namespace std;
 
 int main()
 {
-	int test_case;
-	cin >> test_case;
+	int tc;
+	cin >> tc;
 
-	for (int t = 0; t < test_case; t++) {
+	for (int t = 0; t < tc; t++) {
+		vector<char> left;
+		vector<char> right;
 		string s;
-		stack<char> front;
-		stack<char> back;
 		cin >> s;
 
 		for (int i = 0; i < s.size(); i++) {
-			if (s[i] == '<' && !front.empty()) {
-				back.push(front.top());
-				front.pop();
+			if (s[i] == '>') {
+				if (!right.empty()) {
+					left.push_back(right.back());
+					right.pop_back();
+				}
 			}
-			else if (s[i] == '>' && !back.empty()) {
-				front.push(back.top());
-				back.pop();
+			else if (s[i] == '<') {
+				if (!left.empty()) {
+					right.push_back(left.back());
+					left.pop_back();
+				}
 			}
-			else if (s[i] == '-' && !front.empty())
-				front.pop();
+			else if (s[i] == '-') {
+				if (!left.empty())
+					left.pop_back();
+			}
 			else
-				front.push(s[i]);
+				left.push_back(s[i]);
 		}
 
-		vector<char> result;
-		while (!back.empty()) {
-			front.push(back.top());
-			back.pop();
+		while (!left.empty()) {
+			right.push_back(left.back());
+			left.pop_back();
 		}
-		while (!front.empty()) {
-			result.push_back(front.top());
-			front.pop();
-		}
-		
-		reverse(result.begin(), result.end());
-		for (auto i : result)
-			cout << i;
+		reverse(right.begin(), right.end());
+
+		for (auto r : right)
+			cout << r;
 		cout << '\n';
 	}
 }
