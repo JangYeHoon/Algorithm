@@ -1,21 +1,22 @@
+# fast campus 강의
+# https://www.acmicpc.net/problem/16165
+# 1
+
 N, M = map(int, input().split())
-group_dict = {}
+team_mem, mem_team = {}, {}
 
 for i in range(N):
     group_name, member_num = input(), int(input())
-    members = []
+    team_mem[group_name] = []
     for j in range(member_num):
-        members.append(input())
-    members.sort()
-    group_dict[group_name] = members
+        member = input()
+        team_mem[group_name].append(member)
+        mem_team[member] = group_name
 
 for i in range(M):
     exam_name, exam_num = input(), int(input())
-    if exam_num == 0:
-        members = group_dict.get(exam_name)
-        for member in members:
-            print(member)
+    if exam_num:
+        print(mem_team[exam_name])
     else:
-        for group_name, members in group_dict.items():
-            if exam_name in members:
-                print(group_name)
+        for member in sorted(team_mem[exam_name]):
+            print(member)

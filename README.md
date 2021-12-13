@@ -28,6 +28,7 @@
         <li><a href="Data_Structures/c++/06_SHA-256.cpp">06. SHA-256</a></li>
         <li><a href="Data_Structures/c++/07_수찾기.cpp">07. 수찾기</a></li>
         <li><a href="Data_Structures/c++/08_친구네트워크.cpp">08. 친구네트워크</a></li>
+        <li><a href="Data_Structures/c++/09_걸그룹마스터준석이.cpp">09. 걸그룹 마스터 준석이</a></li>
     </ul>
 </details>
 <details><summary>Python</summary>
@@ -42,7 +43,6 @@
         <li><a href="Data_Structures/python/07_수찾기(set).py">07. 수찾기(set)</a></li>
         <li><a href="Data_Structures/python/08_친구네트워크.py">08. 친구네트워크</a></li>
         <li><a href="Data_Structures/python/09_걸그룹마스터준석이.py">09. 걸그룹 마스터 준석이</a></li>
-        <li><a href="Data_Structures/python/09_걸그룹마스터준석이-2.py">09. 걸그룹 마스터 준석이 - 2</a></li>
     </ul>
 </details>
 
