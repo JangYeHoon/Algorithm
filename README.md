@@ -109,10 +109,11 @@
 
 <details><summary>C++</summary>
     <ul>
-        <li><a href="Breadth-first_search(BFS)/c++/01_미로탈출.cpp">01. 미로탈출</a></li>
-        <li><a href="Breadth-first_search(BFS)/c++/02_특정거리의_도시찾기.cpp">02. 특정거리의 도시찾기</a></li>
-        <li><a href="Breadth-first_search(BFS)/c++/03_경쟁적전염(bfs풀이).cpp">03. 경쟁적전염(bfs)</a></li>
-        <li><a href="Breadth-first_search(BFS)/c++/03_경쟁적전염.cpp">03. 경쟁적전염(반복)</a></li>
+        <li><a href="Breadth-first_search(BFS)/c++/01_숨바꼭질.cpp">01. 숨바꼭질</a></li>
+        <li><a href="Breadth-first_search(BFS)/c++/05_미로탈출.cpp">05. 미로탈출</a></li>
+        <li><a href="Breadth-first_search(BFS)/c++/06_특정거리의_도시찾기.cpp">06. 특정거리의 도시찾기</a></li>
+        <li><a href="Breadth-first_search(BFS)/c++/07_경쟁적전염(bfs풀이).cpp">07. 경쟁적전염(bfs)</a></li>
+        <li><a href="Breadth-first_search(BFS)/c++/07_경쟁적전염.cpp">07. 경쟁적전염(반복)</a></li>
     </ul>
 </details>
 <details><summary>Python</summary>
