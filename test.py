@@ -1,30 +1,39 @@
-# 걸그룹마스터준석이, 숨바꼭질, 바이러스(bfs)
+# 걸그룹마스터준석이, 숨바꼭질, 바이러스(bfs), 유기농배추(bfs)
 
 from collections import deque
 
-n = int(input())
-m = int(input())
-adj = [[] for _ in range(n + 1)]
+mx = [1, -1, 0, 0]
+my = [0, 0, 1, -1]
 
-for i in range(m):
-    start, end = map(int, input().split())
-    adj[start].append(end)
-    adj[end].append(start)
-
-def bfs(v):
-    global count
-    q = deque([v])
+def bfs(x, y):
+    q = deque([x, y])
     while q:
-        v = q.popleft()
-        if not(visited[v]):
-            visited[v] = True
-            count += 1
-            for e in adj[v]:
-                if not(visited[e]):
-                    q.append(e)
+        px = q.popleft()
+        py = q.popleft()
+        if not(visited[px][py]):
+            visited[px][py] = True
+            for i in range(4):
+                nx = px + mx[i]
+                ny = py + my[i]
+                if nx < 0 or nx >= n or ny < 0 or ny >= m:
+                    continue
+                if matrix[nx][ny] and not(visited[nx][ny]):
+                    q.append(nx)
+                    q.append(ny)
 
-visited = [False] * (n + 1)
-count = 0
-bfs(1)
+for _ in range(int(input())):
+    m, n, k = map(int, input().split())
+    matrix = [[0] * m for _ in range(n)]
+    visited = [[False] * m for _ in range(n)]
 
-print(count - 1)
+    for _ in range(k):
+        x, y = map(int, input().split())
+        matrix[y][x] = 1
+    
+    result = 0
+    for i in range(n):
+        for j in range(m):
+            if matrix[i][j] and not(visited[i][j]):
+                bfs(i, j)
+                result += 1
+    print(result)

@@ -1,7 +1,9 @@
+# fast campus 강의
+# https://www.acmicpc.net/problem/1012
+# 1
+
 from collections import deque
 
-T = int(input())
-result = [0] * T
 mx = [1, -1, 0, 0]
 my = [0, 0, 1, -1]
 
@@ -17,24 +19,23 @@ def bfs(x, y):
                 ny = py + my[i]
                 if nx < 0 or nx >= n or ny < 0 or ny >= m:
                     continue
-                if adj[nx][ny] == 1 and not(visited[nx][ny]):
+                if matrix[nx][ny] and not(visited[nx][ny]):
                     q.append(nx)
                     q.append(ny)
 
-for t in range(T):
+for _ in range(int(input())):
     m, n, k = map(int, input().split())
-    adj = [[0] * m for _ in range(n)]
+    matrix = [[0] * m for _ in range(n)]
     visited = [[False] * m for _ in range(n)]
 
     for _ in range(k):
         x, y = map(int, input().split())
-        adj[y][x] = 1
-
+        matrix[y][x] = 1
+    
+    result = 0
     for i in range(n):
         for j in range(m):
-            if adj[i][j] == 1 and not(visited[i][j]):
+            if matrix[i][j] and not(visited[i][j]):
                 bfs(i, j)
-                result[t] += 1
-
-for i in range(T):
-    print(result[i])
+                result += 1
+    print(result)
