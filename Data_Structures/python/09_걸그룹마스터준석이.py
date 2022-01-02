@@ -1,6 +1,6 @@
 # fast campus 강의
 # https://www.acmicpc.net/problem/16165
-# 1
+# 2
 
 N, M = map(int, input().split())
 team_mem, mem_team = {}, {}

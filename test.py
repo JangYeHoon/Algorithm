@@ -1,9 +1,9 @@
-# 걸그룹마스터준석이, 숨바꼭질, 바이러스(bfs), 유기농배추(bfs)
+# 
 
 from collections import deque
 
-mx = [1, -1, 0, 0]
-my = [0, 0, 1, -1]
+mx = [-1, 1, 0, 0]
+my = [0, 0, -1, 1]
 
 def bfs(x, y):
     q = deque([x, y])
@@ -27,9 +27,8 @@ for _ in range(int(input())):
     visited = [[False] * m for _ in range(n)]
 
     for _ in range(k):
-        x, y = map(int, input().split())
-        matrix[y][x] = 1
-    
+        y, x = map(int, input().split())
+        matrix[x][y] = 1
     result = 0
     for i in range(n):
         for j in range(m):

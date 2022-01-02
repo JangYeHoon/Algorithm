@@ -1,6 +1,6 @@
 # fast campus 강의
 # https://www.acmicpc.net/problem/1697
-# 1
+# 2
 
 from collections import deque
 
