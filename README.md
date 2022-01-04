@@ -125,6 +125,7 @@
         <li><a href="Breadth-first_search(BFS)/python/02_바이러스.py">02. 바이러스</a></li>
         <li><a href="Breadth-first_search(BFS)/python/03_유기농배추.py">03. 유기농배추</a></li>
         <li><a href="Breadth-first_search(BFS)/python/04_효율적인해킹.py">04. 효율적인해킹</a></li>
+        <li><a href="Breadth-first_search(BFS)/python/05_미로탈출.py">05. 미로탈출</a></li>
     </ul>
 </details>
 
