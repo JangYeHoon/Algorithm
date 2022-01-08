@@ -1,62 +1,55 @@
-// 특정 거리의 도시 찾기
-// 입력 : N(도시의 개수), M(도로의 개수), K(거리 정보), X(출발도시의 번호)
-//		 M개의 줄에 걸쳐 A -> B로 가는 입력
-// 출력 : 최단거리가 K인 도시 출력, 없으면 -1
+// 이것이 취업을 위한 코딩테스트다 339p
+// https://www.acmicpc.net/problem/18352
+// 1
+
 #include <iostream>
 #include <vector>
-#include <algorithm>
 #include <queue>
 
 using namespace std;
 
-int n, m, k, x;
 vector<int> matrix[300001];
-vector<int> d(300001, -1);
+vector<int> dist(300001, -1);
+int N, M, K, X;
 
-void bfs(int start)
+void bfs(int x)
 {
-	d[start] = 0;
 	queue<int> q;
 	q.push(x);
-	while (!q.empty())
-	{
-		int now = q.front();
+	dist[x] = 0;
+
+	while (!q.empty()) {
+		int px = q.front();
 		q.pop();
-		for (int i = 0; i < matrix[now].size(); i++)
-		{
-			int next = matrix[now][i];
-			if (d[next] == -1)
-			{
-				d[next] = d[now] + 1;
-				q.push(next);
+
+		for (int i = 0; i < matrix[px].size(); i++) {
+			int nx = matrix[px][i];
+			if (dist[nx] == -1) {
+				q.push(nx);
+				dist[nx] = dist[px] + 1;
 			}
 		}
 	}
 }
 
-int main(void)
+int main()
 {
-	cin >> n >> m >> k >> x;
-
-	for (int i = 0; i < m; i++)
-	{
-		int a, b;
-		cin >> a >> b;
-		matrix[a].push_back(b);
+	cin >> N >> M >> K >> X;
+	for (int i = 0; i < M; i++) {
+		int x, y;
+		scanf("%d %d", &x, &y);
+		matrix[x].push_back(y);
 	}
 
-	bfs(x);
+	bfs(X);
 
-	bool check = false;
-	for (int i = 1; i <= n; i++)
-	{
-		if (d[i] == k)
-		{
-			cout << i << '\n';
-			check = true;
+	bool chk = false;
+	for (int i = 0; i < N + 1; i++) {
+		if (dist[i] == K) {
+			printf("%d\n", i);
+			chk = true;
 		}
 	}
-	if (check == false)
-		cout << -1 << '\n';
-	return true;
+	if (!chk)
+		printf("-1\n");
 }
