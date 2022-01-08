@@ -114,9 +114,8 @@
         <li><a href="Breadth-first_search(BFS)/c++/03_유기농배추.cpp">03. 유기농배추</a></li>
         <li><a href="Breadth-first_search(BFS)/c++/04_효율적인해킹.cpp">04. 효율적인 해킹</a></li>
         <li><a href="Breadth-first_search(BFS)/c++/05_미로탈출.cpp">05. 미로탈출</a></li>
-        <li><a href="Breadth-first_search(BFS)/c++/06_특정거리의_도시찾기.cpp">06. 특정거리의 도시찾기</a></li>
-        <li><a href="Breadth-first_search(BFS)/c++/07_경쟁적전염(bfs풀이).cpp">07. 경쟁적전염(bfs)</a></li>
-        <li><a href="Breadth-first_search(BFS)/c++/07_경쟁적전염.cpp">07. 경쟁적전염(반복)</a></li>
+        <li><a href="Breadth-first_search(BFS)/c++/06_특정거리의_도시찾기.cpp">06. 특정거리의 도시 찾기</a></li>
+        <li><a href="Breadth-first_search(BFS)/c++/07_경쟁적전염.cpp">07. 경쟁적 전염</a></li>
     </ul>
 </details>
 <details><summary>Python</summary>
@@ -124,9 +123,10 @@
         <li><a href="Breadth-first_search(BFS)/python/01_숨바꼭질.py">01. 숨바꼭질</a></li>
         <li><a href="Breadth-first_search(BFS)/python/02_바이러스.py">02. 바이러스</a></li>
         <li><a href="Breadth-first_search(BFS)/python/03_유기농배추.py">03. 유기농배추</a></li>
-        <li><a href="Breadth-first_search(BFS)/python/04_효율적인해킹.py">04. 효율적인해킹</a></li>
+        <li><a href="Breadth-first_search(BFS)/python/04_효율적인해킹.py">04. 효율적인 해킹</a></li>
         <li><a href="Breadth-first_search(BFS)/python/05_미로탈출.py">05. 미로탈출</a></li>
         <li><a href="Breadth-first_search(BFS)/python/06_특정거리의도시찾기.py">06. 특정 거리의 도시 찾기</a></li>
+        <li><a href="Breadth-first_search(BFS)/python/07_경쟁적전염.py">07. 경쟁적 전염</a></li>
     </ul>
 </details>
 
