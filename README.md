@@ -134,7 +134,7 @@
 
 <details><summary>C++</summary>
     <ul>
-        <li><a href="Depth-first_search(DFS)/c++/06_N_Queens.cpp">01. 바이러스</a></li>
+        <li><a href="Depth-first_search(DFS)/c++/01_바이러스.cpp">01. 바이러스</a></li>
         <li><a href="Depth-first_search(DFS)/c++/06_N_Queens.cpp">06. N Queens</a></li>
         <li><a href="Depth-first_search(DFS)/c++/07_음료수얼려먹기.cpp">07. 음료수얼려먹기</a></li>
         <li><a href="Depth-first_search(DFS)/c++/08_괄호변환.cpp">08. 괄호변환</a></li>
