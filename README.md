@@ -134,12 +134,12 @@
 
 <details><summary>C++</summary>
     <ul>
-        <li><a href="Depth-first_search(DFS)/c++/01_N_Queens.cpp">01. N Queens</a></li>
-        <li><a href="Depth-first_search(DFS)/c++/02_음료수얼려먹기.cpp">02. 음료수얼려먹기</a></li>
-        <li><a href="Depth-first_search(DFS)/c++/03_괄호변환.cpp">03. 괄호변환</a></li>
-        <li><a href="Depth-first_search(DFS)/c++/04_연산자끼워넣기(bfs풀이).cpp">04. 연산자끼워넣기(bfs풀이)</a></li>
-        <li><a href="Depth-first_search(DFS)/c++/04_연산자끼워넣기(조합풀이).cpp">04. 연산자끼워넣기(조합풀이)</a></li>
-        <li><a href="Depth-first_search(DFS)/c++/05_감시피하기.cpp">05. 감시피하기</a></li>
+        <li><a href="Depth-first_search(DFS)/c++/06_N_Queens.cpp">06. N Queens</a></li>
+        <li><a href="Depth-first_search(DFS)/c++/07_음료수얼려먹기.cpp">07. 음료수얼려먹기</a></li>
+        <li><a href="Depth-first_search(DFS)/c++/08_괄호변환.cpp">08. 괄호변환</a></li>
+        <li><a href="Depth-first_search(DFS)/c++/09_연산자끼워넣기(bfs풀이).cpp">09. 연산자끼워넣기(bfs풀이)</a></li>
+        <li><a href="Depth-first_search(DFS)/c++/09_연산자끼워넣기(조합풀이).cpp">09. 연산자끼워넣기(조합풀이)</a></li>
+        <li><a href="Depth-first_search(DFS)/c++/10_감시피하기.cpp">10. 감시피하기</a></li>
     </ul>
 </details>
 <details><summary>Python</summary>
