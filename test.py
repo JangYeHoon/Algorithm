@@ -1,4 +1,4 @@
-# 효율적인해킹(bfs), 특정 거리의 도시 찾기(bfs), 경쟁적 전염(bfs), 바이러스(dfs)
+# 효율적인해킹(bfs), 특정 거리의 도시 찾기(bfs), 경쟁적 전염(bfs), 바이러스(dfs), 유기농배추(dfs)
 
 from collections import deque
 

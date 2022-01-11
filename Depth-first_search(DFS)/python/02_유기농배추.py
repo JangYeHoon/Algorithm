@@ -1,3 +1,7 @@
+# fast campus 강의
+# https://www.acmicpc.net/problem/1012
+# 1
+
 import sys
 sys.setrecursionlimit(10000)
 
