@@ -1,4 +1,7 @@
-from collections import deque
+# fast campus 강의
+# https://www.acmicpc.net/problem/1325
+# 1
+
 import sys
 sys.setrecursionlimit(100000)
 

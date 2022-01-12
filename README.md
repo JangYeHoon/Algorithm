@@ -136,6 +136,7 @@
     <ul>
         <li><a href="Depth-first_search(DFS)/c++/01_바이러스.cpp">01. 바이러스</a></li>
         <li><a href="Depth-first_search(DFS)/c++/02_유기농배추.cpp">02. 유기농배추</a></li>
+        <li><a href="Depth-first_search(DFS)/c++/03_효율적인해킹.cpp">03. 효율적인해킹</a></li>
         <li><a href="Depth-first_search(DFS)/c++/06_N_Queens.cpp">06. N Queens</a></li>
         <li><a href="Depth-first_search(DFS)/c++/07_음료수얼려먹기.cpp">07. 음료수얼려먹기</a></li>
         <li><a href="Depth-first_search(DFS)/c++/08_괄호변환.cpp">08. 괄호변환</a></li>
@@ -148,7 +149,7 @@
     <ul>
         <li><a href="Depth-first_search(DFS)/python/01_바이러스.py">01. 바이러스</a></li>
         <li><a href="Depth-first_search(DFS)/python/02_유기농배추.py">02. 유기농배추</a></li>
-        <li><a href="Depth-first_search(DFS)/python/03_효율적인해킹.py">03. 효율적인해킹(메모리초과)</a></li>
+        <li><a href="Depth-first_search(DFS)/python/03_효율적인해킹.py">03. 효율적인해킹</a></li>
         <li><a href="Depth-first_search(DFS)/python/04_MooyoMooyo.py">04. Mooyo Mooyo</a></li>
         <li><a href="Depth-first_search(DFS)/python/05_2048(Easy).py">05. 2048(Easy)</a></li>
     </ul>
