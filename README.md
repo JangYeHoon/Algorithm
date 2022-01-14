@@ -138,6 +138,7 @@
         <li><a href="Depth-first_search(DFS)/c++/02_유기농배추.cpp">02. 유기농배추</a></li>
         <li><a href="Depth-first_search(DFS)/c++/03_효율적인해킹.cpp">03. 효율적인해킹</a></li>
         <li><a href="Depth-first_search(DFS)/c++/04_MooyoMooyo.cpp">04. MooyoMooyo</a></li>
+        <li><a href="Depth-first_search(DFS)/c++/05_2048(Easy).cpp">05. 2048(Easy)</a></li>
         <li><a href="Depth-first_search(DFS)/c++/06_N_Queens.cpp">06. N Queens</a></li>
         <li><a href="Depth-first_search(DFS)/c++/07_음료수얼려먹기.cpp">07. 음료수얼려먹기</a></li>
         <li><a href="Depth-first_search(DFS)/c++/08_괄호변환.cpp">08. 괄호변환</a></li>

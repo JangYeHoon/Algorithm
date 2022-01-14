@@ -1,6 +1,7 @@
 # fast campus 강의
 # https://www.acmicpc.net/problem/12100
 # 1
+
 from copy import deepcopy
 
 N = int(input())

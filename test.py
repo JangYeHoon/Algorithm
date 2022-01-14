@@ -1,38 +1,36 @@
-# 효율적인해킹(bfs), 특정 거리의 도시 찾기(bfs), 경쟁적 전염(bfs), 바이러스(dfs), 유기농배추(dfs), 효율적인해킹(dfs), MooyoMooyo(dfs)
+# 효율적인해킹(bfs), 특정 거리의 도시 찾기(bfs), 경쟁적 전염(bfs), 바이러스(dfs), 유기농배추(dfs), 효율적인해킹(dfs), MooyoMooyo(dfs), 2048(Easy)(dfs)
 
-from collections import deque
+from copy import deepcopy
 
-mx = [-1, 1, 0, 0]
-my = [0, 0, -1, 1]
+N = int(input())
+Board = [list(map(int, input().split())) for _ in range(N)]
 
-def bfs(x, y):
-    q = deque([x, y])
-    while q:
-        px = q.popleft()
-        py = q.popleft()
-        if not(visited[px][py]):
-            visited[px][py] = True
-            for i in range(4):
-                nx = px + mx[i]
-                ny = py + my[i]
-                if nx < 0 or nx >= n or ny < 0 or ny >= m:
-                    continue
-                if matrix[nx][ny] and not(visited[nx][ny]):
-                    q.append(nx)
-                    q.append(ny)
+def rotate90(n, b):
+    nb = deepcopy(b)
+    for i in range(N):
+        for j in range(N):
+            nb[j][N - i - 1] = b[i][j]
+    return nb
 
-for _ in range(int(input())):
-    m, n, k = map(int, input().split())
-    matrix = [[0] * m for _ in range(n)]
-    visited = [[False] * m for _ in range(n)]
+def convert(n, lst):
+    new_list = [i for i in lst if i != 0]
+    for i in range(1, len(new_list)):
+        if new_list[i - 1] == new_list[i]:
+            new_list[i - 1] *= 2
+            new_list[i] = 0
+    new_list = [i for i in new_list if i != 0]
+    return new_list + [0] * (N - len(new_list))
 
-    for _ in range(k):
-        y, x = map(int, input().split())
-        matrix[x][y] = 1
-    result = 0
-    for i in range(n):
-        for j in range(m):
-            if matrix[i][j] and not(visited[i][j]):
-                bfs(i, j)
-                result += 1
-    print(result)
+def dfs(n, b, cnt):
+    ret = max([max(i) for i in b])
+    if cnt == 0:
+        return ret
+    
+    for _ in range(4):
+        x = [convert(N, lst) for lst in b]
+        if x != b:
+            ret = max(ret, dfs(n, x, cnt - 1))
+        b = rotate90(N, b)
+    return ret
+
+print(dfs(N, Board, 5))
