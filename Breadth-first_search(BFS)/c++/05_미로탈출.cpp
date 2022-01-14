@@ -1,6 +1,6 @@
 // 이것이 취업을 위한 코딩테스트다 152p
 // https://www.acmicpc.net/problem/2178
-// 1
+// 2
 
 #include <iostream>
 #include <queue>

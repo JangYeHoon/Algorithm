@@ -4,15 +4,13 @@
 
 from collections import deque
 
-mx = [-1, 1, 0, 0]
-my = [0, 0, -1, 1]
+mx, my = [-1, 1, 0, 0], [0, 0, -1, 1]
 
 def bfs():
-    q = deque(virus)
+    q = deque(viruses)
     
     while q:
         idx, second, px, py = q.popleft()
-        
         if second == S:
             break
         for i in range(4):
@@ -24,18 +22,15 @@ def bfs():
                 matrix[nx][ny] = idx
                 q.append((idx, second + 1, nx, ny))
 
-
 N, K = map(int, input().split())
 matrix = []
-virus = []
+viruses = []
 for i in range(N):
     matrix.append(list(map(int, input().split())))
     for j in range(N):
         if matrix[i][j] != 0:
-            virus.append((matrix[i][j], 0, i, j))
-
-virus.sort()
+            viruses.append((matrix[i][j], 0, i, j))
+viruses.sort()
 S, X, Y = map(int, input().split())
 bfs()
-
 print(matrix[X - 1][Y - 1])
