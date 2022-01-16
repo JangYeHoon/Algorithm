@@ -1,59 +1,36 @@
-# 2048(Easy)(dfs)
+# 
 
-N, K = map(int, input().split())
-matrix = [list(input()) for _ in range(N)]
-visited = [[False] * 10 for _ in range(N)]
-visited2 = [[False] * 10 for _ in range(N)]
-mx = [-1, 1, 0, 0]
-my = [0, 0, -1, 1]
+from copy import deepcopy
 
-def dfs(x, y, cnt):
-    visited[x][y] = True
-    for i in range(4):
-        nx = x + mx[i]
-        ny = y + my[i]
-        if nx < 0 or nx >= N or ny < 0 or ny >= 10:
-            continue
-        if not(visited[nx][ny]) and matrix[x][y] == matrix[nx][ny]:
-            cnt = dfs(nx, ny, cnt + 1)
-    return cnt
-
-def dfs2(x, y):
-    visited2[x][y] = True
-    for i in range(4):
-        nx = x + mx[i]
-        ny = y + my[i]
-        if nx < 0 or nx >= N or ny < 0 or ny >= 10:
-            continue
-        if not(visited2[nx][ny]) and matrix[x][y] == matrix[nx][ny]:
-            dfs2(nx, ny)
-    matrix[x][y] = '0'
-
-def down():
-    for y in range(10):
-        tmp_list = []
-        for x in range(N):
-            if matrix[x][y] != '0':
-                tmp_list.append(matrix[x][y])
-        for x in range(N - len(tmp_list)):
-            matrix[x][y] = '0'
-        for x in range(len(tmp_list)):
-            matrix[x + N - len(tmp_list)][y] = tmp_list[x]
-
-while 1:
-    chk = False
-    visited = [[False] * 10 for _ in range(N)]
-    visited2 = [[False] * 10 for _ in range(N)]
+def rotate90(b):
+    # new_board = deepcopy(b)
+    new_board = [[0] * (N) for _ in range(N)]
     for i in range(N):
-        for j in range(10):
-            if not(visited[i][j]) and matrix[i][j] != '0':
-                cnt = dfs(i, j, 1)
-                if cnt >= K:
-                    chk = True
-                    dfs2(i, j)
-    if not(chk):
-        break
-    down()
+        for j in range(N):
+            new_board[j][N - i - 1] = b[i][j]
+    return new_board
 
-for i in matrix:
-    print(''.join(i))
+def convert(b):
+    new_list = [i for i in b if i != 0]
+    for i in range(1, len(new_list)):
+        if new_list[i - 1] == new_list[i]:
+            new_list[i - 1] *= 2
+            new_list[i] = 0
+    new_list = [i for i in new_list if i != 0]
+    return new_list + [0] * (N - len(new_list))
+
+def dfs(b, cnt):
+    ret = max(max(i) for i in b)
+    if cnt == 5:
+        return ret
+    
+    for _ in range(4):
+        x = [convert(i) for i in b]
+        if b != x:
+            ret = max(ret, dfs(x, cnt + 1))
+        b = rotate90(b)
+    return ret
+
+N = int(input())
+board = [list(map(int, input().split())) for _ in range(N)]
+print(dfs(board, 0))
