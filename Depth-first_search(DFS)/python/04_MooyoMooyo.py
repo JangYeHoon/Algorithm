@@ -1,65 +1,59 @@
 # fast campus 강의
 # https://www.acmicpc.net/problem/16768
-# 1
-
-def create_matrix(N):
-    return [[False for i in range(10)] for _ in range(N)]
+# 2
 
 N, K = map(int, input().split())
 matrix = [list(input()) for _ in range(N)]
-check = create_matrix(N)
-check2 = create_matrix(N)
-dx, dy = [0, 1, 0, -1], [1, 0, -1, 0]
+visited = [[False] * 10 for _ in range(N)]
+visited2 = [[False] * 10 for _ in range(N)]
+mx = [-1, 1, 0, 0]
+my = [0, 0, -1, 1]
 
-def dfs(x, y):
-    ret = 1
-    check[x][y] = True
+def dfs(x, y, cnt):
+    visited[x][y] = True
     for i in range(4):
-        mx, my = x + dx[i], y + dy[i]
-        if mx < 0 or mx >= N or my < 0 or my >= 10:
+        nx = x + mx[i]
+        ny = y + my[i]
+        if nx < 0 or nx >= N or ny < 0 or ny >= 10:
             continue
-        if check[mx][my] or matrix[x][y] != matrix[mx][my]:
-            continue
-        ret += dfs(mx, my)
-    return ret
+        if not(visited[nx][ny]) and matrix[x][y] == matrix[nx][ny]:
+            cnt = dfs(nx, ny, cnt + 1)
+    return cnt
 
-def dfs2(x, y, value):
-    check2[x][y] = True
+def dfs2(x, y):
+    visited2[x][y] = True
+    for i in range(4):
+        nx = x + mx[i]
+        ny = y + my[i]
+        if nx < 0 or nx >= N or ny < 0 or ny >= 10:
+            continue
+        if not(visited2[nx][ny]) and matrix[x][y] == matrix[nx][ny]:
+            dfs2(nx, ny)
     matrix[x][y] = '0'
-    for i in range(4):
-        mx, my = x + dx[i], y + dy[i]
-        if mx < 0 or mx >= N or my < 0 or my >= 10:
-            continue
-        if check2[mx][my] or matrix[mx][my] != value:
-            continue
-        dfs2(mx, my, value)
 
 def down():
-    for i in range(10):
-        temp_list = []
-        for j in range(N):
-            if matrix[j][i] != '0':
-                temp_list.append(matrix[j][i])
-        for j in range(N - len(temp_list)):
-            matrix[j][i] = '0'
-        for j in range(N - len(temp_list), N):
-            matrix[j][i] = temp_list[j - (N - len(temp_list))]
+    for y in range(10):
+        tmp_list = []
+        for x in range(N):
+            if matrix[x][y] != '0':
+                tmp_list.append(matrix[x][y])
+        for x in range(N - len(tmp_list)):
+            matrix[x][y] = '0'
+        for x in range(len(tmp_list)):
+            matrix[x + N - len(tmp_list)][y] = tmp_list[x]
 
-while True:
-    end = False
-    check = create_matrix(N)
-    check2 = create_matrix(N)
-
+while 1:
+    chk = False
+    visited = [[False] * 10 for _ in range(N)]
+    visited2 = [[False] * 10 for _ in range(N)]
     for i in range(N):
         for j in range(10):
-            if matrix[i][j] == '0' or check[i][j]:
-                continue
-            result = dfs(i, j)
-            if result >= K:
-                dfs2(i, j, matrix[i][j])
-                end = True
-    
-    if not end:
+            if not(visited[i][j]) and matrix[i][j] != '0':
+                cnt = dfs(i, j, 1)
+                if cnt >= K:
+                    chk = True
+                    dfs2(i, j)
+    if not(chk):
         break
     down()
 

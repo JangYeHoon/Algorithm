@@ -1,34 +1,59 @@
-# 경쟁적 전염(bfs), 바이러스(dfs), 유기농배추(dfs), 효율적인해킹(dfs), MooyoMooyo(dfs), 2048(Easy)(dfs)
-
-from collections import deque
-
-mx, my = [-1, 1, 0, 0], [0, 0, -1, 1]
-
-def bfs():
-    q = deque(viruses)
-    
-    while q:
-        idx, second, px, py = q.popleft()
-        if second == S:
-            break
-        for i in range(4):
-            nx = px + mx[i]
-            ny = py + my[i]
-            if nx < 0 or nx >= N or ny < 0 or ny >= N:
-                continue
-            if matrix[nx][ny] == 0:
-                matrix[nx][ny] = idx
-                q.append((idx, second + 1, nx, ny))
+# 2048(Easy)(dfs)
 
 N, K = map(int, input().split())
-matrix = []
-viruses = []
-for i in range(N):
-    matrix.append(list(map(int, input().split())))
-    for j in range(N):
-        if matrix[i][j] != 0:
-            viruses.append((matrix[i][j], 0, i, j))
-viruses.sort()
-S, X, Y = map(int, input().split())
-bfs()
-print(matrix[X - 1][Y - 1])
+matrix = [list(input()) for _ in range(N)]
+visited = [[False] * 10 for _ in range(N)]
+visited2 = [[False] * 10 for _ in range(N)]
+mx = [-1, 1, 0, 0]
+my = [0, 0, -1, 1]
+
+def dfs(x, y, cnt):
+    visited[x][y] = True
+    for i in range(4):
+        nx = x + mx[i]
+        ny = y + my[i]
+        if nx < 0 or nx >= N or ny < 0 or ny >= 10:
+            continue
+        if not(visited[nx][ny]) and matrix[x][y] == matrix[nx][ny]:
+            cnt = dfs(nx, ny, cnt + 1)
+    return cnt
+
+def dfs2(x, y):
+    visited2[x][y] = True
+    for i in range(4):
+        nx = x + mx[i]
+        ny = y + my[i]
+        if nx < 0 or nx >= N or ny < 0 or ny >= 10:
+            continue
+        if not(visited2[nx][ny]) and matrix[x][y] == matrix[nx][ny]:
+            dfs2(nx, ny)
+    matrix[x][y] = '0'
+
+def down():
+    for y in range(10):
+        tmp_list = []
+        for x in range(N):
+            if matrix[x][y] != '0':
+                tmp_list.append(matrix[x][y])
+        for x in range(N - len(tmp_list)):
+            matrix[x][y] = '0'
+        for x in range(len(tmp_list)):
+            matrix[x + N - len(tmp_list)][y] = tmp_list[x]
+
+while 1:
+    chk = False
+    visited = [[False] * 10 for _ in range(N)]
+    visited2 = [[False] * 10 for _ in range(N)]
+    for i in range(N):
+        for j in range(10):
+            if not(visited[i][j]) and matrix[i][j] != '0':
+                cnt = dfs(i, j, 1)
+                if cnt >= K:
+                    chk = True
+                    dfs2(i, j)
+    if not(chk):
+        break
+    down()
+
+for i in matrix:
+    print(''.join(i))

@@ -1,93 +1,96 @@
 // fast campus 강의
 // https://www.acmicpc.net/problem/16768
-// 1
+// 2
 
 #include <iostream>
-#include <queue>
+#include <vector>
 #include <cstring>
 
 using namespace std;
 
-int SIZE = 10;
-int matrix[105][12];
-bool visited[105][12], visited2[105][12];
+int matrix[105][15];
+bool visited[105][15], visited2[105][15];
+int N, K;
 int mx[4] = { -1, 1, 0, 0 };
 int my[4] = { 0, 0, -1, 1 };
-int N, K;
 
-int dfs(int x, int y, int count)
+int dfs(int x, int y, int cnt)
 {
 	visited[x][y] = true;
+
 	for (int i = 0; i < 4; i++) {
 		int nx = x + mx[i];
 		int ny = y + my[i];
 
-		if (nx <= 0 || nx > N || ny <= 0 || ny > SIZE)
+		if (nx < 0 || nx >= N || ny < 0 || ny >= 10)
 			continue;
-		if (!visited[nx][ny] && matrix[nx][ny] == matrix[x][y])
-			count = dfs(nx, ny, count + 1);
+		if (!visited[nx][ny] && matrix[x][y] == matrix[nx][ny])
+			cnt = dfs(nx, ny, cnt + 1);
 	}
-	return count;
+	return cnt;
 }
 
 void dfs(int x, int y)
 {
 	visited2[x][y] = true;
+
 	for (int i = 0; i < 4; i++) {
 		int nx = x + mx[i];
 		int ny = y + my[i];
 
-		if (nx <= 0 || nx > N || ny <= 0 || ny > SIZE)
+		if (nx < 0 || nx >= N || ny < 0 || ny >= 10)
 			continue;
-		if (!visited2[nx][ny] && matrix[nx][ny] == matrix[x][y])
+		if (!visited2[nx][ny] && matrix[x][y] == matrix[nx][ny])
 			dfs(nx, ny);
 	}
 	matrix[x][y] = 0;
 }
 
-void down() {
-	for (int y = 1; y <= SIZE; y++) {
-		vector<int> tmp;
-		for (int x = 1; x <= N; x++)
+void down()
+{
+	for (int y = 0; y < 10; y++) {
+		vector<int> tmp_list;
+		for (int x = 0; x < N; x++)
 			if (matrix[x][y])
-				tmp.push_back(matrix[x][y]);
-		for (int x = 1; x <= N - tmp.size(); x++)
+				tmp_list.push_back(matrix[x][y]);
+		for (int x = 0; x < N - tmp_list.size(); x++)
 			matrix[x][y] = 0;
-		for (int x = 0; x < tmp.size(); x++)
-			matrix[N - tmp.size() + x + 1][y] = tmp[x];
+		for (int x = 0; x < tmp_list.size(); x++)
+			matrix[N - tmp_list.size() + x][y] = tmp_list[x];
 	}
 }
 
 int main()
 {
 	cin >> N >> K;
-	for (int i = 1; i <= N; i++)
-		for (int j = 1; j <= SIZE; j++)
+	for (int i = 0; i < N; i++)
+		for (int j = 0; j < 10; j++)
 			scanf("%1d", &matrix[i][j]);
 
 	while (1) {
-		bool chk = true;
+		bool chk = false;
 		memset(visited, false, sizeof(visited));
 		memset(visited2, false, sizeof(visited2));
-		for (int i = 1; i <= N; i++) {
-			for (int j = 1; j <= SIZE; j++) {
-				if (matrix[i][j] != 0 && !visited[i][j]) {
+		for (int i = 0; i < N; i++) {
+			for (int j = 0; j < 10; j++) {
+				if (!visited[i][j] && matrix[i][j]) {
 					int cnt = dfs(i, j, 1);
 					if (cnt >= K) {
+						chk = true;
 						dfs(i, j);
-						chk = false;
 					}
 				}
 			}
 		}
-		if (chk)
+		if (!chk)
 			break;
 		down();
 	}
 
-	for (int i = 1; i <= N; i++) {
-		for (int j = 1; j <= SIZE; j++)
-			printf("%d", matrix[i][j]);
-		printf("\n");
+	for (int i = 0; i < N; i++) {
+		for (int j = 0; j < 10; j++) {
+			cout << matrix[i][j];
+		}
+		cout << '\n';
 	}
 }
