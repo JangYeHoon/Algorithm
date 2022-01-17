@@ -1,4 +1,4 @@
-# 
+# N-Queens
 
 from copy import deepcopy
 
