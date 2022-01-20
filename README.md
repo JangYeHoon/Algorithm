@@ -155,6 +155,7 @@
         <li><a href="Depth-first_search(DFS)/python/04_MooyoMooyo.py">04. Mooyo Mooyo</a></li>
         <li><a href="Depth-first_search(DFS)/python/05_2048(Easy).py">05. 2048(Easy)</a></li>
         <li><a href="Depth-first_search(DFS)/python/06_N_Queens.py">06. N-Queen</a></li>
+        <li><a href="Depth-first_search(DFS)/python/07_음료수얼려먹기.py">07. 음료수얼려먹기</a></li>
     </ul>
 </details>
 

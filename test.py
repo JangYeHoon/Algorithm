@@ -1,4 +1,4 @@
-# N-Queens
+# N-Queens(dfs0), 음료수얼려먹기(dfs)
 
 from copy import deepcopy
 
