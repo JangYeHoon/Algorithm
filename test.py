@@ -1,36 +1,28 @@
 # N-Queens(dfs0), 음료수얼려먹기(dfs)
 
-from copy import deepcopy
+mx, my = [-1, 1, 0, 0], [0, 0, -1, 1]
 
-def rotate90(b):
-    # new_board = deepcopy(b)
-    new_board = [[0] * (N) for _ in range(N)]
-    for i in range(N):
-        for j in range(N):
-            new_board[j][N - i - 1] = b[i][j]
-    return new_board
+def dfs(x, y):
+    matrix[x][y] = 1
+    for i in range(4):
+        nx = x + mx[i]
+        ny = y + my[i]
 
-def convert(b):
-    new_list = [i for i in b if i != 0]
-    for i in range(1, len(new_list)):
-        if new_list[i - 1] == new_list[i]:
-            new_list[i - 1] *= 2
-            new_list[i] = 0
-    new_list = [i for i in new_list if i != 0]
-    return new_list + [0] * (N - len(new_list))
+        if nx < 0 or nx >= N or ny < 0 or ny >= M:
+            continue
+        if not(matrix[nx][ny]):
+            dfs(nx, ny)
 
-def dfs(b, cnt):
-    ret = max(max(i) for i in b)
-    if cnt == 5:
-        return ret
-    
-    for _ in range(4):
-        x = [convert(i) for i in b]
-        if b != x:
-            ret = max(ret, dfs(x, cnt + 1))
-        b = rotate90(b)
-    return ret
+N, M = map(int, input().split())
+matrix = []
 
-N = int(input())
-board = [list(map(int, input().split())) for _ in range(N)]
-print(dfs(board, 0))
+for _ in range(N):
+    matrix.append(list(map(int, input())))
+
+result = 0
+for i in range(N):
+    for j in range(M):
+        if not(matrix[i][j]):
+            result += 1
+            dfs(i, j)
+print(result)

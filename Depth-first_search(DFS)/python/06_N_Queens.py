@@ -1,6 +1,6 @@
 # fast campus 강의
 # https://www.acmicpc.net/problem/9663
-# 1
+# 2
 
 def is_available(row):
     for i in range(row):
