@@ -1,28 +1,48 @@
 # 괄호변환(dfs)
 
-mx, my = [-1, 1, 0, 0], [0, 0, -1, 1]
+def balance(p):
+    cnt = 0
+    for i in range(len(p)):
+        if p[i] == '(':
+            cnt += 1
+        else:
+            cnt -= 1
+        if cnt == 0:
+            return i
 
-def dfs(x, y):
-    matrix[x][y] = 1
-    for i in range(4):
-        nx = x + mx[i]
-        ny = y + my[i]
+def check(p):
+    cnt = 0
+    for i in p:
+        if i == '(':
+            cnt += 1
+        else:
+            if cnt == 0:
+                return False
+            cnt -= 1
+    return True
 
-        if nx < 0 or nx >= N or ny < 0 or ny >= M:
-            continue
-        if not(matrix[nx][ny]):
-            dfs(nx, ny)
+def solution(p):
+    answer = ''
+    if p == '':
+        return answer
+    idx = balance(p)
 
-N, M = map(int, input().split())
-matrix = []
+    u = p[:idx + 1]
+    v = p[idx + 1:]
 
-for _ in range(N):
-    matrix.append(list(map(int, input())))
+    if check(u):
+        answer = u + solution(v)
+    else:
+        answer = '('
+        answer += solution(v)
+        answer += ')'
+        u = list(u[1:-1])
+        for i in range(len(u)):
+            if u[i] == '(':
+                u[i] = ')'
+            else:
+                u[i] = '('
+        answer += "".join(u)
+    return answer
 
-result = 0
-for i in range(N):
-    for j in range(M):
-        if not(matrix[i][j]):
-            result += 1
-            dfs(i, j)
-print(result)
+print(solution(input()))
