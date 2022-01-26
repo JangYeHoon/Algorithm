@@ -58,6 +58,7 @@
         <li><a href="Implementation/c++/06_기둥과보설치.cpp">06. 기둥과보설치</li>
         <li><a href="Implementation/c++/07_치킨배달.cpp">07. 치킨배달</a></li>
         <li><a href="Implementation/c++/08_외벽전검.cpp">08. 외벽전검</a></li>
+        <li><a href="Implementation/c++/09_연산자끼워넣기.cpp">09. 연산자끼워넣기</a></li>
     </ul>
 </details>
 <details><summary>Python</summary>
@@ -142,8 +143,7 @@
         <li><a href="Depth-first_search(DFS)/c++/06_N_Queens.cpp">06. N Queens</a></li>
         <li><a href="Depth-first_search(DFS)/c++/07_음료수얼려먹기.cpp">07. 음료수얼려먹기</a></li>
         <li><a href="Depth-first_search(DFS)/c++/08_괄호변환.cpp">08. 괄호변환</a></li>
-        <li><a href="Depth-first_search(DFS)/c++/09_연산자끼워넣기(bfs풀이).cpp">09. 연산자끼워넣기(bfs풀이)</a></li>
-        <li><a href="Depth-first_search(DFS)/c++/09_연산자끼워넣기(조합풀이).cpp">09. 연산자끼워넣기(조합풀이)</a></li>
+        <li><a href="Depth-first_search(DFS)/c++/09_연산자끼워넣기.cpp">09. 연산자끼워넣기</a></li>
         <li><a href="Depth-first_search(DFS)/c++/10_감시피하기.cpp">10. 감시피하기</a></li>
     </ul>
 </details>
@@ -157,6 +157,7 @@
         <li><a href="Depth-first_search(DFS)/python/06_N_Queens.py">06. N-Queen</a></li>
         <li><a href="Depth-first_search(DFS)/python/07_음료수얼려먹기.py">07. 음료수얼려먹기</a></li>
         <li><a href="Depth-first_search(DFS)/python/08_괄호변환.py">08. 괄호변환</a></li>
+        <li><a href="Depth-first_search(DFS)/python/09_연산자끼워넣기.py">09. 연산자끼워넣기</a></li>
     </ul>
 </details>
 
