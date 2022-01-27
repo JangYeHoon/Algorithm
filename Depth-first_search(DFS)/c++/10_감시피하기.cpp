@@ -1,7 +1,7 @@
-// 감시 피하기
-// 입력 : N(크기)
-//		 N개의 줄에 걸쳐 봅ㄱ도의 정보(S 학생, T 선생님, X 아무것도 없음)
-// 출력 : 감시를 피할 수 있으면 YES, 없으면 NO 출력
+// 이것이 취업을 위한 코딩테스트다 351p
+// https://www.acmicpc.net/problem/18428
+// 1
+
 #include <iostream>
 #include <vector>
 #include <algorithm>

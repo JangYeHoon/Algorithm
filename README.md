@@ -158,6 +158,7 @@
         <li><a href="Depth-first_search(DFS)/python/07_음료수얼려먹기.py">07. 음료수얼려먹기</a></li>
         <li><a href="Depth-first_search(DFS)/python/08_괄호변환.py">08. 괄호변환</a></li>
         <li><a href="Depth-first_search(DFS)/python/09_연산자끼워넣기.py">09. 연산자끼워넣기</a></li>
+        <li><a href="Depth-first_search(DFS)/python/10_감시피하기.py">10. 감시피하기</a></li>
     </ul>
 </details>
 
