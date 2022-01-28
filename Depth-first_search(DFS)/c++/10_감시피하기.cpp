@@ -1,6 +1,6 @@
 // 이것이 취업을 위한 코딩테스트다 351p
 // https://www.acmicpc.net/problem/18428
-// 1
+// 2
 
 #include <iostream>
 #include <vector>
@@ -9,122 +9,65 @@
 using namespace std;
 
 char matrix[7][7];
-int n;
+int N;
+vector<pair<int, int>> space;
 vector<pair<int, int>> teacher;
-vector<pair<int, int>> spaces;
+int mx[4] = { -1, 1, 0, 0 };
+int my[4] = { 0, 0, -1, 1 };
 
-bool watch(int x, int y, int d)
+bool dfs(int x, int y, int idx)
 {
-	if (d == 0)
-	{
-		while (y >= 0)
-		{
-			if (matrix[x][y] == 'S')
-				return true;
-			if (matrix[x][y] == 'O')
-				return false;
-			y -= 1;
-		}
-	}
-	if (d == 1)
-	{
-		while (y < n)
-		{
-			if (matrix[x][y] == 'S')
-				return true;
-			if (matrix[x][y] == 'O')
-				return false;
-			y += 1;
-		}
-	}
-	if (d == 2)
-	{
-		while (x >= 0)
-		{
-			if (matrix[x][y] == 'S')
-				return true;
-			if (matrix[x][y] == 'O')
-				return false;
-			x -= 1;
-		}
-	}
-	if (d == 3)
-	{
-		while (x < n)
-		{
-			if (matrix[x][y] == 'S')
-				return true;
-			if (matrix[x][y] == 'O')
-				return false;
-			x += 1;
-		}
-	}
-	return false;
+	if (matrix[x][y] == 'S')
+		return true;
+	else if (matrix[x][y] == 'O')
+		return false;
+	int nx = x + mx[idx];
+	int ny = y + my[idx];
+	if (nx >= 0 && nx < N && ny >= 0 && ny < N)
+		return dfs(nx, ny, idx);
+	else
+		return false;
 }
 
-bool check_f()
+bool teacher_check()
 {
 	for (int i = 0; i < teacher.size(); i++)
-	{
-		int x = teacher[i].first;
-		int y = teacher[i].second;
-		for (int i = 0; i < 4; i++)
-			if (watch(x, y, i))
-				return true;
-	}
-	return false;
+		for (int j = 0; j < 4; j++)
+			if (dfs(teacher[i].first, teacher[i].second, j))
+				return false;
+	return true;
 }
 
 int main()
 {
-	cin >> n;
-
-	for (int i = 0; i < n; i++)
-	{
-		for (int j = 0; j < n; j++)
-		{
-			char c;
-			cin >> c;
-			matrix[i][j] = c;
-			if (c == 'T')
+	cin >> N;
+	for (int i = 0; i < N; i++) {
+		for (int j = 0; j < N; j++) {
+			cin >> matrix[i][j];
+			if (matrix[i][j] == 'T')
 				teacher.push_back({ i, j });
-			if (c == 'X')
-				spaces.push_back({ i, j });
+			else if (matrix[i][j] == 'X')
+				space.push_back({ i, j });
 		}
 	}
 
-	vector<bool> check(spaces.size());
-	fill(check.end() - 3, check.end(), true);
-	bool result = false;
-	do{
-		for (int i = 0; i < spaces.size(); i++)
-		{
-			if (check[i])
-			{
-				int x = spaces[i].first;
-				int y = spaces[i].second;
-				matrix[x][y] = 'O';
-			}
-		}
+	vector<bool> space_chk(space.size());
+	fill(space_chk.end() - 3, space_chk.end(), true);
 
-		if (!check_f())
-		{
-			result = true;
+	bool result_chk = false;
+	do {
+		for (int i = 0; i < space.size(); i++)
+			if (space_chk[i])
+				matrix[space[i].first][space[i].second] = 'O';
+		if (teacher_check()) {
+			result_chk = true;
+			cout << "YES";
 			break;
 		}
-
-		for (int i = 0; i < spaces.size(); i++)
-		{
-			if (check[i])
-			{
-				int x = spaces[i].first;
-				int y = spaces[i].second;
-				matrix[x][y] = 'X';
-			}
-		}
-	} while (next_permutation(check.begin(), check.end()));
-	if (result)
-		cout << "YES" << '\n';
-	else
-		cout << "NO" << '\n';
+		for (int i = 0; i < space.size(); i++)
+			if (space_chk[i])
+				matrix[space[i].first][space[i].second] = 'X';
+	} while (next_permutation(space_chk.begin(), space_chk.end()));
+	if (!result_chk)
+		cout << "NO";
 }

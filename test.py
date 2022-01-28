@@ -1,48 +1,48 @@
-# 괄호변환(dfs), 연산자끼워넣기(dfs)
+# 감시피하기(dfs)
 
-def balance(p):
-    cnt = 0
-    for i in range(len(p)):
-        if p[i] == '(':
-            cnt += 1
-        else:
-            cnt -= 1
-        if cnt == 0:
-            return i
+from itertools import combinations
 
-def check(p):
-    cnt = 0
-    for i in p:
-        if i == '(':
-            cnt += 1
-        else:
-            if cnt == 0:
+N = int(input())
+matrix = [['X'] * N for _ in range(N)]
+space = []
+teacher = []
+mx, my = [-1, 1, 0, 0], [0, 0, -1, 1]
+
+def dfs(x, y, i):
+    if matrix[x][y] == 'S':
+        return True
+    elif matrix[x][y] == 'O':
+        return False
+    nx = x + mx[i]
+    ny = y + my[i]
+    if nx >= 0 and nx < N and ny >= 0 and ny < N:
+        return dfs(nx, ny, i)
+
+def check():
+    for x, y in teacher:
+        for i in range(4):
+            if dfs(x, y, i):
                 return False
-            cnt -= 1
     return True
 
-def solution(p):
-    answer = ''
-    if p == '':
-        return answer
-    idx = balance(p)
+for i in range(N):
+    temp_list = list(input().split())
+    for j in range(N):
+        matrix[i][j] = temp_list[j]
+        if matrix[i][j] == 'T':
+            teacher.append((i, j))
+        elif matrix[i][j] == 'X':
+            space.append((i, j))
 
-    u = p[:idx + 1]
-    v = p[idx + 1:]
-
-    if check(u):
-        answer = u + solution(v)
-    else:
-        answer = '('
-        answer += solution(v)
-        answer += ')'
-        u = list(u[1:-1])
-        for i in range(len(u)):
-            if u[i] == '(':
-                u[i] = ')'
-            else:
-                u[i] = '('
-        answer += "".join(u)
-    return answer
-
-print(solution(input()))
+chk = False
+for s in combinations(space, 3):
+    for x, y in s:
+        matrix[x][y] = 'O'
+    if check():
+        chk = True
+        print("YES")
+        break
+    for x, y in s:
+        matrix[x][y] = 'X'
+if not(chk):
+    print("NO")
