@@ -1,20 +1,28 @@
-# 수빈이와수열, 이름궁합테스트
+# 수빈이와수열, 이름궁합테스트. TheCandyWar
 
-N, M = map(int, input().split())
-A, B = input().split()
 
-alpabet = [3, 2, 1, 2, 4, 3, 1, 3, 1, 1, 3, 1, 3, 2, 1, 2, 2, 2, 1, 2, 1, 1, 1, 2, 2, 1]
+def candy_plus(C, N):
+    for i in range(N):
+        if C[i] % 2 != 0:
+            C[i] += 1
 
-s = ""
-tmp = min(N, M)
-for i in range(tmp):
-    s += A[i] + B[i]
-s += A[tmp:] + B[tmp:]
+def candy_chk(C, N):
+    tmp = C[0]
+    for i in range(N):
+        if tmp != C[i]:
+            return True
+    return False
 
-result = [alpabet[ord(i) - ord('A')] for i in s]
+for _ in range(int(input())):
+    N = int(input())
+    C = list(map(int, input().split()))
+    candy_plus(C, N)
 
-for i in range(N + M - 2):
-    for j in range(N + M - i - 1):
-        result[j] = (result[j] + result[j + 1]) % 10
-
-print("{}%".format(result[0] * 10 + result[1]))
+    result = 0
+    while candy_chk(C, N):
+        tmpC = [i for i in C]
+        for i in range(1, N + 1):
+            C[i % N] = C[i % N] / 2 + tmpC[i - 1] / 2
+        candy_plus(C, N)
+        result += 1
+    print(result)

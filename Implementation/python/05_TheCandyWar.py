@@ -1,25 +1,29 @@
-def check(N, candy_list):
-    for i in range(N):
-        if candy_list[i] % 2 == 1:
-            candy_list[i] += 1
-    return len(set(candy_list)) == 1
+# fast campus 강의
+# https://www.acmicpc.net/problem/9037
+# 1
 
-def teacher(N, candy_list):
-    temp_list = [0 for i in range(N)]
+def candy_plus(C, N):
     for i in range(N):
-        if candy_list[i] % 2:
-            candy_list[i] += 1
-        candy_list[i] //= 2
-        temp_list[(i + 1) % N] += candy_list[i]
-    
-    for i in range(N):
-        candy_list[i] += temp_list[i]
-    return candy_list
+        if C[i] % 2 != 0:
+            C[i] += 1
 
-for i in range(int(input())):
-    N, candy_list = int(input()), list(map(int, input().split()))
+def candy_chk(C, N):
+    tmp = C[0]
+    for i in range(N):
+        if tmp != C[i]:
+            return True
+    return False
+
+for _ in range(int(input())):
+    N = int(input())
+    C = list(map(int, input().split()))
+    candy_plus(C, N)
+
     result = 0
-    while not check(N, candy_list):
+    while candy_chk(C, N):
+        tmpC = [i for i in C]
+        for i in range(1, N + 1):
+            C[i % N] = C[i % N] / 2 + tmpC[i - 1] / 2
+        candy_plus(C, N)
         result += 1
-        candy_list = teacher(N, candy_list)
     print(result)
