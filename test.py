@@ -1,12 +1,20 @@
-# 수빈이와수열
+# 수빈이와수열, 이름궁합테스트
 
-N = int(input())
-B = list(map(int, input().split()))
-A = [0] * N
+N, M = map(int, input().split())
+A, B = input().split()
 
-A[0] = B[0]
-for i in range(1, N):
-    A[i] = B[i] * (i + 1) - sum(A[:i])
+alpabet = [3, 2, 1, 2, 4, 3, 1, 3, 1, 1, 3, 1, 3, 2, 1, 2, 2, 2, 1, 2, 1, 1, 1, 2, 2, 1]
 
-for i in range(N):
-    print(A[i], end= " ")
+s = ""
+tmp = min(N, M)
+for i in range(tmp):
+    s += A[i] + B[i]
+s += A[tmp:] + B[tmp:]
+
+result = [alpabet[ord(i) - ord('A')] for i in s]
+
+for i in range(N + M - 2):
+    for j in range(N + M - i - 1):
+        result[j] = (result[j] + result[j + 1]) % 10
+
+print("{}%".format(result[0] * 10 + result[1]))

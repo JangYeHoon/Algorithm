@@ -1,19 +1,22 @@
+# fast campus 강의
+# https://www.acmicpc.net/problem/17269
+# 1
+
 N, M = map(int, input().split())
 A, B = input().split()
 
-alp = [3, 2, 1, 2, 4, 3, 1, 3, 1, 1, 3, 1, 3, 2, 1, 
-        2, 2, 2, 1, 2, 1, 1, 1, 2, 2, 1]
+alpabet = [3, 2, 1, 2, 4, 3, 1, 3, 1, 1, 3, 1, 3, 2, 1, 2, 2, 2, 1, 2, 1, 1, 1, 2, 2, 1]
 
-AB = ''
-min_len = min(N, M)
-for i in range(min_len):
-    AB += A[i] + B[i]
-AB += A[min_len:] + B[min_len:]
+s = ""
+tmp = min(N, M)
+for i in range(tmp):
+    s += A[i] + B[i]
+s += A[tmp:] + B[tmp:]
 
-lst = [alp[ord(i) - ord('A')] for i in AB]
+result = [alpabet[ord(i) - ord('A')] for i in s]
 
 for i in range(N + M - 2):
-    for j in range(N + M - 1 - i):
-        lst[j] += lst[j + 1]
+    for j in range(N + M - i - 1):
+        result[j] = (result[j] + result[j + 1]) % 10
 
-print("{}%".format(lst[0] % 10 * 10 + lst[1] % 10))
+print("{}%".format(result[0] * 10 + result[1]))
