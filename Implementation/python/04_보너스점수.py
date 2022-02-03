@@ -1,3 +1,7 @@
+# fast campus 강의
+# https://www.acmicpc.net/problem/17389
+# 1
+
 N, S = input(), input()
 
 score, bonus = 0, 0

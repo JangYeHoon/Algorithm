@@ -1,28 +1,13 @@
-# 수빈이와수열, 이름궁합테스트. TheCandyWar
+# 수빈이와수열, 이름궁합테스트. TheCandyWar, 보너스점수
 
+N = int(input())
+s = input()
 
-def candy_plus(C, N):
-    for i in range(N):
-        if C[i] % 2 != 0:
-            C[i] += 1
-
-def candy_chk(C, N):
-    tmp = C[0]
-    for i in range(N):
-        if tmp != C[i]:
-            return True
-    return False
-
-for _ in range(int(input())):
-    N = int(input())
-    C = list(map(int, input().split()))
-    candy_plus(C, N)
-
-    result = 0
-    while candy_chk(C, N):
-        tmpC = [i for i in C]
-        for i in range(1, N + 1):
-            C[i % N] = C[i % N] / 2 + tmpC[i - 1] / 2
-        candy_plus(C, N)
-        result += 1
-    print(result)
+bouns, result = 0, 0
+for i in range(N):
+    if s[i] == 'X':
+        bouns = 0
+    else:
+        result += i + 1 + bouns
+        bouns += 1
+print(result)

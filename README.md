@@ -53,6 +53,7 @@
         <li><a href="Implementation/c++/01_행복.cpp">01. 행복</a></li>
         <li><a href="Implementation/c++/02_수빈이와수열.cpp">02. 수빈이와수열</a></li>
         <li><a href="Implementation/c++/03_이름궁합테스트.cpp">03. 이름 궁합 테스트</a></li>
+        <li><a href="Implementation/c++/04_보너스점수.cpp">04. 보너스 점수</a></li>
         <li><a href="Implementation/c++/05_TheCandyWar.cpp">05. The Candy War</a></li>
         <li><a href="Implementation/c++/13_럭키스트레이트(풀이).cpp">13. 럭키스트레이트</a></li>
         <li><a href="Implementation/c++/14_문자열재정렬.cpp">14. 문자열재정렬</a></li>
