@@ -1,4 +1,4 @@
-# 수빈이와수열, 이름궁합테스트. TheCandyWar, 보너스점수
+# 수빈이와수열, 이름궁합테스트. TheCandyWar, 보너스점수, MixingMilk
 
 N = int(input())
 s = input()

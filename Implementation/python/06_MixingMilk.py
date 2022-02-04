@@ -1,3 +1,7 @@
+# fast campus 강의
+# https://www.acmicpc.net/problem/16769
+# 1
+
 C, M = [0, 0, 0], [0, 0, 0]
 
 for i in range(3):
