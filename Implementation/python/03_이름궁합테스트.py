@@ -1,6 +1,6 @@
 # fast campus 강의
 # https://www.acmicpc.net/problem/17269
-# 1
+# 2
 
 N, M = map(int, input().split())
 A, B = input().split()

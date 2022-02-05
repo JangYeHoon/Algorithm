@@ -1,6 +1,6 @@
 # fast campus 강의
 # https://www.acmicpc.net/problem/10539
-# 1
+# 2
 
 n, num_list = int(input()), list(map(int, input().split()))
 

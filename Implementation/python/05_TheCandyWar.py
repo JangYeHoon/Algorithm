@@ -1,6 +1,6 @@
 # fast campus 강의
 # https://www.acmicpc.net/problem/9037
-# 1
+# 2
 
 def candy_plus(C, N):
     for i in range(N):
