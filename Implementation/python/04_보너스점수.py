@@ -1,6 +1,6 @@
 # fast campus 강의
 # https://www.acmicpc.net/problem/17389
-# 1
+# 2
 
 N, S = input(), input()
 

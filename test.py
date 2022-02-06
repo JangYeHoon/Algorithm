@@ -1,27 +1,13 @@
-# 보너스점수, MixingMilk
+# 
 
-def candy_plus(C, N):
-    for i in range(N):
-        if C[i] % 2 != 0:
-            C[i] += 1
+c = [0, 0, 0]
+m = [0, 0, 0]
+for i in range(3):
+    c[i], m[i] = map(int, input().split())
 
-def candy_chk(C, N):
-    tmp = C[0]
-    for i in C:
-        if i != tmp:
-            return False
-    return True
+for i in range(1, 101):
+    p, q = (i - 1) % 3, i % 3
+    m[q], m[p] = min(c[q], m[p] + m[q]), max(m[p] + m[q] - c[q], 0)
 
-for _ in range(int(input())):
-    N = int(input())
-    C = list(map(int, input().split()))
-    candy_plus(C, N)
-
-    result = 0
-    while not(candy_chk(C, N)):
-        tmpC = [i for i in C]
-        for i in range(1, N + 1):
-            C[i % N] = tmpC[i - 1] / 2 + C[i % N] / 2
-        candy_plus(C, N)
-        result += 1
-    print(result)
+for i in range(3):
+    print(m[i])
