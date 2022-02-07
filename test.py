@@ -1,13 +1,11 @@
-# 
+# 주사위세개
 
-c = [0, 0, 0]
-m = [0, 0, 0]
-for i in range(3):
-    c[i], m[i] = map(int, input().split())
+dice = list(map(int, input().split()))
+dice.sort()
 
-for i in range(1, 101):
-    p, q = (i - 1) % 3, i % 3
-    m[q], m[p] = min(c[q], m[p] + m[q]), max(m[p] + m[q] - c[q], 0)
-
-for i in range(3):
-    print(m[i])
+if dice[0] == dice[2]:
+    print(10000 + dice[0] * 1000)
+elif dice[0] == dice[1] or dice[1] == dice[2]:
+    print(1000 + dice[1] * 100)
+else:
+    print(dice[2] * 100)

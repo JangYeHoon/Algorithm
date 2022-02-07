@@ -1,3 +1,7 @@
+# fast campus 강의
+# https://www.acmicpc.net/problem/2480
+# 1
+
 arr = list(map(int, input().split()))
 
 n = len(set(arr))
