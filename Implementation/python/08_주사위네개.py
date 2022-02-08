@@ -1,25 +1,21 @@
-n, dice = int(input()), []
-result = 0
+# fast campus 강의
+# https://www.acmicpc.net/problem/2484
+# 1
 
-for i in range(n):
-    dice.append(sorted(list(map(int, input().split()))))
-    cnt = len(set(dice[i]))
-
-    if cnt == 1:
-        result = max(result, 50000 + dice[i][0] * 5000)
-    elif cnt == 2:
-        if dice[i][0] == dice[i][1] and dice[i][2] == dice[i][3]:
-            result = max(result, 2000 + dice[i][0] * 500 + dice[i][2] * 500)
+def money():
+    lst = sorted(list(map(int, input().split())))
+    if len(set(lst)) == 1:
+        return lst[0] * 5000 + 50000
+    if len(set(lst)) == 2:
+        if lst[1] == lst[2]:
+            return 10000 + lst[1] * 1000
         else:
-            result = max(result, 10000 + dice[i][1] * 1000)
-    elif cnt == 3:
-        if dice[i][1] == dice[i][2]:
-            result = max(result, 1000 + dice[i][1] * 100)
-        elif dice[i][0] == dice[i][1]:
-             result = max(result, 1000 + dice[i][1] * 100)
-        else:
-            result = max(result, 1000 + dice[i][2] * 100)
-    else:
-        result = max(result, max(dice[i]) * 100)
+            return 2000 + (lst[1] + lst[2]) * 500
+    for i in range(3):
+        if lst[i] == lst[i + 1]:
+            return 1000 + lst[i] * 100
+    return lst[-1] * 100
 
-print(result)
+N = int(input())
+
+print(max(money() for i in range(N)))

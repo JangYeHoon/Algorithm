@@ -1,11 +1,24 @@
-# 주사위세개
+# 주사위세개, 주사위네개
 
-dice = list(map(int, input().split()))
-dice.sort()
+N = int(input())
 
-if dice[0] == dice[2]:
-    print(10000 + dice[0] * 1000)
-elif dice[0] == dice[1] or dice[1] == dice[2]:
-    print(1000 + dice[1] * 100)
-else:
-    print(dice[2] * 100)
+result = 0
+for i in range(N):
+    dice = sorted(list(map(int, input().split())))
+    
+    cnt = len(set(dice))
+    if cnt == 1:
+        result = max(result, 50000 + dice[0] * 5000)
+    elif cnt == 2:
+        if dice[1] == dice[2]:
+            result = max(result, 10000 + dice[1] * 1000)
+        else:
+            result = max(result, 2000 + dice[1] * 500 + dice[2] * 500)
+    elif cnt == 3:
+        for i in range(3):
+            if dice[i] == dice[i + 1]:
+                result = max(result, 1000 + dice[i] * 100)
+                break
+    else:
+        result = max(result, dice[3] * 100)
+print(result)

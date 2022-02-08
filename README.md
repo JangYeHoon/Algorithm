@@ -57,6 +57,7 @@
         <li><a href="Implementation/c++/05_TheCandyWar.cpp">05. The Candy War</a></li>
         <li><a href="Implementation/c++/06_MixingMilk.cpp">06. Mixing Milk</a></li>
         <li><a href="Implementation/c++/07_주사위세개.cpp">07. 주사위 세개</a></li>
+        <li><a href="Implementation/c++/08_주사위네개.cpp">08. 주사위 네개</a></li>
         <li><a href="Implementation/c++/13_럭키스트레이트(풀이).cpp">13. 럭키스트레이트</a></li>
         <li><a href="Implementation/c++/14_문자열재정렬.cpp">14. 문자열재정렬</a></li>
         <li><a href="Implementation/c++/15_문자열압축.cpp">15. 문자열압축</a></li>
@@ -78,7 +79,6 @@
         <li><a href="Implementation/python/06_MixingMilk.py">06. Mixing Milk</a></li>
         <li><a href="Implementation/python/07_주사위세개.py">07. 주사위 세개</a></li>
         <li><a href="Implementation/python/08_주사위네개.py">08. 주사위 네개</a></li>
-        <li><a href="Implementation/python/08_주사위네개(간편풀이).py">08. 주사위 네개(풀이)</a></li>
         <li><a href="Implementation/python/09_두개의손.py">09. 두 개의 손</a></li>
         <li><a href="Implementation/python/10_단어뒤집기2.py">10. 단어 뒤집기2</a></li>
         <li><a href="Implementation/python/10_단어뒤집기2(풀이).py">10. 단어 뒤집기2(풀이)</a></li>
