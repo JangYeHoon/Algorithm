@@ -1,24 +1,10 @@
-# 주사위세개, 주사위네개
+# 주사위세개, 주사위네개, 두개의손
 
-N = int(input())
+ML, MR, TL, TR = ('SPR'.index(i) for i in input().split())
 
-result = 0
-for i in range(N):
-    dice = sorted(list(map(int, input().split())))
-    
-    cnt = len(set(dice))
-    if cnt == 1:
-        result = max(result, 50000 + dice[0] * 5000)
-    elif cnt == 2:
-        if dice[1] == dice[2]:
-            result = max(result, 10000 + dice[1] * 1000)
-        else:
-            result = max(result, 2000 + dice[1] * 500 + dice[2] * 500)
-    elif cnt == 3:
-        for i in range(3):
-            if dice[i] == dice[i + 1]:
-                result = max(result, 1000 + dice[i] * 100)
-                break
-    else:
-        result = max(result, dice[3] * 100)
-print(result)
+if (ML == MR and (ML + 2) % 3 in [TL, TR]):
+    print("TK")
+elif (TL == TR and (TL + 2) % 3 in [ML, MR]):
+    print("MS")
+else:
+    print("?")
