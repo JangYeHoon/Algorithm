@@ -1,4 +1,5 @@
-# 주사위세개, 주사위네개, 두개의손, 단어뒤집기
+# https://www.acmicpc.net/problem/9093
+# 1
 
 for _ in range(int(input())):
     S = input()

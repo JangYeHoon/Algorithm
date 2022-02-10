@@ -59,15 +59,16 @@
         <li><a href="Implementation/c++/07_주사위세개.cpp">07. 주사위 세개</a></li>
         <li><a href="Implementation/c++/08_주사위네개.cpp">08. 주사위 네개</a></li>
         <li><a href="Implementation/c++/09_두개의손.cpp">09. 두 개의 손</a></li>
-        <li><a href="Implementation/c++/13_럭키스트레이트(풀이).cpp">13. 럭키스트레이트</a></li>
-        <li><a href="Implementation/c++/14_문자열재정렬.cpp">14. 문자열재정렬</a></li>
-        <li><a href="Implementation/c++/15_문자열압축.cpp">15. 문자열압축</a></li>
-        <li><a href="Implementation/c++/16_자물쇠와열쇠.cpp">16. 자물쇠와열쇠</a></li>
-        <li><a href="Implementation/c++/17_뱀.cpp">17. 뱀</a></li>
-        <li><a href="Implementation/c++/18_기둥과보설치.cpp">18. 기둥과보설치</li>
-        <li><a href="Implementation/c++/19_치킨배달.cpp">19. 치킨배달</a></li>
-        <li><a href="Implementation/c++/20_외벽전검.cpp">20. 외벽전검</a></li>
-        <li><a href="Implementation/c++/21_연산자끼워넣기.cpp">21. 연산자끼워넣기</a></li>
+        <li><a href="Implementation/c++/10_단어뒤집기.cpp">10. 단어 뒤집기</a></li>
+        <li><a href="Implementation/c++/14_럭키스트레이트(풀이).cpp">14. 럭키스트레이트</a></li>
+        <li><a href="Implementation/c++/15_문자열재정렬.cpp">15. 문자열재정렬</a></li>
+        <li><a href="Implementation/c++/16_문자열압축.cpp">16. 문자열압축</a></li>
+        <li><a href="Implementation/c++/17_자물쇠와열쇠.cpp">17. 자물쇠와열쇠</a></li>
+        <li><a href="Implementation/c++/18_뱀.cpp">18. 뱀</a></li>
+        <li><a href="Implementation/c++/19_기둥과보설치.cpp">19. 기둥과보설치</li>
+        <li><a href="Implementation/c++/20_치킨배달.cpp">20. 치킨배달</a></li>
+        <li><a href="Implementation/c++/21_외벽전검.cpp">21. 외벽전검</a></li>
+        <li><a href="Implementation/c++/22_연산자끼워넣기.cpp">22. 연산자끼워넣기</a></li>
     </ul>
 </details>
 <details><summary>Python</summary>
@@ -81,10 +82,11 @@
         <li><a href="Implementation/python/07_주사위세개.py">07. 주사위 세개</a></li>
         <li><a href="Implementation/python/08_주사위네개.py">08. 주사위 네개</a></li>
         <li><a href="Implementation/python/09_두개의손.py">09. 두 개의 손</a></li>
-        <li><a href="Implementation/python/10_단어뒤집기2.py">10. 단어 뒤집기2</a></li>
-        <li><a href="Implementation/python/10_단어뒤집기2(풀이).py">10. 단어 뒤집기2(풀이)</a></li>
-        <li><a href="Implementation/python/11_늑대와양.py">11. 늑대와 양</a></li>
-        <li><a href="Implementation/python/12_꽃길.py">12. 꽃길</a></li>
+        <li><a href="Implementation/python/10_단어뒤집기.py">10. 단어 뒤집기</a></li>
+        <li><a href="Implementation/python/11_단어뒤집기2.py">11. 단어 뒤집기2</a></li>
+        <li><a href="Implementation/python/11_단어뒤집기2(풀이).py">11. 단어 뒤집기2(풀이)</a></li>
+        <li><a href="Implementation/python/12_늑대와양.py">12. 늑대와 양</a></li>
+        <li><a href="Implementation/python/13_꽃길.py">13. 꽃길</a></li>
     </ul>
 </details>
 
