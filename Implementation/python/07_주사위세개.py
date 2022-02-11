@@ -1,6 +1,6 @@
 # fast campus 강의
 # https://www.acmicpc.net/problem/2480
-# 1
+# 2
 
 arr = list(map(int, input().split()))
 

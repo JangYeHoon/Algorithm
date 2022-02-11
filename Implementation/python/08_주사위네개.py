@@ -1,6 +1,6 @@
 # fast campus 강의
 # https://www.acmicpc.net/problem/2484
-# 1
+# 2
 
 def money():
     lst = sorted(list(map(int, input().split())))

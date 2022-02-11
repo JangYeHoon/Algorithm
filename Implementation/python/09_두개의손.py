@@ -1,6 +1,6 @@
 # fast campus 강의
 # https://www.acmicpc.net/problem/16675
-# 1
+# 2
 
 ML, MR, TL, TR = ('SPR'.index(i) for i in input().split())
 

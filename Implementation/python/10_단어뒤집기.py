@@ -1,5 +1,5 @@
 # https://www.acmicpc.net/problem/9093
-# 1
+# 2
 
 for _ in range(int(input())):
     S = input()

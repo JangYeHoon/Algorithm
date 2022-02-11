@@ -1,6 +1,6 @@
 # fast campus 강의
 # https://www.acmicpc.net/problem/17413
-# 1
+# 2
 
 S = input()
 temp, result, ck = "", "", False

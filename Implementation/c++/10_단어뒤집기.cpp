@@ -2,9 +2,9 @@
 // 1
 
 #include <iostream>
-#include <vector>
-#include <sstream>
 #include <algorithm>
+#include <sstream>
+#include <vector>
 
 using namespace std;
 
@@ -17,15 +17,15 @@ int main()
 
 	for (int t = 0; t < test_case; t++) {
 		getline(cin, s);
-		istringstream ss(s);
-		vector<string> sv;
-		while (getline(ss, s, ' '))
-			sv.push_back(s);
-
-		for (int i = 0; i < sv.size(); i++) {
-			reverse(sv[i].begin(), sv[i].end());
-			cout << sv[i] << ' ';
+		istringstream iss(s);
+		vector<string> vs;
+		while (getline(iss, s, ' ')) {
+			reverse(s.begin(), s.end());
+			vs.push_back(s);
 		}
-		cout << endl;
+
+		for (int i = 0; i < vs.size(); i++)
+			cout << vs[i] << ' ';
+		cout << '\n';
 	}
 }
