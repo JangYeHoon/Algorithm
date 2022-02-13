@@ -1,4 +1,4 @@
-# 
+# 꽃길
 
 S = input()
 result, tmp = "", ""
