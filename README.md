@@ -62,7 +62,8 @@
         <li><a href="Implementation/c++/10_단어뒤집기.cpp">10. 단어 뒤집기</a></li>
         <li><a href="Implementation/c++/11_단어뒤집기2.cpp">11. 단어 뒤집기2</a></li>
         <li><a href="Implementation/c++/12_꽃길.cpp">12. 꽃길</a></li>
-        <li><a href="Implementation/c++/14_럭키스트레이트.cpp">14. 럭키스트레이트</a></li>
+        <li><a href="Implementation/c++/13_늑대와양.cpp">13. 늑대와 양</a></li>
+        <li><a href="Implementation/c++/14_럭키스트레이트(풀이).cpp">14. 럭키스트레이트</a></li>
         <li><a href="Implementation/c++/15_문자열재정렬.cpp">15. 문자열재정렬</a></li>
         <li><a href="Implementation/c++/16_문자열압축.cpp">16. 문자열압축</a></li>
         <li><a href="Implementation/c++/17_자물쇠와열쇠.cpp">17. 자물쇠와열쇠</a></li>
