@@ -1,38 +1,24 @@
-// 럭키 스트레이트
-// 입력 : 점수(N), N의 자릿수는 항상 짝수 형태
-// 출력 : 럭키 스트레이트를 사용할 수 있으면 "LUCKY", 없으면 "READY"
+// 이것이 취업을 위한 코딩테스트다
+// https://www.acmicpc.net/problem/18406
+// 1
+
 #include <iostream>
 
 using namespace std;
 
-int pos[8];
-
 int main()
 {
-	int n;
-	cin >> n;
+	string str;
+	int result = 0;
 
-	int count = 0;
-	for (int i = 0; i < 8; i++)
-	{
-		pos[i] = n % 10;
-		n = n / 10;
-		count = i + 1;
-		if (n <= 0)
-			break;
-	}
+	cin >> str;
 
-	int mid = count / 2;
-	int left = 0;
-	for (int i = 0; i < mid; i++)
-		left += pos[i];
-	int right = 0;
-	for (int i = mid; i < count; i++)
-		right += pos[i];
+	for (int i = 0; i < str.size() / 2; i++)
+		result += str[i] - '0';
 
-	if (left == right)
-		cout << "LUCKY" << '\n';
-	else
-		cout << "READY" << '\n';
-	return 0;
+	for (int i = str.size() / 2; i < str.size(); i++)
+		result -= str[i] - '0';
+
+	if (result == 0) cout << "LUCKY";
+	else cout << "READY";
 }
