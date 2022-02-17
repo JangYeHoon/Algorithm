@@ -1,5 +1,6 @@
-// 문자열 압축
+// 이것이 취업을 위한 코딩테스트다 325p
 // https://programmers.co.kr/learn/courses/30/lessons/60057
+
 #include <string>
 #include <vector>
 #include <iostream>
