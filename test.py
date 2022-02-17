@@ -1,4 +1,4 @@
-# 꽃길, 늑대와양, 럭키스트레이트
+# 꽃길, 늑대와양, 럭키스트레이트, 문자열재정렬
 
 R, C = map(int, input().split())
 matrix = [list(input()) for _ in range(R)]
