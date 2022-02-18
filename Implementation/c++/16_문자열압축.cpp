@@ -1,5 +1,6 @@
 // 이것이 취업을 위한 코딩테스트다 325p
 // https://programmers.co.kr/learn/courses/30/lessons/60057
+// 1
 
 #include <string>
 #include <vector>
@@ -9,7 +10,6 @@ using namespace std;
 
 int solution(string s) {
 	int answer = 999999;
-	int k = 1;
 	for (int k = 1; k <= s.size() / 2 + 1; k++)
 	{
 		string prev = s.substr(0, k);
