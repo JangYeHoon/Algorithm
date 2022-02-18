@@ -1,6 +1,6 @@
 # fast campus 강의
 # https://www.acmicpc.net/problem/16956
-# 1
+# 2
 
 R, C = map(int, input().split())
 matrix = [list(input()) for i in range(R)]

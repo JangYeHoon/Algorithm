@@ -1,6 +1,6 @@
 # fast campus 강의
 # https://www.acmicpc.net/problem/14620
-# 1
+# 2
 
 N = int(input())
 prise_matrix = [list(map(int, input().split())) for i in range(N)]
