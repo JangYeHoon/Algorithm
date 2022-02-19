@@ -1,6 +1,6 @@
 // 이것이 취업을 위한 코딩테스트다 322p
 //
-// 1
+// 2
 
 #include <iostream>
 #include <string>
@@ -10,20 +10,18 @@ using namespace std;
 
 int main()
 {
-	string s;
+	string s, result = "";
 	cin >> s;
-	string answer;
-	int n = 0;
-	for (int i = 0; i < s.size(); i++)
-	{
-		if (isdigit(s[i]) == 0)
-			answer += s[i];
-		else
-			n += (s[i] - '0');
-	}
-	sort(answer.begin(), answer.end());
-	answer += to_string(n);
 
-	cout << answer << '\n';
-	return 0;
+	int sum = 0;
+	for (int i = 0; i < s.size(); i++) {
+		if ('0' <= s[i] && s[i] <= '9')
+			sum += s[i] - '0';
+		else
+			result += s[i];
+	}
+	sort(result.begin(), result.end());
+	if (sum != 0)
+		result += to_string(sum);
+	cout << result;
 }
