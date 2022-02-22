@@ -1,4 +1,4 @@
-# 
+# 자물쇠와열쇠
 
 def solution(s):
     answer = 1e9
