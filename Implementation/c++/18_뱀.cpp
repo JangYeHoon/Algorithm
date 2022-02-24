@@ -1,8 +1,7 @@
-// 뱀
-// 입력 : 보드의 크기(N), 사과의 개수(K)
-//		 사과의 위치(행, 열)
-//		 뱀의 방향 변환 횟수(L)
-//		 뱀의 방향 변환 정보(X, C)(X초가 끝난 뒤에 C가 L이면 왼쪽 R이면 오른쪽으로 90도 회전
+// 
+// https://www.acmicpc.net/problem/3190
+// 1
+
 #include <iostream>
 #include <vector>
 #include <queue>
