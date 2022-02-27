@@ -1,72 +1,54 @@
 // 이것이 취업을 위한 코딩테스트다 325p
 // https://programmers.co.kr/learn/courses/30/lessons/60059
-// 1
+// 2
 
 #include <string>
 #include <vector>
-#include <iostream>
 
 using namespace std;
 
-vector<vector<int>> rotateMatrixBy90Degree(vector<vector<int>> a)
+vector<vector<int>> rotate90(vector<vector<int>> key)
 {
-	int n = a.size();
-	int m = a[0].size();
-	vector<vector<int>> result(n, vector<int>(m));
-	for (int i = 0; i < n; i++)
-	{
-		for (int j = 0; j < m; j++)
-		{
-			result[j][n - i - 1] = a[i][j];
-		}
-	}
-	return result;
+    int M = key.size();
+    vector<vector<int>> new_key(M, vector<int>(M));
+    for (int i = 0; i < M; i++)
+        for (int j = 0; j < M; j++)
+            new_key[j][M - i - 1] = key[i][j];
+    return new_key;
 }
 
-bool check(vector<vector<int>> newLock)
+bool lock_chk(vector<vector<int>> lock)
 {
-	int lockLength = newLock.size() / 3;
-	for (int i = lockLength; i < lockLength * 2; i++)
-	{
-		for (int j = lockLength; j < lockLength * 2; j++)
-		{
-			if (newLock[i][j] != 1)
-			{
-				return false;
-			}
-		}
-	}
-	return true;
+    int N = lock.size() / 3;
+    for (int i = N; i < N * 2; i++)
+        for (int j = N; j < N * 2; j++)
+            if (lock[i][j] != 1)
+                return false;
+    return true;
 }
 
 bool solution(vector<vector<int>> key, vector<vector<int>> lock) {
-	int n = lock.size();
-	int m = key.size();
-	vector<vector<int>> newLock(n * 3, vector<int>(n * 3));
-	for (int i = 0; i < n; i++)
-	{
-		for (int j = 0; j < n; j++)
-			newLock[i + n][j + n] = lock[i][j];
-	}
+    int N = lock.size();
+    int M = key.size();
+    vector<vector<int>> new_lock(N * 3, vector<int>(N * 3));
+    for (int i = 0; i < N; i++)
+        for (int j = 0; j < N; j++)
+            new_lock[i + N][j + N] = lock[i][j];
 
-	for (int rotation = 0; rotation < 4; rotation++)
-	{
-		key = rotateMatrixBy90Degree(key);
-		for (int x = 0; x < n * 2; x++)
-		{
-			for (int y = 0; y < n * 2; y++)
-			{
-				for (int i = 0; i < m; i++)
-					for (int j = 0; j < m; j++)
-						newLock[x + i][y + j] += key[i][j];
-				
-				if (check(newLock)) return true;
-
-				for (int i = 0; i < m; i++)
-					for (int j = 0; j < m; j++)
-						newLock[x + i][y + j] -= key[i][j];
-			}
-		}
-	}
-	return false;
+    for (int x = 0; x < N * 2; x++) {
+        for (int y = 0; y < N * 2; y++) {
+            for (int k = 0; k < 4; k++) {
+                key = rotate90(key);
+                for (int i = 0; i < M; i++)
+                    for (int j = 0; j < M; j++)
+                        new_lock[x + i][y + j] += key[i][j];
+                if (lock_chk(new_lock))
+                    return true;
+                for (int i = 0; i < M; i++)
+                    for (int j = 0; j < M; j++)
+                        new_lock[x + i][y + j] -= key[i][j];
+            }
+        }
+    }
+    return false;
 }

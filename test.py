@@ -1,41 +1,46 @@
-# 자물쇠와열쇠, 뱀
+# 
 
-def rotate90(key):
-    m = len(key)
-    new_key = [[0] * m for _ in range(m)]
-    for i in range(m):
-        for j in range(m):
-            new_key[j][m - i - 1] = key[i][j]
-    return new_key
+N = int(input())
+K = int(input())
+matrix = [[0] * (N + 1) for _ in range(N + 1)]
+for i in range(K):
+    x, y = map(int, input().split())
+    matrix[x][y] = 1
+L = int(input())
+direction_list = []
+for i in range(L):
+    x, c = input().split()
+    direction_list.append((int(x), c))
 
-def lock_chk(lock):
-    n = len(lock) // 3
-    for i in range(n, n * 2):
-        for j in range(n, n * 2):
-            if lock[i][j] != 1:
-                return False
-    return True
+def direction_turn(direction, turn):
+    if turn == 'L': direction = (direction - 1) % 4
+    else: direction = (direction + 1) % 4
+    return direction
 
-def solution(key, lock):
-    n = len(lock)
-    m = len(key)
-    new_lock = [[0] * (n * 3) for _ in range(n * 3)]
-    for i in range(n):
-        for j in range(n):
-            new_lock[i + n][j + n] = lock[i][j]
-    
-    for x in range(n * 2):
-        for y in range(n * 2):
-            for _ in range(4):
-                key = rotate90(key)
-                for i in range(m):
-                    for j in range(m):
-                        new_lock[x + i][y + j] += key[i][j]
-                if lock_chk(new_lock):
-                    return True
-                for i in range(m):
-                    for j in range(m):
-                        new_lock[x + i][y + j] -= key[i][j]
-    return False
+def solution():
+    snake = [(1, 1)]
+    second = 0
+    direction = 0
+    direction_idx = 0
+    x, y = 1, 1
+    matrix[x][y] = 2
+    mx, my = [0, 1, 0, -1], [1, 0, -1, 0]
+    while 1:
+        nx, ny = x + mx[direction], y + my[direction]
+        if nx > 0 and nx <= N and ny > 0 and ny <= N and matrix[nx][ny] != 2:
+            if matrix[nx][ny] == 0:
+                px, py = snake.pop(0)
+                matrix[px][py] = 0
+            matrix[nx][ny] = 2
+            snake.append((nx, ny))
+            x, y = nx, ny
+        else:
+            second += 1
+            break
+        second += 1
+        if direction_idx < L and direction_list[direction_idx][0] == second:
+            direction = direction_turn(direction, direction_list[direction_idx][1])
+            direction_idx += 1
+    return second
 
-solution([[0, 0, 0], [1, 0, 0], [0, 1, 1]], [[1, 1, 1], [1, 1, 0], [1, 0, 1]])
+print(solution())

@@ -1,6 +1,6 @@
 # 이것이 취업을 위한 코딩테스트다 325p
 # https://programmers.co.kr/learn/courses/30/lessons/60059?language=python3
-# 1
+# 2
 
 def rotate90(key):
     M = len(key)

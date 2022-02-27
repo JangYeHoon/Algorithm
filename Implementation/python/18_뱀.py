@@ -1,6 +1,6 @@
-# 
+# 이것이 취업을 위한 코딩테스트다 327p
 # https://www.acmicpc.net/problem/3190
-# 1
+# 2
 
 N, K = int(input()), int(input())
 board = [[0] * (N + 1) for _ in range(N + 1)]
