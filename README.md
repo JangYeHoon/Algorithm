@@ -94,6 +94,7 @@
         <li><a href="Implementation/python/16_문자열압축.py">16. 문자열 압축</a></li>
         <li><a href="Implementation/python/17_자물쇠와열쇠.py">17. 자물쇠와 열쇠</a></li>
         <li><a href="Implementation/python/18_뱀.py">18. 뱀</a></li>
+        <li><a href="Implementation/python/19_기둥과보.py">19. 기둥과 보</a></li>
     </ul>
 </details>
 

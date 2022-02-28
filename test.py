@@ -1,4 +1,4 @@
-# 
+# 기둥과보
 
 N = int(input())
 K = int(input())
