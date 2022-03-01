@@ -1,4 +1,4 @@
-# 기둥과보
+# 기둥과보, 치킨배달
 
 N = int(input())
 K = int(input())

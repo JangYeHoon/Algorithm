@@ -1,7 +1,7 @@
-// 치킨 배달
-// 입력 : N(크기), M(치킨집 수)
-//		 N*N 행렬(0은 빈칸, 1은 집, 2는 치킨집)
-// 출력 : 도시의 치킨 거리의 최소값
+// 이것이 취업을 위한 코딩테스트다 332p
+// https://www.acmicpc.net/problem/15686
+// 1
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
