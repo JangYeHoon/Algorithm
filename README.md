@@ -240,12 +240,12 @@
 
 <details><summary>C++</summary>
     <ul>
-        <li><a href="Greedy/c++/01_모험가길드.cpp">01. 모험가길드</a></li>
-        <li><a href="Greedy/c++/02_곱하기혹은더하기.cpp">02. 곱하기 혹은 더하기</a></li>
-        <li><a href="Greedy/c++/03_문자열뒤집기.cpp">03. 문자열 뒤집기</a></li>
-        <li><a href="Greedy/c++/04_만들수없는금액.cpp">04. 만들 수 없는 금액</a></li>
-        <li><a href="Greedy/c++/05_볼링공고르기.cpp">05. 볼링공 고르기</a></li>
-        <li><a href="Greedy/c++/06_무지의먹방라이브.cpp">06. 무지의 먹방 라이브</a></li>
+        <li><a href="Greedy/c++/13_모험가길드.cpp">13. 모험가길드</a></li>
+        <li><a href="Greedy/c++/14_곱하기혹은더하기.cpp">14. 곱하기 혹은 더하기</a></li>
+        <li><a href="Greedy/c++/15_문자열뒤집기.cpp">15. 문자열 뒤집기</a></li>
+        <li><a href="Greedy/c++/16_만들수없는금액.cpp">16. 만들 수 없는 금액</a></li>
+        <li><a href="Greedy/c++/17_볼링공고르기.cpp">17. 볼링공 고르기</a></li>
+        <li><a href="Greedy/c++/18_무지의먹방라이브.cpp">18. 무지의 먹방 라이브</a></li>
     </ul>
 </details>
 <details><summary>Python</summary>
