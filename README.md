@@ -96,6 +96,7 @@
         <li><a href="Implementation/python/18_뱀.py">18. 뱀</a></li>
         <li><a href="Implementation/python/19_기둥과보.py">19. 기둥과 보</a></li>
         <li><a href="Implementation/python/20_치킨배달.py">20. 치킨 배달</a></li>
+        <li><a href="Implementation/python/20_치킨배달.py">21. 외벽 전검</a></li>
     </ul>
 </details>
 
