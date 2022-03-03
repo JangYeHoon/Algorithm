@@ -1,3 +1,7 @@
+# fast campus 강의
+# https://www.acmicpc.net/problem/5585
+# 1
+
 changes = 1000 - int(input())
 count = 0
 
