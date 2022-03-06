@@ -1,6 +1,6 @@
 // 이것이 취업을 위한 코딩테스트다 332p
 // https://www.acmicpc.net/problem/15686
-// 1
+// 2
 
 #include <iostream>
 #include <vector>
@@ -8,65 +8,51 @@
 
 using namespace std;
 
-int n, m;
-vector<pair<int, int>> house;
-vector<pair<int, int>> chicken;
+int N, M;
+vector<pair<int, int>> chicken_matrix;
+vector<pair<int, int>> house_matrix;
 
-int getSum(vector<pair<int, int>> chicken_temp)
+int getSum(vector<pair<int, int>> chickens)
 {
-	int result = 0;
-	for (int i = 0; i < house.size(); i++)
-	{
-		int hx = house[i].first;
-		int hy = house[i].second;
-		int temp = 1e9;
-		for (int j = 0; j < chicken_temp.size(); j++)
-		{
-			int cx = chicken_temp[j].first;
-			int cy = chicken_temp[j].second;
-			temp = min(temp, abs(hx - cx) + abs(hy - cy));
+	int sum = 0;
+	for (int i = 0; i < house_matrix.size(); i++) {
+		int hx = house_matrix[i].first;
+		int hy = house_matrix[i].second;
+		int dist = 1e9;
+		for (int j = 0; j < chickens.size(); j++) {
+			int cx = chickens[j].first;
+			int cy = chickens[j].second;
+			dist = min(dist, abs(hx - cx) + abs(hy - cy));
 		}
-		result += temp;
+		sum += dist;
 	}
-	return result;
+	return sum;
 }
 
 int main()
 {
-	cin >> n >> m;
-
-	for (int i = 0; i < n; i++)
-	{
-		for (int j = 0; j < n; j++)
-		{
-			int temp = 0;
+	cin >> N >> M;
+	for (int i = 0; i < N; i++) {
+		for (int j = 0; j < N; j++) {
+			int temp;
 			cin >> temp;
 			if (temp == 1)
-				house.push_back({ i, j });
+				house_matrix.push_back({ i, j });
 			else if (temp == 2)
-				chicken.push_back({ i, j });
+				chicken_matrix.push_back({ i, j });
 		}
 	}
 
-	vector<bool> v(chicken.size());
-	fill(v.end() - m, v.end(), true);
-
+	vector<bool> p(chicken_matrix.size());
+	fill(p.end() - M, p.end(), true);
 	int result = 1e9;
-	do
-	{
-		vector<pair<int, int>> chicken_temp;
-		for (int i = 0; i < chicken.size(); i++)
-		{
-			if (v[i])
-			{
-				int x = chicken[i].first;
-				int y = chicken[i].second;
-				chicken_temp.push_back({ x, y });
-			}
-		}
-		result = min(result, getSum(chicken_temp));
-	} while (next_permutation(v.begin(), v.end()));
+	do {
+		vector<pair<int, int>> chickens;
+		for (int i = 0; i < chicken_matrix.size(); i++)
+			if (p[i])
+				chickens.push_back(chicken_matrix[i]);
+		result = min(result, getSum(chickens));
+	} while (next_permutation(p.begin(), p.end()));
 
-	cout << result << '\n';
-	return 0;
+	cout << result;
 }
