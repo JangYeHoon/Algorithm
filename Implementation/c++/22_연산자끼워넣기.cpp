@@ -1,8 +1,7 @@
-// 연산자 끼워 넣기
-// 입력 : N(수의 개수)
-//		  A(N개의 수)
-//		  덧셈의 수, 뺄셈의 수, 곱셈의 수, 나눗셈의 수
-// 출력 : 최댓값 \n 최솟값
+// 이것이 취업을 위한 코딩테스트다 349p
+// https://www.acmicpc.net/problem/14888
+// 1
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
