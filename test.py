@@ -1,8 +1,13 @@
-# 연산자끼워넣기, 뒤집기
+# 연산자끼워넣기, 뒤집기, 등수매기기
 
-N = 1000 - int(input())
+N = int(input())
+arr = []
+for _ in range(N):
+    arr.append(int(input()))
+
+arr.sort()
+
 result = 0
-for c in [500, 100, 50, 10, 5, 1]:
-    result += N // c
-    N = N % c
+for i in range(N):
+    result += abs((i + 1) - arr[i])
 print(result)

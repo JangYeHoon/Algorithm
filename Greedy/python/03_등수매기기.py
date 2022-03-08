@@ -1,14 +1,15 @@
-n = int(input())
-arr = []
+# fast campus 강의
+# https://www.acmicpc.net/problem/2012
+# 1
 
-for _ in range(n):
-    x = int(input())
-    arr.append(x)
+N = int(input())
+arr = []
+for _ in range(N):
+    arr.append(int(input()))
 
 arr.sort()
 
 result = 0
-for i in range(0, n):
+for i in range(N):
     result += abs((i + 1) - arr[i])
-
 print(result)
