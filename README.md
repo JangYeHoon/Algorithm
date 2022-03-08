@@ -242,6 +242,7 @@
 <details><summary>C++</summary>
     <ul>
         <li><a href="Greedy/c++/01_거스름돈.cpp">01. 거스름돈</a></li>
+        <li><a href="Greedy/c++/02_뒤집기.cpp">02. 뒤집기</a></li>
         <li><a href="Greedy/c++/13_모험가길드.cpp">13. 모험가길드</a></li>
         <li><a href="Greedy/c++/14_곱하기혹은더하기.cpp">14. 곱하기 혹은 더하기</a></li>
         <li><a href="Greedy/c++/15_문자열뒤집기.cpp">15. 문자열 뒤집기</a></li>
