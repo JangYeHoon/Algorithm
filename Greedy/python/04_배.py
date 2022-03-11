@@ -1,3 +1,7 @@
+# fast campus 강의
+# https://www.acmicpc.net/problem/1092
+# 1
+
 import sys
 
 n = int(input())
@@ -32,3 +36,26 @@ while True:
     result += 1
 
 print(result)
+
+# N = int(input())
+# crane = list(map(int, input().split()))
+# M = int(input())
+# box = list(map(int, input().split()))
+
+# crane.sort(reverse=True)
+# box.sort(reverse=True)
+
+# result = 0
+# if crane[0] < box[0]:
+#     print(-1)
+# else:
+#     while True:
+#         if len(box) == 0:
+#             break
+#         for c in crane:
+#             for i in range(len(box)):
+#                 if c >= box[i]:
+#                     box.pop(i)
+#                     break
+#         result += 1
+#     print(result)

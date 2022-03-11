@@ -2,10 +2,6 @@
 // https://www.acmicpc.net/problem/1092
 // 1
 
-// fast campus 강의
-// https://www.acmicpc.net/problem/1092
-// 0
-
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -16,7 +12,7 @@ int N, M;
 vector<int> box;
 vector<int> crane;
 
-bool comp(int a, int b) {
+bool comp(long a, long b) {
 	return a > b;
 }
 
@@ -37,7 +33,6 @@ int main()
     }
     sort(box.begin(), box.end(), comp);
 	sort(crane.begin(), crane.end(), comp);
-        cout << -1;
 
     int result = 0;
     if (crane[0] < box[0])
