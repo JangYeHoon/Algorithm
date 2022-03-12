@@ -1,4 +1,4 @@
-# 연산자끼워넣기, 뒤집기, 등수매기기, 배
+# 
 
 N = int(input())
 crane = list(map(int, input().split()))
@@ -8,17 +8,24 @@ box = list(map(int, input().split()))
 crane.sort(reverse=True)
 box.sort(reverse=True)
 
-result = 0
 if crane[0] < box[0]:
     print(-1)
-else:
-    while True:
-        if len(box) == 0:
-            break
-        for c in crane:
-            for i in range(len(box)):
-                if c >= box[i]:
-                    box.pop(i)
-                    break
-        result += 1
-    print(result)
+    exit()
+
+position = [0] * N
+check = [False] * M
+result = 0
+count = 0
+while 1:
+    if count == len(box):
+        break
+    for i in range(N):
+        while position[i] < len(box):
+            if not check[position[i]] and crane[i] >= box[position[i]]:
+                check[position[i]] = True
+                position[i] += 1
+                count += 1
+                break
+            position[i] += 1
+    result += 1
+print(result)

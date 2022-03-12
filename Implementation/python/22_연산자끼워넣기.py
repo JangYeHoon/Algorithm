@@ -1,6 +1,6 @@
 # 이것이 취업을 위한 코딩테스트다 349p
 # https://www.acmicpc.net/problem/14888
-# 1
+# 2
 
 from itertools import permutations
 

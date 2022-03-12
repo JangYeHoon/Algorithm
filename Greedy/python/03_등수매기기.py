@@ -1,6 +1,6 @@
 # fast campus 강의
 # https://www.acmicpc.net/problem/2012
-# 1
+# 2
 
 N = int(input())
 arr = []
