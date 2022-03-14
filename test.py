@@ -1,4 +1,4 @@
-# 
+# 센서
 
 N = int(input())
 crane = list(map(int, input().split()))
