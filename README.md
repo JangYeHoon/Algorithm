@@ -246,6 +246,7 @@
         <li><a href="Greedy/c++/03_등수매기기.cpp">03. 등수 매기기</a></li>
         <li><a href="Greedy/c++/04_배.cpp">04. 배</a></li>
         <li><a href="Greedy/c++/05_센서.cpp">05. 센서</a></li>
+        <li><a href="Greedy/c++/06_도서관.cpp">06. 도서관</a></li>
         <li><a href="Greedy/c++/13_모험가길드.cpp">13. 모험가길드</a></li>
         <li><a href="Greedy/c++/14_곱하기혹은더하기.cpp">14. 곱하기 혹은 더하기</a></li>
         <li><a href="Greedy/c++/15_문자열뒤집기.cpp">15. 문자열 뒤집기</a></li>
@@ -262,7 +263,6 @@
         <li><a href="Greedy/python/04_배.py">04. 배</a></li>
         <li><a href="Greedy/python/05_센서.py">05. 센서</a></li>
         <li><a href="Greedy/python/06_도서관.py">06. 도서관</a></li>
-        <li><a href="Greedy/python/06_도서관-2.py">06. 도서관-2</a></li>
         <li><a href="Greedy/python/07_컵라면.py">07. 컵라면</a></li>
         <li><a href="Greedy/python/08_APC는왜서브태스크대회가되었을까.py">08. ACP는 왜 서브태스크 대회가 되었을까</a></li>
         <li><a href="Greedy/python/08_APC는왜서브태스크대회가되었을까-2.py">08. ACP는 왜 서브태스크 대회가 되었을까 - 2</a></li>

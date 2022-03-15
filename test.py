@@ -1,31 +1,31 @@
-# 센서
+# 센서, 도서관
 
-N = int(input())
-crane = list(map(int, input().split()))
-M = int(input())
-box = list(map(int, input().split()))
+import heapq
 
-crane.sort(reverse=True)
-box.sort(reverse=True)
+N, M = map(int, input().split())
+arr = list(map(int, input().split()))
 
-if crane[0] < box[0]:
-    print(-1)
-    exit()
+minus_arr = []
+plus_arr = []
+largest = max(max(arr), -min(arr))
+for x in arr:
+    if x < 0:
+        heapq.heappush(minus_arr, x)
+    else:
+        heapq.heappush(plus_arr, -x)
 
-position = [0] * N
-check = [False] * M
 result = 0
-count = 0
-while 1:
-    if count == len(box):
-        break
-    for i in range(N):
-        while position[i] < len(box):
-            if not check[position[i]] and crane[i] >= box[position[i]]:
-                check[position[i]] = True
-                position[i] += 1
-                count += 1
-                break
-            position[i] += 1
-    result += 1
-print(result)
+
+while plus_arr:
+    result += heapq.heappop(plus_arr)
+    for _ in range(M - 1):
+        if plus_arr:
+            heapq.heappop(plus_arr)
+
+while minus_arr:
+    result += heapq.heappop(minus_arr)
+    for _ in range(M - 1):
+        if minus_arr:
+            heapq.heappop(minus_arr)
+
+print(-result * 2 - largest)
