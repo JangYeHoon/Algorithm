@@ -1,39 +1,39 @@
 // fast campus 강의
 // https://www.acmicpc.net/problem/1781
-// 0
+// 1
 
 #include <iostream>
 #include <vector>
 #include <queue>
+#include <algorithm>
 
 using namespace std;
-
-struct comp {
-    bool operator()(pair<long, long> &a, pair<long, long> &b) {
-        return a.second < b.second;
-    }
-};
 
 int main()
 {
     int N;
-    priority_queue<pair<long, long>, vector<pair<long, long>>, comp> pq;
+    vector<pair<int, int>> arr;
+    priority_queue<int, vector<int>, greater<int>> pq;
+    int result = 0;
+
     cin >> N;
-    for (long i = 0; i < N; i++) {
-        long a, b;
+    for (int i = 0; i < N; i++) {
+        int a, b;
         cin >> a >> b;
-        pq.push({a, b});
+        arr.push_back({a, b});
     }
-    long dead_line = 1, result = 0;
-    while (!pq.empty()) {
-        result += pq.top().second;
-        pq.pop();
-        dead_line++;
-        while (!pq.empty()) {
-            if (pq.top().first < dead_line) {
-                pq.pop();
-            } else break;
+    sort(arr.begin(), arr.end());
+
+    for (int i = 0; i < N; i++) {
+        int deadline = arr[i].first;
+        int cup = arr[i].second;
+        pq.push(cup);
+        result += cup;
+        if (pq.size() > deadline) {
+            result -= pq.top();
+            pq.pop();
         }
     }
+
     cout << result;
 }

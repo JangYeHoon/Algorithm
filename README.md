@@ -247,6 +247,7 @@
         <li><a href="Greedy/c++/04_배.cpp">04. 배</a></li>
         <li><a href="Greedy/c++/05_센서.cpp">05. 센서</a></li>
         <li><a href="Greedy/c++/06_도서관.cpp">06. 도서관</a></li>
+        <li><a href="Greedy/c++/07_컵라면.cpp">07. 컵라면</a></li>
         <li><a href="Greedy/c++/13_모험가길드.cpp">13. 모험가길드</a></li>
         <li><a href="Greedy/c++/14_곱하기혹은더하기.cpp">14. 곱하기 혹은 더하기</a></li>
         <li><a href="Greedy/c++/15_문자열뒤집기.cpp">15. 문자열 뒤집기</a></li>
