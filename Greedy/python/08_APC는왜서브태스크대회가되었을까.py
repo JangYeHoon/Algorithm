@@ -1,21 +1,17 @@
+# fast campus 강의
+# https://www.acmicpc.net/problem/17224
+# 1
 N, L, K = map(int, input().split())
+easy, hard = 0, 0
 
-exam_list = []
 for i in range(N):
-    easy, hard = map(int, input().split())
-    exam_list.append([easy, hard])
-exam_list.sort(key=lambda x:x[1])
+    sub1, sub2 = map(int, input().split())
+    if sub2 <= L:
+        hard += 1
+    elif sub1 <= L:
+        easy += 1
 
-score = 0
-time = 0
-for i in range(N):
-    if time == K:
-        break
-    if L >= exam_list[i][1]:
-        score += 140
-        time += 1
-    elif L >= exam_list[i][0]:
-        score += 100
-        time += 1
-
+score = min(hard, K) * 140
+if hard < K:
+    score += min(K - hard, easy) * 100
 print(score)
