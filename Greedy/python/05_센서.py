@@ -1,3 +1,7 @@
+# fast campus 강의
+# https://www.acmicpc.net/problem/2212
+# 2
+
 import sys
 
 n = int(input())

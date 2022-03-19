@@ -1,15 +1,18 @@
-# 센서, 도서관, 컵라면, APC
+# 컵라면(c++), APC
 
-N, L, K = map(int, input().split())
-easy, difficult = 0, 0
-for _ in range(N):
-    e, d = map(int, input().split())
-    if d <= L:
-        difficult += 1
-    elif e <= L:
-        easy += 1
+import heapq
 
-result = min(difficult, K) * 140
-if difficult < K:
-    result += min(K - difficult, easy) * 100
-print(result)
+N = int(input())
+arr = []
+for i in range(N):
+    deadline, cup = map(int, input().split())
+    arr.append((deadline, cup))
+arr.sort()
+
+result = []
+for deadline, cup in arr:
+    heapq.heappush(result, cup)
+    if len(result) > deadline:
+        heapq.heappop(result)
+
+print(sum(result))

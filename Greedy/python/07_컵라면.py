@@ -1,18 +1,16 @@
 # fast campus 강의
 # https://www.acmicpc.net/problem/1781
-# 1
+# 2
 
 import heapq
 
-n = int(input())
-
+N = int(input())
 arr = []
-for _ in range(n):
-    dead, cup = map(int, input().split(' '))
-    arr.append((dead, cup))
-
+for i in range(N):
+    deadline, cup = map(int, input().split())
+    arr.append((deadline, cup))
 arr.sort()
-print(arr)
+
 result = []
 for deadline, cup in arr:
     heapq.heappush(result, cup)
