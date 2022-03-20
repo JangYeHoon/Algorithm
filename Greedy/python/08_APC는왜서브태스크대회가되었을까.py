@@ -1,6 +1,7 @@
 # fast campus 강의
 # https://www.acmicpc.net/problem/17224
-# 1
+# 2
+
 N, L, K = map(int, input().split())
 easy, hard = 0, 0
 
