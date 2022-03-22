@@ -250,6 +250,7 @@
         <li><a href="Greedy/c++/07_컵라면.cpp">07. 컵라면</a></li>
         <li><a href="Greedy/c++/08_APC는왜서브태스크대회가되었을까.cpp">08. APC는 왜 서브태스크 대회가 되었을까</a></li>
         <li><a href="Greedy/c++/09_근우의다이어리꾸미기.cpp">09. 근우의 다이어리 꾸미기</a></li>
+        <li><a href="Greedy/c++/10_저울.cpp">10. 저울</a></li>
         <li><a href="Greedy/c++/13_모험가길드.cpp">13. 모험가길드</a></li>
         <li><a href="Greedy/c++/14_곱하기혹은더하기.cpp">14. 곱하기 혹은 더하기</a></li>
         <li><a href="Greedy/c++/15_문자열뒤집기.cpp">15. 문자열 뒤집기</a></li>

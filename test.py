@@ -1,4 +1,4 @@
-# 근우의다이어리
+# 근우의다이어리, 저울
 
 N, L, K = map(int, input().split())
 easy, hard = 0, 0
