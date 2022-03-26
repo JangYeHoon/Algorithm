@@ -1,6 +1,6 @@
 # fast campus 강의
 # https://www.acmicpc.net/problem/16676
-# 1
+# 2
 
 # 한자리 수에서는 1장만 필요
 # 두자리 수에서는 11에서 2장 필요

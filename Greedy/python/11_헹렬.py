@@ -1,6 +1,6 @@
 # fast campus 강의
 # https://www.acmicpc.net/problem/1080
-# 1
+# 2
 
 N, M = map(int, input().split())
 A = [list(map(int, list(input()))) for _ in range(N)]
