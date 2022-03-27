@@ -1,4 +1,4 @@
-# 행렬(c++)
+# 
 
 
 N, M = map(int, input().split())
