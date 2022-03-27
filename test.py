@@ -1,4 +1,4 @@
-# 
+# 소수의곱
 
 
 N, M = map(int, input().split())

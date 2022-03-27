@@ -1,6 +1,6 @@
 // fast campus 강의
 // https://www.acmicpc.net/problem/2014
-// 0
+// 1
 
 #include <iostream>
 #include <queue>
@@ -20,21 +20,21 @@ int main()
         pq.push(prime[i]);
     }
 
-    int prev = -1;
-    for (int i = 0; i < N-1 ; i++) {
-        int curr = PQ.top();
-        PQ.pop();
-        for (int j = 0 ; j < K ; j++) {
-            long long temp = 1LL * curr * P[j];
-
-            if(temp < (1LL<<31))
-                PQ.push(temp);
-            else
-                break;
+    int index = 0;
+    int result = 0;
+    while (index < N) {
+        result = pq.top();
+        pq.pop();
+        index++;
+        for (int i = 0; i < K; i++) {
+            long long temp = 1LL * result * prime[i];
+            if (temp < (1LL << 31)) {
+                pq.push(temp);
+                if (result % prime[i] == 0)
+                    break;
+            }
         }
-        prev = curr;
-        while(prev == PQ.top())
-            PQ.pop();
     }
-    cout << PQ.top();
+
+    cout << result;
 }
