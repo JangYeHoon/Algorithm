@@ -275,6 +275,7 @@
         <li><a href="Greedy/python/10_저울.py">10. 저울</a></li>
         <li><a href="Greedy/python/11_행렬.py">11. 행렬</a></li>
         <li><a href="Greedy/python/12_소수의곱.py">12. 소수의 곱</a></li>
+        <li><a href="Greedy/python/13_모험가길드.py">13. 모험가 길드</a></li>
     </ul>
 </details>
 

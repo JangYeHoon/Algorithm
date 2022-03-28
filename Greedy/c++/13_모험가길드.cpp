@@ -1,40 +1,31 @@
-// 모험가 길드
-// 입력 : 모험가의 수(N)
-//		  각 모험가의 공포도의 값(N이하의 자연수)
-// 출력 : 그룹 수의 최댓값
+// 이것이 취업을 위한 코딩테스트다 311p
+// 1
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
 
 using namespace std;
 
-bool Compare(const int &a, const int &b)
-{
-	if (a <= b) return false;
-	else return true;
-}
-
 int main()
 {
-	int n;
-	cin >> n;
-
-	vector<int> v(n);
-	for (int i = 0; i < n; i++)
+	int N;
+	cin >> N;
+	
+	vector<int> v(N);
+	for (int i = 0; i < N; i++)
 		cin >> v[i];
-
-	sort(v.begin(), v.end(), Compare);
+	sort(v.begin(), v.end());
 
 	int result = 0;
-	int i = 0;
-	while (i < n)
-	{
-		int cnt = v[i];
-		if (cnt > n - i)
-			break;
-		result += 1;
-		i += cnt;
+	int count = 0;
+	for (int i = 0; i < N; i++) {
+		count++;
+		if (count >= v[i]) {
+			result++;
+			count = 0;
+		}
 	}
-	cout << result << '\n';
-	return 0;
+
+	cout << result;
 }
