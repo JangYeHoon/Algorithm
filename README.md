@@ -277,6 +277,7 @@
         <li><a href="Greedy/python/12_소수의곱.py">12. 소수의 곱</a></li>
         <li><a href="Greedy/python/13_모험가길드.py">13. 모험가 길드</a></li>
         <li><a href="Greedy/python/14_곱하기혹은더하기.py">14. 곱하기 혹은 더하기</a></li>
+        <li><a href="Greedy/python/15_문자열뒤집기.py">15. 문자열 뒤집기</a></li>
     </ul>
 </details>
 
