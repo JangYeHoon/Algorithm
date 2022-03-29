@@ -1,33 +1,22 @@
-// 곱하기 혹은 더하기
-// 입력 : 여러개의 숫자(1~9)로 구성된 문자열 S
-// 출력 : 만들 수 있는 가장 큰수
+// 이것이 취업을 위한 코딩테스트다 312p
+// 1
+
 #include <iostream>
-#include <string>
-#include <vector>
-#include <algorithm>
+
 using namespace std;
 
 int main()
 {
 	string s;
 	cin >> s;
-	int n = stoi(s);
-	vector<int> v;
-	for (int i = 0; i < s.size(); i++)
-	{
-		v.push_back(n % 10);
-		n = n / 10;
-	}
-
-	int result = v[0];
-	for (int i = 1; i < v.size(); i++)
-	{
-		if (v[i] <= 1 || result <= 1)
-			result += v[i];
+	
+	long long result = s[0] - '0';
+	for (int i = 1; i < s.size(); i++) {
+		int num = s[i] - '0';
+		if (num <= 1 || result <= 1)
+			result += num;
 		else
-			result *= v[i];
+			result *= num;
 	}
-
-	cout << result << '\n';
-	return 0;
+	cout << result;
 }
