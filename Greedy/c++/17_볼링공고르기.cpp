@@ -1,31 +1,27 @@
-// 볼링공 고르기
-// 입력 : 볼링공의 개수(N), 공의 최대 무게(M)
-//		  볼링공의 무게(K)가 순서대로
-// 출력 : 두 사람이 볼링공을 고르는 경우의 수
+// 이것이 취업을 위한 코딩테스트다 315p
+// 1
+
 #include <iostream>
-#include <vector>
 
 using namespace std;
 
-int main()
-{
-	int n, m;
+int n, m;
+int arr[11];
+
+int main(void) {
 	cin >> n >> m;
-	vector<int> k(n);
-	for (int i = 0; i < n; i++)
-		cin >> k[i];
+
+	for (int i = 0; i < n; i++) {
+		int x;
+		cin >> x;
+		arr[x] += 1;
+	}
 
 	int result = 0;
-	for (int i = 0; i < n - 1; i++)
-	{
-		for (int j = i + 1; j < n; j++)
-		{
-			if (k[i] == k[j])
-				continue;
-			result += 1;
-		}
+	for (int i = 1; i <= m; i++) {
+		n -= arr[i];
+		result += arr[i] * n;
 	}
 
 	cout << result << '\n';
-	return 0;
 }
