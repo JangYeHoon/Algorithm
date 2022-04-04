@@ -1,5 +1,5 @@
 # 이것이 취업을 위한 코딩테스트다 315p
-# 1
+# 2
 
 N, M = map(int, input().split())
 bolling = list(map(int, input().split()))

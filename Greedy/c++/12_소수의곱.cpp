@@ -1,6 +1,6 @@
 // fast campus 강의
 // https://www.acmicpc.net/problem/2014
-// 1
+// 2
 
 #include <iostream>
 #include <queue>

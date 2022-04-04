@@ -1,6 +1,6 @@
 # fast campus 강의
 # https://www.acmicpc.net/problem/2014
-# 1
+# 2
 
 # 중복 제거 방법
 # 입력 값 : 2, 3, 5, 7

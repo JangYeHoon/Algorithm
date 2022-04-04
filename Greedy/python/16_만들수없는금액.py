@@ -1,6 +1,6 @@
 # 이것이 취업을 위한 코딩테스트다 314p
 # 비슷한 문제 : https://www.acmicpc.net/problem/2437
-# 1
+# 2
 
 N = int(input())
 coin = sorted(list(map(int, input().split())))
