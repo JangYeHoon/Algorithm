@@ -280,6 +280,7 @@
         <li><a href="Greedy/python/15_문자열뒤집기.py">15. 문자열 뒤집기</a></li>
         <li><a href="Greedy/python/16_만들수없는금액.py">16. 만들 수 없는 금액</a></li>
         <li><a href="Greedy/python/17_볼링공고르기.py">17. 볼링공 고르기</a></li>
+        <li><a href="Greedy/python/18_무지의먹방라이브.py">18. 무지의 먹방 라이브</a></li>
     </ul>
 </details>
 
