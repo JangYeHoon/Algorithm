@@ -1,4 +1,4 @@
-# 
+# 무지의 먹방 라이브
 
 N, M = map(int, input().split())
 arr = list(map(int, input().split()))
