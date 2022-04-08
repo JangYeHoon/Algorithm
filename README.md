@@ -106,9 +106,9 @@
 
 <details><summary>C++</summary>
     <ul>
-        <li><a href="Sorting/c++/01_위에서아래로.cpp">01. 위에서 아래로</a></li>
-        <li><a href="Sorting/c++/02_성적이낮은순서대로학생출력(해설).cpp">02. 성적이 낮은 순서대로 학생 출력</a></li>
-        <li><a href="Sorting/c++/03_두배열의원소교체.cpp">03. 두 배열의 원소 교체</a></li>
+        <li><a href="Sorting/c++/08_위에서아래로.cpp">08. 위에서 아래로</a></li>
+        <li><a href="Sorting/c++/09_성적이낮은순서대로학생출력(해설).cpp">08. 성적이 낮은 순서대로 학생 출력</a></li>
+        <li><a href="Sorting/c++/10_두배열의원소교체.cpp">10. 두 배열의 원소 교체</a></li>
     </ul>
 </details>
 <details><summary>Python</summary>
@@ -121,8 +121,6 @@
         <li><a href="Sorting/python/04_좌표정렬(다른풀이).py">04. 좌표정렬(다른풀이)</a></li>
         <li><a href="Sorting/python/05_수정렬하기3(계수정렬).py">05. 수정렬하기3(Counting Sort)</a></li>
         <li><a href="Sorting/python/06_수정렬하기2.py">06. 수정렬하기2</a></li>
-        <li><a href="Sorting/python/06_Merge_Sort.py">06. Merge_Sort</a></li>
-        <li><a href="Sorting/python/06_Quick_Sort.py">06. Quick Sort</a></li>
         <li><a href="Sorting/python/07_K번째수.py">07. K번째 수</a></li>
     </ul>
 </details>
