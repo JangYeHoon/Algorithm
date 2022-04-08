@@ -1,4 +1,4 @@
-# 무지의 먹방 라이브
+# 무지의 먹방 라이브, 수정렬하기, 소트인사이드
 
 N, M = map(int, input().split())
 arr = list(map(int, input().split()))

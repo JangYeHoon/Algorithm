@@ -1,11 +1,10 @@
-N = int(input())
+# fast campus 강의
+# https://www.acmicpc.net/problem/1427
+# 1
 
-n_list = []
-while N > 0:
-    n_list.append(N % 10)
-    N = int(N / 10)
+array = input()
 
-n_list.sort(reverse=True)
-
-for i in range(len(n_list)):
-    print(n_list[i], end="")
+for i in range(9, -1, -1):
+    for j in array:
+        if int(j) == i:
+            print(i, end='')

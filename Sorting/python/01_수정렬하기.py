@@ -1,3 +1,7 @@
+# fast campus 강의
+# https://www.acmicpc.net/problem/2750
+# 1
+
 N = int(input())
 sort_list = []
 for _ in range(N):
