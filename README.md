@@ -363,15 +363,6 @@
         <li><a href="Memorization/Data_Structures/09_Heap.cpp">09. Heap</a></li>
     </ul>
 </details>
-<details><summary>Sorting</summary>
-    <ul>
-        <li><a href="Memorization/Sorting/00_Bubble_Sort.cpp">00. Bubble Sort</a></li>
-        <li><a href="Memorization/Sorting/00_Insertion_Sort.cpp">00. Insertion Sort</a></li>
-        <li><a href="Memorization/Sorting/00_Selection_Sort.cpp">00. Selection Sort</a></li>
-        <li><a href="Memorization/Sorting/00_Count_Sort.cpp">00. Count Sort</a></li>
-        <li><a href="Memorization/Sorting/00_Merge_Sort.cpp">00. Merge Sort</a></li>
-        <li><a href="Memorization/Sorting/00_Quick_Sort.cpp">00. Quick Sort</a></li>
-</details>
 <details><summary>BFS & DFS</summary>
     <ul>
         <li><a href="Memorization/BFS_DFS/00_bfs.cpp">00. bfs</a></li>
@@ -416,4 +407,20 @@
         <li><a href="Memorization/Shortest_Path/00_Floyd-Warshall.cpp">00. Floyd Warshall</a></li>
         <li><a href="Memorization/Shortest_Path/00_Dijkstra.py">00. Dijkstra(python)</a></li>
     </ul>
+</details>
+<details><summary>Sorting</summary>
+    <p>C++</p>
+        <ul>
+            <li><a href="Memorization/Sorting/00_Bubble_Sort.cpp">00. Bubble Sort</a></li>
+            <li><a href="Memorization/Sorting/00_Insertion_Sort.cpp">00. Insertion Sort</a></li>
+            <li><a href="Memorization/Sorting/00_Selection_Sort.cpp">00. Selection Sort</a></li>
+            <li><a href="Memorization/Sorting/00_Count_Sort.cpp">00. Count Sort</a></li>
+            <li><a href="Memorization/Sorting/00_Merge_Sort.cpp">00. Merge Sort</a></li>
+            <li><a href="Memorization/Sorting/00_Quick_Sort.cpp">00. Quick Sort</a></li>
+        </ul>
+    <p>Python</p>
+        <ul>
+            <li><a href="Memorization/Sorting/python/00_Merge_Sort.py">00. Merge Sort</a></li>
+            <li><a href="Memorization/Sorting/python/00_Quick_Sort.py">00. Quick Sort</a></li>
+        </ul>
 </details>
