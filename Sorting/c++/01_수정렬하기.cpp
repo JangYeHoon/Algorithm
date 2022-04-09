@@ -1,6 +1,6 @@
 // fast campus 강의
 // https://www.acmicpc.net/problem/2750
-// 1
+// 2
 
 #include <iostream>
 #include <vector>
