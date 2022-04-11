@@ -108,6 +108,7 @@
     <ul>
         <li><a href="Sorting/c++/01_수정렬하기.cpp">01. 수 정렬하기</a></li>
         <li><a href="Sorting/c++/02_소트인사이드.cpp">02. 소트인사이드</a></li>
+        <li><a href="Sorting/c++/03_나이순정렬.cpp">03. 나이순 정렬</a></li>
         <li><a href="Sorting/c++/08_위에서아래로.cpp">08. 위에서 아래로</a></li>
         <li><a href="Sorting/c++/09_성적이낮은순서대로학생출력(해설).cpp">08. 성적이 낮은 순서대로 학생 출력</a></li>
         <li><a href="Sorting/c++/10_두배열의원소교체.cpp">10. 두 배열의 원소 교체</a></li>
@@ -115,9 +116,9 @@
 </details>
 <details><summary>Python</summary>
     <ul>
-        <li><a href="Sorting/python/01_수정렬하기.py">01. 수정렬하기</a></li>
+        <li><a href="Sorting/python/01_수정렬하기.py">01. 수 정렬하기</a></li>
         <li><a href="Sorting/python/02_소트인사이드.py">02. 소트인사이드</a></li>
-        <li><a href="Sorting/python/03_나이순정렬.py">03. 나이순정렬</a></li>
+        <li><a href="Sorting/python/03_나이순정렬.py">03. 나이순 정렬</a></li>
         <li><a href="Sorting/python/04_좌표정렬하기.py">04. 좌표정렬(lambda)</a></li>
         <li><a href="Sorting/python/04_좌표정렬(다른풀이).py">04. 좌표정렬(다른풀이)</a></li>
         <li><a href="Sorting/python/05_수정렬하기3(계수정렬).py">05. 수정렬하기3(Counting Sort)</a></li>

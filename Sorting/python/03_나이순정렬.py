@@ -1,3 +1,7 @@
+# fast campus 강의
+# https://www.acmicpc.net/problem/10814
+# 1
+
 N = int(input())
 
 person = []
