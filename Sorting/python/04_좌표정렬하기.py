@@ -1,12 +1,14 @@
-N = int(input())
+# fast campus 강의
+# https://www.acmicpc.net/problem/11650
+# 1
 
-num_list = []
+n = int(input())
+array = []
 
-for _ in range(N):
-    n1, n2 = input().split(' ')
-    num_list.append((int(n1), int(n2)))
+for _ in range(n):
+    x, y = map(int, input().split(' '))
+    array.append((x, y))
+array = sorted(array)
 
-num_list = sorted(num_list, key=lambda x:(x[0], x[1]))
-
-for key in num_list:
-    print("{} {}".format(key[0], key[1]))
+for i in array:
+    print(i[0], i[1])
