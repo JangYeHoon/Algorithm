@@ -1,3 +1,7 @@
+# fast campus 강의
+# https://www.acmicpc.net/problem/10989
+# 1
+
 import sys
 
 N = int(sys.stdin.readline())
