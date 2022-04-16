@@ -1,6 +1,6 @@
 # fast campus 강의
 # https://www.acmicpc.net/problem/11650
-# 1
+# 2
 
 n = int(input())
 array = []
