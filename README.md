@@ -114,7 +114,7 @@
         <li><a href="Sorting/c++/06_수정렬하기2.cpp">06. 수 정렬하기 2</a></li>
         <li><a href="Sorting/c++/07_K번째수.cpp">07. K번째 수</a></li>
         <li><a href="Sorting/c++/08_위에서아래로.cpp">08. 위에서 아래로</a></li>
-        <li><a href="Sorting/c++/09_성적이낮은순서대로학생출력(해설).cpp">08. 성적이 낮은 순서대로 학생 출력</a></li>
+        <li><a href="Sorting/c++/09_성적이낮은순서로학생출력.cpp">08. 성적이 낮은 순서로 학생 출력</a></li>
         <li><a href="Sorting/c++/10_두배열의원소교체.cpp">10. 두 배열의 원소 교체</a></li>
     </ul>
 </details>
@@ -127,6 +127,8 @@
         <li><a href="Sorting/python/05_수정렬하기3.py">05. 수 정렬하기 3</a></li>
         <li><a href="Sorting/python/06_수정렬하기2.py">06. 수정렬하기2</a></li>
         <li><a href="Sorting/python/07_K번째수.py">07. K번째 수</a></li>
+        <li><a href="Sorting/python/08_위에서아래로.py">08. 위에서 아래로</a></li>
+        <li><a href="Sorting/python/09_성적이낮은순서로학생출력.py">09. 성적이 낮은 순서로 학생 출력</a></li>
     </ul>
 </details>
 

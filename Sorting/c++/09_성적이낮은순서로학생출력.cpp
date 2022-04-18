@@ -1,37 +1,46 @@
-// 성적이 낮은 순서로 학생 출력하기
-// 입력 : 학생수(n), n명의 학생이름과 점수
-// 출력 : 성적이 낮은 순서대로 학생이름 출력
+// 이것이 취업을 위한 코딩테스트다 180p
+// 1
+
 #include <iostream>
 #include <algorithm>
 #include <vector>
 #include <string>
+
 using namespace std;
 
-bool compare(const pair<string, int> &a, const pair<string, int> &b)
-{
-	if (a.second > b.second) return false;
-	else return true;
-}
+class Student {
+public:
+	string name;
+	int score;
+	Student(string name, int score) {
+		this->name = name;
+		this->score = score;
+	}
+	// 정렬 기준은 '점수가 낮은 순서'
+	bool operator <(Student &other) {
+		return this->score < other.score;
+	}
+};
 
-int main()
-{
-	int n;
+int n;
+vector<Student> v;
+
+int main(void) {
+	// N을 입력받기
 	cin >> n;
-	vector<pair<string, int>> v;
 
-	for (int i = 0; i < n; i++)
-	{
-		int a;
-		string s;
-		cin >> s >> a;
-		pair<string, int> p = make_pair(s, a);
-		v.push_back(p);
+	// N명의 학생 정보를 입력받아 리스트에 저장
+	for (int i = 0; i < n; i++) {
+		string name;
+		int score;
+		cin >> name >> score;
+		v.push_back(Student(name, score));
 	}
 
-	sort(v.begin(), v.end(), compare);
+	sort(v.begin(), v.end());
 
-	for (int i = 0; i < n; i++)
-		cout << v[i].first << ' ';
-
-	return 0;
+	// 정렬이 수행된 결과를 출력
+	for (int i = 0; i < n; i++) {
+		cout << v[i].name << ' ';
+	}
 }

@@ -1,6 +1,6 @@
-// 위에서 아래로
-// 입력 : 개수(n), 개수만큼의 1이상 100,000이하의 자연수
-// 출력 : 내림차순으로 정렬된 결과
+// 이것이 취업을 위한 코딩테스트다 178p
+// 1
+
 #include <iostream>
 #include <algorithm>
 #include <vector>
