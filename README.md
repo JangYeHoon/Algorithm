@@ -294,11 +294,11 @@
 
 <details><summary>C++</summary>
     <ul>
-        <li><a href="Search/c++/01_부품찾기(계수정렬).cpp">01. 부품찾기(계수정렬)</a></li>
-        <li><a href="Search/c++/01_부품찾기(이진탐색).cpp">01. 부품찾기(이진탐색)</a></li>
-        <li><a href="Search/c++/01_부품찾기(집합자료형).cpp">01. 부품찾기(집합자료형)</a></li>
-        <li><a href="Search/c++/02_떡볶이떡만들기(반복).cpp">02. 떡볶이떡만들기(반복)</a></li>
-        <li><a href="Search/c++/02_떡볶이떡만들기(재귀).cpp">02. 떡볶이떡만들기(재귀)</a></li>
+        <li><a href="Search/c++/15_부품찾기(계수정렬).cpp">15. 부품찾기(계수정렬)</a></li>
+        <li><a href="Search/c++/15_부품찾기(이진탐색).cpp">15. 부품찾기(이진탐색)</a></li>
+        <li><a href="Search/c++/15_부품찾기(집합자료형).cpp">15. 부품찾기(집합자료형)</a></li>
+        <li><a href="Search/c++/16_떡볶이떡만들기(반복).cpp">16. 떡볶이떡만들기(반복)</a></li>
+        <li><a href="Search/c++/16_떡볶이떡만들기(재귀).cpp">16. 떡볶이떡만들기(재귀)</a></li>
     </ul>
 </details>
 <details><summary>Python</summary>
