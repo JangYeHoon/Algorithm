@@ -295,6 +295,7 @@
 <details><summary>C++</summary>
     <ul>
         <li><a href="Search/c++/01_문서검색.cpp">01. 문서 검색</a></li>
+        <li><a href="Search/c++/02_새.cpp">02. 새</a></li>
         <li><a href="Search/c++/15_부품찾기(계수정렬).cpp">15. 부품찾기(계수정렬)</a></li>
         <li><a href="Search/c++/15_부품찾기(이진탐색).cpp">15. 부품찾기(이진탐색)</a></li>
         <li><a href="Search/c++/15_부품찾기(집합자료형).cpp">15. 부품찾기(집합자료형)</a></li>
