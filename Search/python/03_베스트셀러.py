@@ -1,20 +1,22 @@
-N = int(input())
-dic = {}
+# fast campus 강의
+# https://www.acmicpc.net/problem/1302
+# 1
 
+N = int(input())
+
+dic = {}
 for _ in range(N):
     s = input()
-    if dic.get(s) == None:
+    if s not in dic:
         dic[s] = 1
     else:
-        dic[s] = dic[s] + 1
-dic = sorted(dic.items(), key = lambda x:x[1], reverse=True)
+        dic[s] += 1
 
-max_value = dic[0][1]
+max_value = max(dic.values())
 result = []
-for key in dic:
-    if key[1] == max_value:
-        result.append(key[0])
-    else:
-        break
-result = sorted(result)
-print(result[0])
+
+for key, value in dic.items():
+    if value == max_value:
+        result.append(key)
+
+print(sorted(result)[0])
