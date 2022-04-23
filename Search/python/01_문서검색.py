@@ -1,6 +1,6 @@
 # fast campus 강의
 # https://www.acmicpc.net/problem/1543
-# 1
+# 2
 
 document = input()
 word = input()

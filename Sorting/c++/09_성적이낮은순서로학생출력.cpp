@@ -1,10 +1,9 @@
 // 이것이 취업을 위한 코딩테스트다 180p
-// 1
+// 2
 
 #include <iostream>
 #include <algorithm>
 #include <vector>
-#include <string>
 
 using namespace std;
 

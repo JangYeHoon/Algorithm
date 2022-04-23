@@ -1,5 +1,5 @@
 # 이것이 취업을 위한 코딩테스트다 182p
-# 1
+# 2
 
 N, K = map(int, input().split())
 A = sorted(list(map(int, input().split())))

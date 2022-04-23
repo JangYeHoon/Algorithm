@@ -1,5 +1,5 @@
 // 이것이 취업을 위한 코딩테스트다 182p
-// 1
+// 2
 
 #include <iostream>
 #include <algorithm>
@@ -9,8 +9,7 @@ using namespace std;
 
 bool compare(const int &a, const int &b)
 {
-	if (a <= b) return false;
-	return true;
+	return a > b;
 }
 
 int main()
