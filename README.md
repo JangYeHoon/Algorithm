@@ -297,6 +297,7 @@
         <li><a href="Search/c++/01_문서검색.cpp">01. 문서 검색</a></li>
         <li><a href="Search/c++/02_새.cpp">02. 새</a></li>
         <li><a href="Search/c++/03_베스트셀러.cpp">03. 베스트셀러</a></li>
+        <li><a href="Search/c++/04_트로피진열.cpp">04. 트로피 진열</a></li>
         <li><a href="Search/c++/15_부품찾기(계수정렬).cpp">15. 부품찾기(계수정렬)</a></li>
         <li><a href="Search/c++/15_부품찾기(이진탐색).cpp">15. 부품찾기(이진탐색)</a></li>
         <li><a href="Search/c++/15_부품찾기(집합자료형).cpp">15. 부품찾기(집합자료형)</a></li>
@@ -309,8 +310,7 @@
         <li><a href="Search/python/01_문서검색.py">01. 문서 검색</a></li>
         <li><a href="Search/python/02_새.py">02. 새</a></li>
         <li><a href="Search/python/03_베스트셀러.py">03. 베스트셀러</a></li>
-        <li><a href="Search/python/03_베스트셀러(다른풀이).py">03. 베스트셀러(다른풀이)</a></li>
-        <li><a href="Search/python/04_트로피진열.py">04. 트로피진열</a></li>
+        <li><a href="Search/python/04_트로피진열.py">04. 트로피 진열</a></li>
         <li><a href="Search/python/05_성지키기.py">05. 성지키기</a></li>
         <li><a href="Search/python/06_공유기설치.py">06. 공유기설치</a></li>
         <li><a href="Search/python/07_중량제한.py">07. 중량제한</a></li>
