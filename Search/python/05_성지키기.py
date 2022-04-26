@@ -1,25 +1,29 @@
+# fast campus 강의
+# https://www.acmicpc.net/problem/1236
+# 1
+
 n, m = map(int, input().split(' '))
 
 matrix = []
 for i in range(n):
     matrix.append(input())
 
-n_row = [0] * n
-m_col = [0] * m
+row = [0] * n
+col = [0] * m
 for i in range(n):
     for j in range(m):
         if matrix[i][j] == 'X':
-            n_row[i] = 1
-            m_col[j] = 1
+            row[i] = 1
+            col[j] = 1
 
-n_num = 0
-m_num = 0
+row_count = 0
 for i in range(n):
-    if n_row[i] == 0:
-        n_num += 1
+    if row[i] == 0:
+        row_count += 1
 
-for i in range(m):
-    if m_col[i] == 0:
-        m_num += 1
+column_count = 0
+for j in range(m):
+    if col[j] == 0:
+        column_count += 1
 
-print(max(n_num, m_num))
+print(max(row_count, column_count))

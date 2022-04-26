@@ -298,6 +298,7 @@
         <li><a href="Search/c++/02_새.cpp">02. 새</a></li>
         <li><a href="Search/c++/03_베스트셀러.cpp">03. 베스트셀러</a></li>
         <li><a href="Search/c++/04_트로피진열.cpp">04. 트로피 진열</a></li>
+        <li><a href="Search/c++/05_성지키기.cpp">05. 성 지키기</a></li>
         <li><a href="Search/c++/15_부품찾기(계수정렬).cpp">15. 부품찾기(계수정렬)</a></li>
         <li><a href="Search/c++/15_부품찾기(이진탐색).cpp">15. 부품찾기(이진탐색)</a></li>
         <li><a href="Search/c++/15_부품찾기(집합자료형).cpp">15. 부품찾기(집합자료형)</a></li>
@@ -311,7 +312,7 @@
         <li><a href="Search/python/02_새.py">02. 새</a></li>
         <li><a href="Search/python/03_베스트셀러.py">03. 베스트셀러</a></li>
         <li><a href="Search/python/04_트로피진열.py">04. 트로피 진열</a></li>
-        <li><a href="Search/python/05_성지키기.py">05. 성지키기</a></li>
+        <li><a href="Search/python/05_성지키기.py">05. 성 지키기</a></li>
         <li><a href="Search/python/06_공유기설치.py">06. 공유기설치</a></li>
         <li><a href="Search/python/07_중량제한.py">07. 중량제한</a></li>
         <li><a href="Search/python/08_트리순회.py">08. 트리순회</a></li>
