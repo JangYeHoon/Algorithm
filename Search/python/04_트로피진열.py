@@ -1,6 +1,6 @@
 # fast campus 강의
 # https://www.acmicpc.net/problem/1668
-# 1
+# 2
 
 def ascending(trophy):
     now = trophy[0]
