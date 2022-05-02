@@ -1,4 +1,4 @@
-# 
+# 공유기설치
 
 N, M = map(int, input().split())
 arr = []
