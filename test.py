@@ -1,4 +1,4 @@
-# 공유기설치
+# 공유기설치, 중량제한
 
 N, M = map(int, input().split())
 arr = []

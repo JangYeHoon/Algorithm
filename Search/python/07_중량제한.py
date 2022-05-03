@@ -1,3 +1,7 @@
+# fast campus 강의
+# https://www.acmicpc.net/problem/1939
+# 1
+
 from collections import deque
 
 n, m = map(int, input().split(' '))

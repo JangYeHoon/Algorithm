@@ -300,6 +300,7 @@
         <li><a href="Search/c++/04_트로피진열.cpp">04. 트로피 진열</a></li>
         <li><a href="Search/c++/05_성지키기.cpp">05. 성 지키기</a></li>
         <li><a href="Search/c++/06_공유기설치.cpp">06. 공유기 설치</a></li>
+        <li><a href="Search/c++/07_중량제한.cpp">07. 중량제한</a></li>
         <li><a href="Search/c++/15_부품찾기(계수정렬).cpp">15. 부품찾기(계수정렬)</a></li>
         <li><a href="Search/c++/15_부품찾기(이진탐색).cpp">15. 부품찾기(이진탐색)</a></li>
         <li><a href="Search/c++/15_부품찾기(집합자료형).cpp">15. 부품찾기(집합자료형)</a></li>
