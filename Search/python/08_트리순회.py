@@ -1,3 +1,7 @@
+# fast campus 강의
+# https://www.acmicpc.net/problem/1991
+# 1
+
 def preorder(node):
     print(node, end='')
     if matrix[node][0] != '.':
