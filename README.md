@@ -303,6 +303,7 @@
         <li><a href="Search/c++/07_중량제한.cpp">07. 중량제한</a></li>
         <li><a href="Search/c++/08_트리순회.cpp">08. 트리 순회</a></li>
         <li><a href="Search/c++/09_트리의높이와너비.cpp">09. 트리의 높이와 너비</a></li>
+        <li><a href="Search/c++/10_최소힙.cpp">10. 최소 힙</a></li>
         <li><a href="Search/c++/15_부품찾기(계수정렬).cpp">15. 부품찾기(계수정렬)</a></li>
         <li><a href="Search/c++/15_부품찾기(이진탐색).cpp">15. 부품찾기(이진탐색)</a></li>
         <li><a href="Search/c++/15_부품찾기(집합자료형).cpp">15. 부품찾기(집합자료형)</a></li>
@@ -321,7 +322,7 @@
         <li><a href="Search/python/07_중량제한.py">07. 중량제한</a></li>
         <li><a href="Search/python/08_트리순회.py">08. 트리 순회</a></li>
         <li><a href="Search/python/09_트리의높이와너비.py">09. 트리의 높이와 너비</a>
-        <li><a href="Search/python/10_최소힙.py">10. 최소힙</a></li>
+        <li><a href="Search/python/10_최소힙.py">10. 최소 힙</a></li>
         <li><a href="Search/python/11_카드정렬하기.py">11. 카드정렬하기</a></li>
         <li><a href="Search/python/12_문제집(위상정렬_heapq).py">12. 문제집(위상정렬_heapq)</a></li>
         <li><a href="Search/python/12_문제집(위상정렬_우선순위큐).py">12. 문제집(위상정렬_우선순위큐)</a></li>

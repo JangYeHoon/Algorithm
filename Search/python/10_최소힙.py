@@ -1,3 +1,7 @@
+# fast campus 강의
+# https://www.acmicpc.net/problem/1927
+# 1
+
 import heapq
 
 n = int(input())
