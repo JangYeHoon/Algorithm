@@ -1,6 +1,6 @@
 # fsat campus 강의
 # https://www.acmicpc.net/problem/2110
-# 1
+# 2
 
 n, c = map(int, input().split(' '))
 array = []

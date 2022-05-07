@@ -1,6 +1,6 @@
 // fast campus 강의
 // https://www.acmicpc.net/problem/1927
-// 1
+// 2
 
 #include <iostream>
 #include <queue>
@@ -10,14 +10,14 @@ using namespace std;
 
 int N;
 priority_queue<int, vector<int>, greater<int>> pq;
-vector<int> result;
 
 int main() {
 	cin >> N;
+	vector<int> result;
 	for (int i = 0; i < N; i++) {
-		int x;
-		cin >> x;
-		if (x == 0) {
+		int tmp;
+		cin >> tmp;
+		if (tmp == 0) {
 			if (pq.empty())
 				result.push_back(0);
 			else {
@@ -25,9 +25,9 @@ int main() {
 				pq.pop();
 			}
 		}
-		else pq.push(x);
+		else pq.push(tmp);
 	}
 
-	for (int i = 0; i < result.size(); i++)
-		cout << result[i] << '\n';
+	for (auto x : result)
+		cout << x << '\n';
 }
