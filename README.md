@@ -306,6 +306,7 @@
         <li><a href="Search/c++/10_최소힙.cpp">10. 최소 힙</a></li>
         <li><a href="Search/c++/11_카드정렬하기.cpp">11. 카드 정렬하기</a></li>
         <li><a href="Search/c++/12_문제집.cpp">12. 문제집</a></li>
+        <li><a href="Search/c++/13_유기농배추.cpp">13. 유기농 배추</a></li>
         <li><a href="Search/c++/15_부품찾기(계수정렬).cpp">15. 부품찾기(계수정렬)</a></li>
         <li><a href="Search/c++/15_부품찾기(이진탐색).cpp">15. 부품찾기(이진탐색)</a></li>
         <li><a href="Search/c++/15_부품찾기(집합자료형).cpp">15. 부품찾기(집합자료형)</a></li>

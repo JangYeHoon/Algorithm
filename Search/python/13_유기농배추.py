@@ -1,6 +1,7 @@
 # fast campus 강의
 # https://www.acmicpc.net/problem/1012
 # 1
+
 import sys
 from collections import deque
 sys.setrecursionlimit(10000)
