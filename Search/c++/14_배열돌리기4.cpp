@@ -9,9 +9,9 @@
 
 using namespace std;
 
-int N, M, K;
-int mx[4] = {1, 0, -1, 0};
-int my[4] = {0, 1, 0, -1};
+int N, M, K, result = 1e9;
+int mx[4] = { 1, 0, -1, 0 };
+int my[4] = { 0, -1, 0, 1 };
 
 int arr_min(vector<vector<int>> A) {
     int ret = 1e9;
@@ -32,10 +32,10 @@ vector<vector<int>> rotate(vector<vector<int>> A, vector<int> Q) {
     vector<vector<int>> ret = A;
     for (int d = 1; d <= s; d++) {
         int px = r - d;
-        int py = c - d;
+        int py = c + d;
         for (int i = 0; i < 4; i++) {
             for (int dd = 0; dd < 2 * d; dd++) {
-                ret[px + mx[dd]][py + my[dd]] = A[px][py];
+                ret[px + mx[i]][py + my[i]] = A[px][py];
                 px += mx[i];
                 py += my[i];
             }
@@ -44,10 +44,12 @@ vector<vector<int>> rotate(vector<vector<int>> A, vector<int> Q) {
     return ret;
 }
 
-int dfs(vector<vector<int>> A, vector<vector<int>> Q, vector<int> chk) {
-    if (accumulate(chk.begin(), chk.end(), 0) == K)
-        return arr_min(A);
-    
+void dfs(vector<vector<int>> A, vector<vector<int>> Q, vector<int> chk) {
+    if (accumulate(chk.begin(), chk.end(), 0) == K) {
+        result = min(result, arr_min(A));
+        return;
+    }
+
     for (int i = 0; i < K; i++) {
         if (chk[i])
             continue;
@@ -73,5 +75,6 @@ int main() {
         for (int j = 0; j < 3; j++)
             cin >> Q[i][j];
     }
-    cout << dfs(A, Q, chk);
+    dfs(A, Q, chk);
+    cout << result;
 }
