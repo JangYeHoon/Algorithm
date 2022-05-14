@@ -1,6 +1,6 @@
 // fast campus 강의
 // https://www.acmicpc.net/problem/1715
-// 1
+// 2
 
 #include <iostream>
 #include <vector>
@@ -21,13 +21,10 @@ int main() {
 
 	int result = 0;
 	while (pq.size() > 1) {
-		int a = pq.top();
-		pq.pop();
-		int b = pq.top();
-		pq.pop();
-		int sum_value = a + b;
-		result += sum_value;
-		pq.push(sum_value);
+		int a = pq.top(); pq.pop();
+		int b = pq.top(); pq.pop();
+		result += a + b;
+		pq.push(a + b);
 	}
 	cout << result;
 }

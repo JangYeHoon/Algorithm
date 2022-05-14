@@ -1,6 +1,6 @@
 # fast campus 강의
 # https://www.acmicpc.net/problem/1766
-# 1
+# 2
 
 import heapq
 

@@ -1,20 +1,18 @@
 # fast campus 강의
 # https://www.acmicpc.net/problem/1715
-# 1
+# 2
 
 import heapq
 
-n = int(input())
-
-heap = []
-for _ in range(n):
-    heapq.heappush(heap, int(input()))
+N = int(input())
+arr = []
+for _ in range(N):
+    heapq.heappush(arr, int(input()))
 
 result = 0
-while len(heap) > 1:
-    a = heapq.heappop(heap)
-    b = heapq.heappop(heap)
-    sum_value = a + b
-    result += sum_value
-    heapq.heappush(heap, a+b)
+while len(arr) > 1:
+    a = heapq.heappop(arr)
+    b = heapq.heappop(arr)
+    result += a + b
+    heapq.heappush(arr, a + b)
 print(result)
