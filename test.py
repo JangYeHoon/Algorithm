@@ -1,27 +1,49 @@
-# 문제집(c++), 유기농배추
+# 
 
-import heapq
+from collections import deque
+import sys
+sys.setrecursionlimit(10000)
 
-N, M = map(int, input().split())
-arr = [[] for _ in range(N + 1)]
-first_exam = [0] * (N + 1)
-for _ in range(M):
-    a, b = map(int, input().split())
-    first_exam[b] += 1
-    arr[a].append(b)
+mx, my = [1, 0, -1, 0], [0, 1, 0, -1]
 
-exam_list = []
-for i in range(1, N + 1):
-    if first_exam[i] == 0:
-        heapq.heappush(exam_list, i)
+def bfs(x, y):
+    q = deque([x, y])
+    visited[x][y] = True
+    while q:
+        px = q.popleft()
+        py = q.popleft()
+        for i in range(4):
+            nx = px + mx[i]
+            ny = py + my[i]
+            if nx < 0 or nx >= N or ny < 0 or ny >= M:
+                continue
+            if matrix[nx][ny] == 1 and not visited[nx][ny]:
+                visited[nx][ny] = True
+                q.append(nx)
+                q.append(ny)
 
-result = []
-while len(result) != N:
-    exam = heapq.heappop(exam_list)
-    result.append(exam)
-    for i in range(len(arr[exam])):
-        first_exam[arr[exam][i]] -= 1
-        if first_exam[arr[exam][i]] == 0:
-            heapq.heappush(exam_list, arr[exam][i])
-for a in result:
-    print(a, end = " ")
+def dfs(x, y):
+    visited[x][y] = True
+    for i in range(4):
+        nx = x + mx[i]
+        ny = y + my[i]
+        if nx < 0 or nx >= N or ny < 0 or ny >= M:
+            continue
+        if matrix[nx][ny] == 1 and not visited[nx][ny]:
+            dfs(nx, ny)
+
+for _ in range(int(input())):
+    M, N, K = map(int, input().split())
+    matrix = [[0] * M for _ in range(N)]
+    visited = [[False] * M for _ in range(N)]
+    for i in range(K):
+        x, y = map(int, input().split())
+        matrix[y][x] = 1
+    
+    result = 0
+    for i in range(N):
+        for j in range(M):
+            if not visited[i][j] and matrix[i][j] == 1:
+                result += 1
+                dfs(i, j)
+    print(result)
