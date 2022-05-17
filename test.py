@@ -1,4 +1,4 @@
-# 배열돌리기4
+# 배열돌리기4, 부품찾기
 
 from collections import deque
 import sys

@@ -308,9 +308,9 @@
         <li><a href="Search/c++/12_문제집.cpp">12. 문제집</a></li>
         <li><a href="Search/c++/13_유기농배추.cpp">13. 유기농 배추</a></li>
         <li><a href="Search/c++/14_배열돌리기4.cpp">14. 배열 돌리기 4</a></li>
-        <li><a href="Search/c++/15_부품찾기(계수정렬).cpp">15. 부품찾기(계수정렬)</a></li>
-        <li><a href="Search/c++/15_부품찾기(이진탐색).cpp">15. 부품찾기(이진탐색)</a></li>
-        <li><a href="Search/c++/15_부품찾기(집합자료형).cpp">15. 부품찾기(집합자료형)</a></li>
+        <li><a href="Search/c++/15_부품찾기(계수정렬).cpp">15. 부품 찾기 (계수정렬)</a></li>
+        <li><a href="Search/c++/15_부품찾기(이진탐색).cpp">15. 부품 찾기 (이진탐색)</a></li>
+        <li><a href="Search/c++/15_부품찾기(집합자료형).cpp">15. 부품 찾기 (집합자료형)</a></li>
         <li><a href="Search/c++/16_떡볶이떡만들기(반복).cpp">16. 떡볶이떡만들기(반복)</a></li>
         <li><a href="Search/c++/16_떡볶이떡만들기(재귀).cpp">16. 떡볶이떡만들기(재귀)</a></li>
     </ul>
@@ -331,6 +331,9 @@
         <li><a href="Search/python/12_문제집.py">12. 문제집</a></li>
         <li><a href="Search/python/13_유기농배추.py">13. 유기농 배추</a></li>
         <li><a href="Search/python/14_배열돌리기4.py">14. 배열 돌리기 4</a></li>
+        <li><a href="Search/python/15_부품찾기(계수정렬).py">15. 부품 찾기 (계수정렬)</a></li>
+        <li><a href="Search/python/15_부품찾기(이진탐색).py">15. 부품 찾기 (이진탐색)</a></li>
+        <li><a href="Search/python/15_부품찾기(집합자료형).py">15. 부품 찾기 (집합자료형)</a></li>
     </ul>
 </details>
 
