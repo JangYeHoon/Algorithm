@@ -311,8 +311,8 @@
         <li><a href="Search/c++/15_부품찾기(계수정렬).cpp">15. 부품 찾기 (계수정렬)</a></li>
         <li><a href="Search/c++/15_부품찾기(이진탐색).cpp">15. 부품 찾기 (이진탐색)</a></li>
         <li><a href="Search/c++/15_부품찾기(집합자료형).cpp">15. 부품 찾기 (집합자료형)</a></li>
-        <li><a href="Search/c++/16_떡볶이떡만들기(반복).cpp">16. 떡볶이떡만들기(반복)</a></li>
-        <li><a href="Search/c++/16_떡볶이떡만들기(재귀).cpp">16. 떡볶이떡만들기(재귀)</a></li>
+        <li><a href="Search/c++/16_떡볶이떡만들기(반복).cpp">16. 떡볶이 떡 만들기 (반복)</a></li>
+        <li><a href="Search/c++/16_떡볶이떡만들기(재귀).cpp">16. 떡볶이 떡 만들기 (재귀)</a></li>
     </ul>
 </details>
 <details><summary>Python</summary>
@@ -334,6 +334,8 @@
         <li><a href="Search/python/15_부품찾기(계수정렬).py">15. 부품 찾기 (계수정렬)</a></li>
         <li><a href="Search/python/15_부품찾기(이진탐색).py">15. 부품 찾기 (이진탐색)</a></li>
         <li><a href="Search/python/15_부품찾기(집합자료형).py">15. 부품 찾기 (집합자료형)</a></li>
+        <li><a href="Search/python/16_떡볶이떡만들기(반복).py">16. 떡볶이 떡 만들기 (반복)</a></li>
+        <li><a href="Search/python/16_떡볶이떡만들기(재귀).py">16. 떡볶이 떡 만들기 (재귀)</a></li>
     </ul>
 </details>
 
