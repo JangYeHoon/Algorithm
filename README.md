@@ -343,6 +343,7 @@
 
 <details><summary>C++</summary>
     <ul>
+        <li><a href="Shortest_Path/c++/01_해킹.cpp">01. 해킹</a></li>
         <li><a href="Shortest_Path/c++/03_미래도시.cpp">03. 미래도시</a></li>
         <li><a href="Shortest_Path/c++/04_전보.cpp">04. 전보</a></li>
     </ul>

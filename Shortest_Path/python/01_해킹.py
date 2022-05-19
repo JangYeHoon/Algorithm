@@ -1,3 +1,7 @@
+# fast campus 강의
+# https://www.acmicpc.net/problem/10282
+# 1
+
 import heapq
 
 def Dijkstra(start):

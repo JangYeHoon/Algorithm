@@ -1,4 +1,4 @@
-# 배열돌리기4, 부품찾기, 떡볶이 떡 만들기
+# 배열돌리기4, 부품찾기, 떡볶이 떡 만들기, 해킹
 
 from collections import deque
 import sys
