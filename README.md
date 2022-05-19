@@ -343,8 +343,8 @@
 
 <details><summary>C++</summary>
     <ul>
-        <li><a href="Shortest_Path/c++/01_미래도시.cpp">01. 미래도시</a></li>
-        <li><a href="Shortest_Path/c++/02_전보.cpp">02. 전보</a></li>
+        <li><a href="Shortest_Path/c++/03_미래도시.cpp">03. 미래도시</a></li>
+        <li><a href="Shortest_Path/c++/04_전보.cpp">04. 전보</a></li>
     </ul>
 </details>
 <details><summary>Python</summary>
