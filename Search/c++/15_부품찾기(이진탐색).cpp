@@ -3,38 +3,37 @@
 
 #include <iostream>
 #include <vector>
-#include <algorithm>
+
 using namespace std;
 
-int binarySearch(vector<int> &arr, int target, int start, int end)
-{
-	if (start > end) return -1;
+int N, M;
+
+int binary_search(vector<int> arr, int target, int start, int end) {
+	if (start > end)
+		return -1;
 	int mid = (start + end) / 2;
-	if (arr[mid] == target) return mid;
-	else if (arr[mid] > target) return binarySearch(arr, target, start, mid - 1);
-	else return binarySearch(arr, target, mid + 1, end);
+	if (arr[mid] == target)
+		return arr[mid];
+	else if (arr[mid] < target)
+		return binary_search(arr, target, mid + 1, end);
+	else
+		return binary_search(arr, target, start, end - 1);
 }
 
-int main()
-{
-	int n, m;
-	cin >> n;
-	vector<int> a(n);
-	for (int i = 0; i < n; i++)
-		cin >> a[i];
-	sort(a.begin(), a.end());
+int main() {
+	cin >> N;
+	vector<int> arr(N);
+	for (int i = 0; i < N; i++)
+		cin >> arr[i];
+	cin >> M;
+	vector<int> chk(M);
+	for (int i = 0; i < M; i++)
+		cin >> chk[i];
 
-	cin >> m;
-	vector<int> b(m);
-	for (int i = 0; i < m; i++)
-		cin >> b[i];
-
-	for (int i = 0; i < m; i++)
-	{
-		if (binarySearch(a, b[i], 0, n - 1) != -1)
+	for (auto i : chk) {
+		if (binary_search(arr, i, 0, N - 1) != -1)
 			cout << "yes ";
 		else
 			cout << "no ";
 	}
-	return 0;
 }
