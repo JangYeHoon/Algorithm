@@ -1,64 +1,58 @@
 // fast campus 강의
 // https://www.acmicpc.net/problem/10282
-// 1
+// 2
 
 #include <iostream>
 #include <vector>
 #include <queue>
-#include <cstring>
 #include <algorithm>
 
 using namespace std;
 
-int n, m, start;
-vector<pair<int, int>> adj[10001];
-int d[10001];
+int T, N, M, C;
+int d[100001];
 
-void dijkstra() {
+void dijkstra(vector<vector<pair<int, int>>> adj, int start) {
 	priority_queue<pair<int, int>> pq;
 	pq.push({ 0, start });
 	d[start] = 0;
 	while (!pq.empty()) {
-		int dist = -pq.top().first;
-		int now = pq.top().second;
+		int cost = -pq.top().first;
+		int x = pq.top().second;
 		pq.pop();
-		if (d[now] < dist)
+		if (d[x] < cost)
 			continue;
-
-		for (int i = 0; i < adj[now].size(); i++) {
-			int next = adj[now][i].first;
-			int nextDist = dist + adj[now][i].second;
-			if (d[next] > nextDist) {
-				d[next] = nextDist;
-				pq.push({ -nextDist, next });
+		for (int i = 0; i < adj[x].size(); i++) {
+			int next = adj[x][i].first;
+			int dist = cost + adj[x][i].second;
+			if (dist < d[next]) {
+				d[next] = dist;
+				pq.push({ -dist, next });
 			}
 		}
 	}
 }
 
 int main() {
-	int T;
 	cin >> T;
 	for (int t = 0; t < T; t++) {
-		cin >> n >> m >> start;
-		for (int i = 1; i <= n; i++) {
-			adj[i].clear();
-		}
-		fill(d, d + 10001, 1e9);
-		for (int i = 0; i < m; i++) {
+		cin >> N >> M >> C;
+		vector<vector<pair<int, int>>> arr(N + 1);
+		fill(d, d + 100001, 1e9);
+		for (int i = 0; i < M; i++) {
 			int a, b, s;
 			cin >> a >> b >> s;
-			adj[b].push_back({ a, s });
+			arr[b].push_back({ a, s });
 		}
-		dijkstra();
-		int cnt = 0;
-		int maxDist = 0;
-		for (int i = 1; i <= n; i++) {
+		dijkstra(arr, C);
+
+		int cost = 0, max_dist = 0;
+		for (int i = 1; i <= N; i++) {
 			if (d[i] != 1e9) {
-				cnt++;
-				maxDist = max(maxDist, d[i]);
+				cost++;
+				max_dist = max(max_dist, d[i]);
 			}
 		}
-		cout << cnt << ' ' << maxDist << '\n';
+		cout << cost << ' ' << max_dist << '\n';
 	}
 }
