@@ -1,6 +1,6 @@
-// 미래도시
-// 입력 : 회사의 개수(N), 경로의 개수(M), 연결된 두 회사의 번호(M개, 모든 간선 cost 1), 최종 목적지(X), 경유지(K)
-// 출력 : K회사를 거쳐 X회사로 가는 최소 이동 시간
+// 이것이 취업을 위한 코딩테스트다
+// 1
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
