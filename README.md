@@ -354,6 +354,7 @@
         <li><a href="Shortest_Path/python/01_해킹.py">01. 해킹</a></li>
         <li><a href="Shortest_Path/python/02_거의최단경로.py">02. 거의 최단 경로</a></li>
         <li><a href="Shortest_Path/python/03_미래도시.py">03.미래 도시</a></li>
+        <li><a href="Shortest_Path/python/04_전보.py">04. 전보</a></li>
     </ul>
 </details>
 
