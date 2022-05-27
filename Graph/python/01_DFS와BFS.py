@@ -1,3 +1,7 @@
+# fast campus 강의
+# https://www.acmicpc.net/problem/1260
+# 1
+
 from collections import deque
 
 def dfs(v):

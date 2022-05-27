@@ -229,10 +229,10 @@
 
 <details><summary>C++</summary>
     <ul>
+        <li><a href="Graph/c++/01_DFS와BFS.cpp">01. DFS와 BFS</a></li>
         <li><a href="Graph/c++/04_팀결성.cpp">04. 팀결성</a></li>
         <li><a href="Graph/c++/05_도시분할계획.cpp">05. 도시분할계획</a></li>
         <li><a href="Graph/c++/06_커리큘럼.cpp">06. 커리큘럼</a></li>
-        <li><a href="Graph/c++/07_DFS와BFS.cpp">07. DFS와 BFS</a></li>
     </ul>
 </details>
 <details><summary>Python</summary>
