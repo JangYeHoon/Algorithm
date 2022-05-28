@@ -1,65 +1,57 @@
-// 이것이 취업을 위한 코딩테스트다
-// 1
+// 이것이 취업을 위한 코딩테스트다 262p
+// 2
 
 #include <iostream>
+#include <queue>
 #include <vector>
 #include <algorithm>
-#include <queue>
-#define INF 1e9
 
 using namespace std;
 
-int n, m, c;
-vector<pair<int, int>> graph[30001];
+int N, M, C;
 int d[30001];
+vector<pair<int, int>> adj[30001];
 
-void dijkstra(int start)
-{
+void dijkstra() {
 	priority_queue<pair<int, int>> pq;
-	pq.push({ 0, start });
-	d[start] = 0;
-	while (!pq.empty())
-	{
+	pq.push({ 0, C });
+	d[C] = 0;
+	while (!pq.empty()) {
 		int dist = -pq.top().first;
 		int now = pq.top().second;
 		pq.pop();
-		if (d[now] < dist) continue;
-		for (int i = 0; i < graph[now].size(); i++)
-		{
-			int cost = dist + graph[now][i].second;
-			if (cost < d[graph[now][i].first])
-			{
-				d[graph[now][i].first] = cost;
-				pq.push(make_pair(-cost, graph[now][i].first));
+		if (dist > d[now])
+			continue;
+		for (int i = 0; i < adj[now].size(); i++) {
+			int next = adj[now][i].first;
+			int next_dist = dist + adj[now][i].second;
+			if (next_dist < d[next]) {
+				d[next] = next_dist;
+				pq.push({ -next_dist, next });
 			}
 		}
 	}
 }
 
-int main()
-{
-	cin >> n >> m >> c;
-	for (int i = 0; i < m; i++)
-	{
+int main() {
+	cin >> N >> M >> C;
+	for (int i = 0; i < M; i++) {
 		int x, y, z;
 		cin >> x >> y >> z;
-		graph[x].push_back({ y, z });
+		adj[x].push_back({ y, z });
 	}
 
-	fill(d, d + 30001, INF);
+	fill(d, d + 30001, 1e9);
+	dijkstra();
 
-	dijkstra(c);
-
-	int count = 0, time = 0;
-	for (int i = 1; i <= n; i++)
-	{
-		if (d[i] != INF)
-		{
-			count++;
-			time = max(time, d[i]);
+	int count = 0;
+	int max_dist = 0;
+	for (int i = 1; i <= N; i++) {
+		if (d[i] != 1e9) {
+			count += 1;
+			max_dist = max(max_dist, d[i]);
 		}
 	}
 
-	cout << count-1 << ' ' << time << '\n';
-	return 0;
+	cout << count - 1 << ' ' << max_dist;
 }

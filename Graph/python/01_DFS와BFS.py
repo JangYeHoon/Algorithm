@@ -1,40 +1,39 @@
 # fast campus 강의
 # https://www.acmicpc.net/problem/1260
-# 1
+# 2
 
 from collections import deque
 
 def dfs(v):
     print(v, end=' ')
     visited[v] = True
-    for e in adj[v]:
-        if not(visited[e]):
-            dfs(e)
+    for b in adj[v]:
+        if not visited[b]:
+            dfs(b)
 
 def bfs(v):
-    q = deque([v])
+    q = deque()
+    q.append(v)
+    visited[v] = True
     while q:
-        v = q.popleft()
-        if not(visited[v]):
-            visited[v] = True
-            print(v, end=' ')
-            for e in adj[v]:
-                if not(visited[e]):
-                    q.append(e)
+        a = q.popleft()
+        print(a, end=' ')
+        for b in adj[a]:
+            if not visited[b]:
+                visited[b] = True
+                q.append(b)
 
-n, m, v = map(int, input().split())
-adj = [[] for _ in range(n + 1)]
+N, M, V = map(int, input().split())
+adj = [[] for _ in range(N + 1)]
+for _ in range(M):
+    a, b = map(int, input().split())
+    adj[a].append(b)
+    adj[b].append(a)
+for i in range(1, N + 1):
+    adj[i].sort()
 
-for i in range(m):
-    x, y = map(int, input().split())
-    adj[x].append(y)
-    adj[y].append(x)
-
-for e in adj:
-    e.sort()
-
-visited = [False] * (n + 1)
-dfs(v)
+visited = [False] * (N + 1)
+dfs(V)
 print()
-visited = [False] * (n + 1)
-bfs(v)
+visited = [False] * (N + 1)
+bfs(V)

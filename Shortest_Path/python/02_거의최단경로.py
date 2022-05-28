@@ -1,3 +1,7 @@
+# fast campus 강의
+# https://www.acmicpc.net/problem/5719
+# 2
+
 import heapq
 from collections import deque
 import sys

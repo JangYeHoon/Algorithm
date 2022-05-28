@@ -1,5 +1,5 @@
-# 이것이 취업을 위한 코딩테스트다
-# 1
+# 이것이 취업을 위한 코딩테스트다 259p
+# 2
 
 N, M = map(int, input().split())
 adj = [[1e9] * (N + 1) for _ in range(N + 1)]
