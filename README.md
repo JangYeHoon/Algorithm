@@ -230,16 +230,15 @@
 <details><summary>C++</summary>
     <ul>
         <li><a href="Graph/c++/01_DFS와BFS.cpp">01. DFS와 BFS</a></li>
-        <li><a href="Graph/c++/04_팀결성.cpp">04. 팀결성</a></li>
-        <li><a href="Graph/c++/05_도시분할계획.cpp">05. 도시분할계획</a></li>
-        <li><a href="Graph/c++/06_커리큘럼.cpp">06. 커리큘럼</a></li>
+        <li><a href="Graph/c++/04_팀결성.cpp">03. 팀결성</a></li>
+        <li><a href="Graph/c++/05_도시분할계획.cpp">04. 도시분할계획</a></li>
+        <li><a href="Graph/c++/06_커리큘럼.cpp">05. 커리큘럼</a></li>
     </ul>
 </details>
 <details><summary>Python</summary>
     <ul>
         <li><a href="Graph/python/01_DFS와BFS.py">01. DFS와 BFS</a></li>
-        <li><a href="Graph/python/02_Kruskal's_Algorithm.py">02. Kruskal's Algorithm</a></li>
-        <li><a href="Graph/python/03_우주신과의교감.py">03. 우주신과의 교감</a></li>
+        <li><a href="Graph/python/02_우주신과의교감.py">02. 우주신과의 교감</a></li>
     </ul>
 </details>
 
@@ -408,6 +407,7 @@
         <li><a href="Memorization/Graph/00_개선된_서로소_집합_알고리즘.cpp">00. 개선된 서로소 집합 알고리즘</a></li>
         <li><a href="Memorization/Graph/00_서로소_집합을_활용한_사이클_판별.cpp">00. 서로소 집합을 활용한 사이클 판별</a></li>
         <li><a href="Memorization/Graph/01_Kruskal_Algorithm.cpp">01. 크루스칼 알고리즘</a></li>
+        <li><a href="Memorization/Graph/02_Kruskal's_Algorithm.py">02. 크루스칼 알고리즘 (Python)</a></li>
         <li><a href="Memorization/Graph/02_Prim_Algorithm.cpp">02. 프림 알고리즘</a></li>
         <li><a href="Memorization/Graph/02_Prim_Algorithm_PriorityQueue.cpp">02. 프림 알고리즘(with 우선순위 큐)</a></li>
         <li><a href="Memorization/Graph/03_Topology_Sort.cpp">03. Topology Sort</a></li>
