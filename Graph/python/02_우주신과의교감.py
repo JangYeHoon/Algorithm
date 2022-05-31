@@ -1,3 +1,7 @@
+# fast campus 강의
+# https://www.acmicpc.net/problem/1774
+# 1
+
 import math
 import sys
 input = sys.stdin.readline
