@@ -1,7 +1,7 @@
-// 도시 분할 계획
-// 입력 : 집의 개수(N), 길의 개수(M)
-//		  집(A)와 집(B)의 유지비(C)
-// 출력 : 남은 유지비 합의 최솟값
+// 이것이 취업을 위한 코딩테스트다 300p
+// https://www.acmicpc.net/problem/1647
+// 1
+
 #include <iostream>
 #include <vector>
 #include <algorithm>

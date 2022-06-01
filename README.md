@@ -232,7 +232,7 @@
         <li><a href="Graph/c++/01_DFS와BFS.cpp">01. DFS와 BFS</a></li>
         <li><a href="Graph/c++/02_우주신과의교감.cpp">02. 우주신과의 교감</a></li>
         <li><a href="Graph/c++/03_팀결성.cpp">03. 팀 결성</a></li>
-        <li><a href="Graph/c++/04_도시분할계획.cpp">04. 도시분할계획</a></li>
+        <li><a href="Graph/c++/04_도시분할계획.cpp">04. 도시 분할 계획</a></li>
         <li><a href="Graph/c++/05_커리큘럼.cpp">05. 커리큘럼</a></li>
     </ul>
 </details>
@@ -241,6 +241,7 @@
         <li><a href="Graph/python/01_DFS와BFS.py">01. DFS와 BFS</a></li>
         <li><a href="Graph/python/02_우주신과의교감.py">02. 우주신과의 교감</a></li>
         <li><a href="Graph/python/03_팀결성.py">03. 팀 결성</a></li>
+        <li><a href="Graph/python/04_도시분할계획.py">04. 도시 분할 계획</a></li>
     </ul>
 </details>
 
