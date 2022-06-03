@@ -1,39 +1,38 @@
 # 이것이 취업을 위한 코딩테스트다 300p
 # https://www.acmicpc.net/problem/1647
-# 1
+# 2
 
-def find_parent(a):
-    if parent[a] != a:
-        parent[a] = find_parent(parent[a])
-    return parent[a]
+def find_parent(x):
+    if parent[x] != x:
+        parent[x] = find_parent(parent[x])
+    return parent[x]
 
 def union_parent(a, b):
     a = find_parent(a)
     b = find_parent(b)
     if a < b:
-        parent[a] = b
-    else:
         parent[b] = a
+    else:
+        parent[a] = b
 
 N, M = map(int, input().split())
 parent = [0] * (N + 1)
+edges = []
 
-for i in range(1, N + 1):
+for i in range(N + 1):
     parent[i] = i
 
-edges = []
 for _ in range(M):
-    a, b, c = map(int, input().split())
-    edges.append((c, a, b))
+    a, b, cost = map(int, input().split())
+    edges.append((cost, a, b))
 edges.sort()
 
-max_cost = 0
 result = 0
-for edge in edges:
-    cost, a, b = edge
+max_dist = 0
+for cost, a, b in edges:
     if find_parent(a) != find_parent(b):
         union_parent(a, b)
         result += cost
-        max_cost = max(max_cost, cost)
+        max_dist = max(max_dist, cost)
 
-print(result - max_cost)
+print(result - max_dist)

@@ -1,49 +1,44 @@
 // 이것이 취업을 위한 코딩테스트다 298p
-// 1
+// 2
 
 #include <iostream>
-#include <vector>
 
 using namespace std;
 
-int n, m;
+int N, M;
 int parent[100001];
 
-int findParent(int x)
-{
-	if (x == parent[x]) return x;
-	return parent[x] = findParent(parent[x]);
+int find_parent(int x) {
+	if (parent[x] == x)
+		return x;
+	else
+		return parent[x] = find_parent(parent[x]);
 }
 
-void unionParent(int a, int b)
-{
-	a = findParent(a);
-	b = findParent(b);
-	if (a < b) parent[b] = a;
-	else parent[a] = b;
+void union_parent(int a, int b) {
+	a = find_parent(a);
+	b = find_parent(b);
+	if (a < b)
+		parent[b] = a;
+	else
+		parent[a] = b;
 }
 
-int main()
-{
-	cin >> n >> m;
-	
-	for (int i = 1; i <= n; i++)
+int main() {
+	cin >> N >> M;
+	for (int i = 0; i < N + 1; i++)
 		parent[i] = i;
-
-	for (int i = 0; i < m; i++)
-	{
-		int a, b, c;
-		cin >> a >> b >> c;
-		if (a == 0)
-			unionParent(b, c);
-		else if (a == 1)
-		{
-			if (findParent(b) == findParent(c))
-				cout << "YES" << '\n';
+	
+	for (int i = 0; i < M; i++) {
+		int oper, a, b;
+		cin >> oper >> a >> b;
+		if (oper == 0)
+			union_parent(a, b);
+		else {
+			if (find_parent(a) == find_parent(b))
+				cout << "YES\n";
 			else
-				cout << "NO" << '\n';
+				cout << "NO\n";
 		}
 	}
-
-	return 0;
 }
