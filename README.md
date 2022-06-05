@@ -193,12 +193,12 @@
 
 <details><summary>C++</summary>
     <ul>
-        <li><a href="Dynamic_Programming/c++/01_1이되는과정(재귀).cpp">01. 1이 되는 과정(재귀)</a></li>
-        <li><a href="Dynamic_Programming/c++/01_1이되는과정.cpp">01_1이 되는 과정</a></li>
-        <li><a href="Dynamic_Programming/c++/02_경우의수(재귀).cpp">02. 경우의 수(재귀)</a></li>
-        <li><a href="Dynamic_Programming/c++/02_경우의수.cpp">02. 경우의수</a></li>
-        <li><a href="Dynamic_Programming/c++/03_바닥공사.cpp">03. 바닥공사</a></li>
-        <li><a href="Dynamic_Programming/c++/04_효율적인화폐구성.cpp">04. 효율적인화폐구성</a></li>
+        <li><a href="Dynamic_Programming/c++/16_1이되는과정(재귀).cpp">16. 1이 되는 과정(재귀)</a></li>
+        <li><a href="Dynamic_Programming/c++/16_1이되는과정.cpp">16_1이 되는 과정</a></li>
+        <li><a href="Dynamic_Programming/c++/17_경우의수(재귀).cpp">17. 경우의 수(재귀)</a></li>
+        <li><a href="Dynamic_Programming/c++/17_경우의수.cpp">17. 경우의수</a></li>
+        <li><a href="Dynamic_Programming/c++/18_바닥공사.cpp">18. 바닥공사</a></li>
+        <li><a href="Dynamic_Programming/c++/19_효율적인화폐구성.cpp">19. 효율적인화폐구성</a></li>
     </ul>
 </details>
 <details><summary>Python</summary>
