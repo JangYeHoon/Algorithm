@@ -193,6 +193,7 @@
 
 <details><summary>C++</summary>
     <ul>
+        <li><a href="Dynamic_Programming/c++/01_피보나치수.cpp">01. 피보나치 수</a></li>
         <li><a href="Dynamic_Programming/c++/16_1이되는과정(재귀).cpp">16. 1이 되는 과정(재귀)</a></li>
         <li><a href="Dynamic_Programming/c++/16_1이되는과정.cpp">16_1이 되는 과정</a></li>
         <li><a href="Dynamic_Programming/c++/17_경우의수(재귀).cpp">17. 경우의 수(재귀)</a></li>
@@ -203,9 +204,7 @@
 </details>
 <details><summary>Python</summary>
     <ul>
-        <li><a href="Dynamic_Programming/python/01_피보나치수.py">01. 피보나치수</a></li>
-        <li><a href="Dynamic_Programming/python/01_피보나치수(반복).py">01. 피보나치수(반복)</a></li>
-        <li><a href="Dynamic_Programming/python/01_피보나치수(반복다른풀이).py">01. 피보나치수(반복_다른풀이)</a></li>
+        <li><a href="Dynamic_Programming/python/01_피보나치수.py">01. 피보나치 수</a></li>
         <li><a href="Dynamic_Programming/python/02_Z.py">02. Z</a></li>
         <li><a href="Dynamic_Programming/python/02_Z(시간줄임).py">02. Z(시간단축)</a></li>
         <li><a href="Dynamic_Programming/python/02_Z(수학풀이).py">02. Z(수학풀이)</a></li>
