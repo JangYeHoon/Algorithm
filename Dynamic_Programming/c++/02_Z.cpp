@@ -1,6 +1,6 @@
 // fast campus 강의
 // https://www.acmicpc.net/problem/1074
-// 0
+// 1
 
 #include <iostream>
 #include <cmath>
@@ -11,27 +11,16 @@ int result;
 int N, X, Y;
 
 void solve(int n, int x, int y) {
-    if (n == 2) {
-        if (x == X && y == Y) {
-            cout << result;
-            return;
-        }
+    if (x == X && y == Y) {
+        cout << result;
+        return;
+    }
+    else if (n == 1) {
         result++;
-        if (x == X && y + 1 == Y) {
-            cout << result;
-            return;
-        }
-        result++;
-        if (x + 1 == X && y == Y) {
-            cout << result;
-            return;
-        }
-        result++;
-        if (x + 1 == X && y + 1 == Y) {
-            cout << result;
-            return;
-        }
-        result++;
+        return;
+    }
+    if (!(x <= X && X < x + n) && !(y <= Y && Y < y + n)) {
+        result += pow(n, 2);
         return;
     }
     solve(n / 2, x, y);

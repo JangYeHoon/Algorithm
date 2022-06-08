@@ -1,30 +1,24 @@
-result = 0
-def Z(n, x, y):
-    global result
-    if n == 2:
-        check = False
-        if x == r and y == c:
-            print(result)
-            check = True
-        result += 1
-        if x == r and y + 1 == c:
-            print(result)
-            check = True
-        result += 1
-        if x + 1 == r and y == c:
-            print(result)
-            check = True
-        result += 1
-        if x + 1 == r and y + 1 == c:
-            print(result)
-            check = True
-        result += 1
-        return check
-    if Z(n / 2, x, y): return True
-    if Z(n / 2, x, y + n / 2): return True
-    if Z(n / 2, x + n / 2, y): return True
-    if Z(n / 2, x + n / 2, y + n / 2): return True
-    return False
+# fast campus 강의
+# https://www.acmicpc.net/problem/1074
+# 1
 
-N, r, c = map(int, input().split(' '))
-Z(2 ** N, 0, 0)
+N, r, c = map(int,input().split())
+res = 0
+
+def Z(x, y, N):
+    global res
+    if x == r and y == c:
+        print(res)
+        exit(0)
+    elif N == 1:
+        res += 1
+        return
+    if not (x <= r < x + N) and not (y <= c < y + N):
+        res += N ** 2
+        return
+    Z(x, y, N // 2)
+    Z(x, y + N // 2, N // 2)
+    Z(x + N // 2, y, N // 2)
+    Z(x + N // 2, y + N // 2, N // 2)
+    
+Z(0, 0, 2 ** N)

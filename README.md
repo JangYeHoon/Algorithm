@@ -14,6 +14,7 @@
 10. [Shortest Path](#shortest-path)
 11. [Back Tracking](#back-tracking)
 12. [Memorization](#memorization)
+
 ---
 
 ## Data Structures
@@ -100,7 +101,6 @@
         <li><a href="Implementation/python/22_연산자끼워넣기.py">22. 연산자 끼워넣기</a></li>
     </ul>
 </details>
-
 
 ## Sorting
 
@@ -194,6 +194,7 @@
 <details><summary>C++</summary>
     <ul>
         <li><a href="Dynamic_Programming/c++/01_피보나치수.cpp">01. 피보나치 수</a></li>
+        <li><a href="Dynamic_Programming/c++/02_Z.cpp">02. Z</a></li>
         <li><a href="Dynamic_Programming/c++/16_1이되는과정(재귀).cpp">16. 1이 되는 과정(재귀)</a></li>
         <li><a href="Dynamic_Programming/c++/16_1이되는과정.cpp">16_1이 되는 과정</a></li>
         <li><a href="Dynamic_Programming/c++/17_경우의수(재귀).cpp">17. 경우의 수(재귀)</a></li>
