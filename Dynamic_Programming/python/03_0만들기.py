@@ -1,3 +1,7 @@
+# fast campus 강의
+# https://www.acmicpc.net/problem/7490
+# 1
+
 import copy
 
 def recursive(array, n):

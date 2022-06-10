@@ -195,6 +195,7 @@
     <ul>
         <li><a href="Dynamic_Programming/c++/01_피보나치수.cpp">01. 피보나치 수</a></li>
         <li><a href="Dynamic_Programming/c++/02_Z.cpp">02. Z</a></li>
+        <li><a href="Dynamic_Programming/c++/03_0만들기.cpp">03. 0 만들기</a></li>
         <li><a href="Dynamic_Programming/c++/16_1이되는과정(재귀).cpp">16. 1이 되는 과정(재귀)</a></li>
         <li><a href="Dynamic_Programming/c++/16_1이되는과정.cpp">16_1이 되는 과정</a></li>
         <li><a href="Dynamic_Programming/c++/17_경우의수(재귀).cpp">17. 경우의 수(재귀)</a></li>
@@ -209,7 +210,7 @@
         <li><a href="Dynamic_Programming/python/02_Z.py">02. Z</a></li>
         <li><a href="Dynamic_Programming/python/02_Z(시간줄임).py">02. Z(시간단축)</a></li>
         <li><a href="Dynamic_Programming/python/02_Z(수학풀이).py">02. Z(수학풀이)</a></li>
-        <li><a href="Dynamic_Programming/python/03_0만들기.py">03. 0만들기</a></li>
+        <li><a href="Dynamic_Programming/python/03_0만들기.py">03. 0 만들기</a></li>
         <li><a href="Dynamic_Programming/python/04_01타일.py">04. 01타일</a></li>
         <li><a href="Dynamic_Programming/python/05_평범한배낭.py">05. 평범한 배낭</a></li>
         <li><a href="Dynamic_Programming/python/06_가장긴증가하는부분수열.py">06. 가장 긴 증가하는 부분 수열</a></li>
