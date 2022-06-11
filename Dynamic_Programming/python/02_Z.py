@@ -1,9 +1,10 @@
 # fast campus 강의
 # https://www.acmicpc.net/problem/1074
-# 1
+# 2
 
-N, r, c = map(int,input().split())
+N, r, c = map(int, input().split())
 res = 0
+
 
 def Z(x, y, N):
     global res
@@ -20,5 +21,6 @@ def Z(x, y, N):
     Z(x, y + N // 2, N // 2)
     Z(x + N // 2, y, N // 2)
     Z(x + N // 2, y + N // 2, N // 2)
-    
+
+
 Z(0, 0, 2 ** N)
