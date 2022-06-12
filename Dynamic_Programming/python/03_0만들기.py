@@ -1,8 +1,9 @@
 # fast campus 강의
 # https://www.acmicpc.net/problem/7490
-# 1
+# 2
 
 import copy
+
 
 def recursive(array, n):
     if len(array) == n:
@@ -20,6 +21,7 @@ def recursive(array, n):
     array.append('-')
     recursive(array, n)
     array.pop()
+
 
 test_case = int(input())
 
