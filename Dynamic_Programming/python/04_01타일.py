@@ -1,3 +1,7 @@
+# fast campus 강의
+# https://www.acmicpc.net/problem/1904
+# 1
+
 n = int(input())
 
 dp = [0] * 1000001
