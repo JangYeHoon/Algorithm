@@ -1,3 +1,7 @@
+# fast campus 강의
+# https://www.acmicpc.net/problem/12865
+# 1
+
 n, k = map(int, input().split())
 dp = [[0] * (k + 1) for _ in range(n + 1)]
 for i in range(1, n + 1):
