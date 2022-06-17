@@ -1,14 +1,15 @@
 # fast campus 강의
 # https://www.acmicpc.net/problem/12865
-# 1
+# 2
 
-n, k = map(int, input().split())
-dp = [[0] * (k + 1) for _ in range(n + 1)]
-for i in range(1, n + 1):
-    w, v = map(int, input().split())
-    for j in range(1, k + 1):
-        if j < w:
+N, K = map(int, input().split())
+dp = [[0] * (K + 1) for _ in range(N + 1)]
+
+for i in range(1, N + 1):
+    weight, value = map(int, input().split())
+    for j in range(1, K + 1):
+        if j < weight:
             dp[i][j] = dp[i - 1][j]
         else:
-            dp[i][j] = max(dp[i - 1][j], dp[i - 1][j - w] + v)
-print(dp[n][k])
+            dp[i][j] = max(dp[i - 1][j], dp[i - 1][j - weight] + value)
+print(dp[N][K])
