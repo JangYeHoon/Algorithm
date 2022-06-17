@@ -1,3 +1,7 @@
+# fast campus 강의
+# https://www.acmicpc.net/problem/11053
+# 1
+
 n = int(input())
 array = list(map(int, input().split()))
 dp = [1] * n
