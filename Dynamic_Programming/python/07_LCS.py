@@ -1,3 +1,7 @@
+# fast campus 강의
+# https://www.acmicpc.net/problem/9251
+# 1
+
 str1 = input()
 str2 = input()
 
