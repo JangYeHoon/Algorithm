@@ -1,3 +1,7 @@
+# fast campus 강의
+# https://www.acmicpc.net/problem/1495
+# 1
+
 n, s, m = map(int, input().split())
 v = list(map(int, input().split()))
 
