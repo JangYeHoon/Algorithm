@@ -1,25 +1,25 @@
 # fast campus 강의
 # https://www.acmicpc.net/problem/1495
-# 1
+# 2
 
-n, s, m = map(int, input().split())
-v = list(map(int, input().split()))
+N, S, M = map(int, input().split())
+arr = list(map(int, input().split()))
 
-dp = [[0] * (m + 1) for _ in range(n + 1)]
-dp[0][s] = True
+dp = [[0] * (M + 1) for _ in range(N + 1)]
+dp[0][S] = 1
 
-for i in range(1, n + 1):
-    for j in range(m + 1):
-        if dp[i - 1][j] == False:
+for i in range(1, N + 1):
+    for j in range(M + 1):
+        if dp[i - 1][j] == 0:
             continue
-        if j - v[i - 1] >= 0:
-            dp[i][j - v[i - 1]] = True
-        if j + v[i - 1] <= m:
-            dp[i][j + v[i - 1]] = True
+        if j - arr[i - 1] >= 0:
+            dp[i][j - arr[i - 1]] = 1
+        if j + arr[i - 1] <= M:
+            dp[i][j + arr[i - 1]] = 1
 
 result = -1
-for i in range(m, -1, -1):
-    if dp[n][i] == True:
+for i in range(M, -1, -1):
+    if dp[N][i] == 1:
         result = i
         break
 print(result)
