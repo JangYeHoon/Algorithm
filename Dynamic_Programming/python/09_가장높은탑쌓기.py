@@ -1,3 +1,7 @@
+# fast campus 강의
+# https://www.acmicpc.net/problem/2655
+# 1
+
 n = int(input())
 array = []
 array.append((0, 0, 0, 0))
