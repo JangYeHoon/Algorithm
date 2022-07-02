@@ -1,60 +1,59 @@
 // fast campus 강의
 // https://www.acmicpc.net/problem/2655
-// 1
+// 2
 
 #include <iostream>
-#include <vector>
 #include <algorithm>
+#include <vector>
 
 using namespace std;
 
-struct block_info {
-	int index;
+int N;
+int dp[102];
+
+struct block {
+	int idx;
 	int area;
 	int height;
 	int weight;
 };
 
-int N, max_height;
-int d[101];
-vector<int> result;
-
-bool compare(block_info &a, block_info &b) {
+bool compare(block a, block b) {
 	return a.weight < b.weight;
 }
 
 int main() {
 	cin >> N;
 	
-	vector<block_info> arr(N + 1);
+	vector<block> arr(N + 1);
 	arr[0] = { 0 };
+
 	for (int i = 1; i <= N; i++) {
-		cin >> arr[i].area >> arr[i].height>> arr[i].weight;
-		arr[i].index = i;
+		cin >> arr[i].area >> arr[i].height >> arr[i].weight;
+		arr[i].idx = i;
 	}
 
 	sort(arr.begin(), arr.end(), compare);
 
+	int max_height = 0;
 	for (int i = 1; i <= N; i++) {
 		for (int j = 0; j < i; j++) {
-			if (arr[j].area < arr[i].area)
-				d[i] = max(d[i], d[j] + arr[i].height);
+			if (arr[i].area > arr[j].area)
+				dp[i] = max(dp[i], dp[j] + arr[i].height);
 		}
-		max_height = max(max_height, d[i]);
+		max_height = max(max_height, dp[i]);
 	}
 
+	vector<int> result;
 	int idx = N;
-	while (idx) {
-		if (max_height == d[idx]) {
-			result.push_back(arr[idx].index);
+	while (idx != 0) {
+		if (max_height == dp[idx]) {
+			result.push_back(arr[idx].idx);
 			max_height -= arr[idx].height;
 		}
 		idx--;
 	}
-
 	cout << result.size() << '\n';
-
-	for (int i = result.size() - 1; i >= 0; i--) {
+	for (int i = result.size() - 1; i >= 0; i--)
 		cout << result[i] << '\n';
-	}
 }
