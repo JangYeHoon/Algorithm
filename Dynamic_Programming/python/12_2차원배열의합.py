@@ -1,16 +1,17 @@
 # fast campus 강의
 # https://www.acmicpc.net/problem/2167
-# 1
+# 2
 
 N, M = map(int, input().split())
 matrix = [list(map(int, input().split())) for _ in range(N)]
-# DP[i][j] = 1, 1부터 (i, j)까지의 부분합
-DP = [[0 for i in range(M + 1)] for _ in range(N + 1)]
+dp = [[0] * (M + 1) for _ in range(N + 1)]
 
 for i in range(1, N + 1):
     for j in range(1, M + 1):
-        DP[i][j] = DP[i - 1][j] + DP[i][j - 1] - DP[i - 1][j - 1] + matrix[i - 1][j - 1]
+        dp[i][j] = dp[i - 1][j] + dp[i][j - 1] + \
+            matrix[i - 1][j - 1] - dp[i - 1][j - 1]
 
-for _ in range(int(input())):
+K = int(input())
+for _ in range(K):
     i, j, x, y = map(int, input().split())
-    print(DP[x][y] - DP[i - 1][y] - DP[x][j - 1] + DP[i - 1][j - 1])
+    print(dp[x][y] + dp[i - 1][j - 1] - dp[i - 1][y] - dp[x][j - 1])
