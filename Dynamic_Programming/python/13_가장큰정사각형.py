@@ -1,6 +1,6 @@
 # fast campus 강의
 # https://www.acmicpc.net/problem/1915
-# 1
+# 2
 
 N, M = map(int, input().split())
 matrix = [[0 for _ in range(M + 1)] for _ in range(N + 1)]
