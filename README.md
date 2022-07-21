@@ -208,8 +208,7 @@
         <li><a href="Dynamic_Programming/c++/13_가장큰정사각형.cpp">13. 가장 큰 정사각형</a></li>
         <li><a href="Dynamic_Programming/c++/14_본대산책.cpp">14. 본대 산책</a></li>
         <li><a href="Dynamic_Programming/c++/15_파일합치기.cpp">15. 파일합치기</a></li>
-        <li><a href="Dynamic_Programming/c++/16_1이되는과정(재귀).cpp">16. 1이 되는 과정(재귀)</a></li>
-        <li><a href="Dynamic_Programming/c++/16_1이되는과정.cpp">16_1이 되는 과정</a></li>
+        <li><a href="Dynamic_Programming/c++/16_1로만들기.cpp">16. 1로 만들기</a></li>
         <li><a href="Dynamic_Programming/c++/17_경우의수(재귀).cpp">17. 경우의 수(재귀)</a></li>
         <li><a href="Dynamic_Programming/c++/17_경우의수.cpp">17. 경우의수</a></li>
         <li><a href="Dynamic_Programming/c++/18_바닥공사.cpp">18. 바닥공사</a></li>
@@ -233,6 +232,7 @@
         <li><a herf="Dynamic_Programming/python/13_가장큰정사각형.py">13. 가장 큰 정사각형</a></li>
         <li><a herf="Dynamic_Programming/python/14_본대산책.py">14. 본대 산책</a></li>
         <li><a herf="Dynamic_Programming/python/15_파일합치기.py">15. 파일합치기</a></li>
+        <li><a herf="Dynamic_Programming/python/16_1로만들기.py">16. 1로 만들기</a></li>
     </ul>
 </details>
 

@@ -1,6 +1,7 @@
-// 1로 만들기
-// 입력 : 정수 X
-// 출력 :1로 만들기 위한 연산 횟수의 최솟값
+// 이것이 취업을 위한 코딩테스트다
+// https://www.acmicpc.net/problem/1463
+// 1
+
 #include <iostream>
 #include <algorithm>
 using namespace std;
