@@ -1,6 +1,6 @@
 # fast campus 강의
 # https://www.acmicpc.net/problem/11066
-# 1
+# 2
 
 def process():
     N, A = int(input()), [0] + list(map(int, input().split()))
