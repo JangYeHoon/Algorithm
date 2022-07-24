@@ -1,6 +1,6 @@
-// 개미 전사
-// 입력 : 식량창고의 개수(N), 창고에 저장된 식량의 개수 K
-// 출력 : 개미 전사가 얻을 수 있는 식량의 최댓값
+// 이것이 취업을 위한 코딩테스트다 220p
+// 1
+
 #include <iostream>
 #include <algorithm>
 #include <vector>

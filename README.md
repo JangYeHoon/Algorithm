@@ -209,8 +209,7 @@
         <li><a href="Dynamic_Programming/c++/14_본대산책.cpp">14. 본대 산책</a></li>
         <li><a href="Dynamic_Programming/c++/15_파일합치기.cpp">15. 파일합치기</a></li>
         <li><a href="Dynamic_Programming/c++/16_1로만들기.cpp">16. 1로 만들기</a></li>
-        <li><a href="Dynamic_Programming/c++/17_경우의수(재귀).cpp">17. 경우의 수(재귀)</a></li>
-        <li><a href="Dynamic_Programming/c++/17_경우의수.cpp">17. 경우의수</a></li>
+        <li><a href="Dynamic_Programming/c++/17_개미전사.cpp">17. 개미전사</a></li>
         <li><a href="Dynamic_Programming/c++/18_바닥공사.cpp">18. 바닥공사</a></li>
         <li><a href="Dynamic_Programming/c++/19_효율적인화폐구성.cpp">19. 효율적인화폐구성</a></li>
     </ul>
@@ -233,6 +232,7 @@
         <li><a herf="Dynamic_Programming/python/14_본대산책.py">14. 본대 산책</a></li>
         <li><a herf="Dynamic_Programming/python/15_파일합치기.py">15. 파일합치기</a></li>
         <li><a herf="Dynamic_Programming/python/16_1로만들기.py">16. 1로 만들기</a></li>
+        <li><a herf="Dynamic_Programming/python/17_개미전사.py">17. 개미전사</a></li>
     </ul>
 </details>
 
