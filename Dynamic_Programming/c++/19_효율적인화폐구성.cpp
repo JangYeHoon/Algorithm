@@ -1,6 +1,6 @@
-// 효율적인 화폐 구성
-// 입력 : 화폐 종류(N), 가치의 합(M), 화폐의 가치 N개
-// 출력 : M워이 되는 최소한의 개수의 경우의 수, 불가능 -1
+// 이것이 취업을 위한 코딩테스트다
+// 1
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
