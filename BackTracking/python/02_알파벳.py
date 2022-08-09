@@ -1,5 +1,10 @@
+# fast campus 강의
+# https://www.acmicpc.net/problem/1987
+# 1
+
 dx = [-1, 1, 0, 0]
 dy = [0, 0, -1, 1]
+
 
 def bfs(x, y):
     global result
@@ -16,6 +21,7 @@ def bfs(x, y):
 
             if nx < r and 0 <= nx and ny < c and 0 <= ny and array[nx][ny] not in step:
                 q.add((nx, ny, step + array[nx][ny]))
+
 
 r, c = map(int, input().split())
 array = []

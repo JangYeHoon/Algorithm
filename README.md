@@ -379,6 +379,7 @@
 <details><summary>C++</summary>
     <ul>
         <li><a href="BackTracking/c++/01_N_Queen.cpp">01. N Queen</a></li>
+        <li><a href="BackTracking/c++/02_알파벳.cpp">02. 알파벳</a></li>
     </ul>
 </details>
 <details><summary>Python</summary>
