@@ -380,6 +380,7 @@
     <ul>
         <li><a href="BackTracking/c++/01_N_Queen.cpp">01. N Queen</a></li>
         <li><a href="BackTracking/c++/02_알파벳.cpp">02. 알파벳</a></li>
+        <li><a href="BackTracking/c++/03_암호만들기.cpp">03. 암호만들기</a></li>
     </ul>
 </details>
 <details><summary>Python</summary>
@@ -387,7 +388,6 @@
         <li><a href="BackTracking/python/01_N_Queen.py">01. N Queen</a></li>
         <li><a href="BackTracking/python/02_알파벳.py">02. 알파벳</a></li>
         <li><a href="BackTracking/python/03_암호만들기.py">03. 암호만들기</a></li>
-        <li><a href="BackTracking/python/03_암호만들기(dfs).py">03. 암호만들기(조합 dfs로 직접 구현)</a></li>
     </ul>
 </details>
 

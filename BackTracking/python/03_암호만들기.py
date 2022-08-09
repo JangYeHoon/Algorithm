@@ -1,3 +1,7 @@
+# fast campus 강의
+# https://www.acmicpc.net/problem/1759
+# 1
+
 from itertools import combinations
 
 l, c = map(int, input().split())
