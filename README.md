@@ -155,6 +155,7 @@
         <li><a href="Breadth-first_search(BFS)/python/05_미로탈출.py">05. 미로탈출</a></li>
         <li><a href="Breadth-first_search(BFS)/python/06_특정거리의도시찾기.py">06. 특정 거리의 도시 찾기</a></li>
         <li><a href="Breadth-first_search(BFS)/python/07_경쟁적전염.py">07. 경쟁적 전염</a></li>
+        <li><a href="Breadth-first_search(BFS)/python/08_인구이동.py">08. 인구 이동</a></li>
     </ul>
 </details>
 
