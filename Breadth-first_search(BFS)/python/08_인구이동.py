@@ -9,15 +9,17 @@ mx = [1, 0, -1, 0]
 my = [0, 1, 0, -1]
 
 
-def bfs(x, y):
-    q = deque([x, y])
-    ret = []
-    person_sum = 0
-    country_cnt = 0
+def bfs(x, y, index):
+    united = []
+    united.append((x, y))
+    q = deque()
+    q.append((x, y))
+    union[x][y] = index
+    person_sum = matrix[x][y]
+    country_cnt = 1
 
     while q:
-        px = q.popleft()
-        py = q.popleft()
+        px, py = q.popleft()
 
         for i in range(4):
             nx = px + mx[i]
@@ -27,19 +29,14 @@ def bfs(x, y):
                 continue
 
             diff_cnt = abs(matrix[px][py] - matrix[nx][ny])
-            if L <= diff_cnt and diff_cnt <= R and not(visited[nx][ny]):
-                if not visited[x][y]:
-                    visited[x][y] = True
-                    country_cnt += 1
-                    person_sum += matrix[x][y]
-                    ret.append([x, y])
-                visited[nx][ny] = True
+            if L <= diff_cnt and diff_cnt <= R and union[nx][ny] == -1:
+                union[nx][ny] = index
+                united.append((nx, ny))
                 person_sum += matrix[nx][ny]
                 country_cnt += 1
-                ret.append([nx, ny])
-                q.append(nx)
-                q.append(ny)
-    return person_sum, country_cnt, ret
+                q.append((nx, ny))
+    for i, j in united:
+        matrix[i][j] = person_sum // country_cnt
 
 
 N, L, R = map(int, input().split())
@@ -47,16 +44,14 @@ matrix = [list(map(int, input().split())) for _ in range(N)]
 
 result = 0
 while True:
-    visited = [[False] * N for _ in range(N)]
-    new_matrix = deepcopy(matrix)
+    union = [[-1] * N for _ in range(N)]
+    index = 0
     for i in range(N):
         for j in range(N):
-            if not (visited[i][j]):
-                person_sum, country_cnt, move = bfs(i, j)
-                for m in move:
-                    new_matrix[m[0]][m[1]] = person_sum // country_cnt
-    if new_matrix == matrix:
+            if union[i][j] == -1:
+                bfs(i, j, index)
+                index += 1
+    if index == N * N:
         break
-    matrix = new_matrix
     result += 1
 print(result)
