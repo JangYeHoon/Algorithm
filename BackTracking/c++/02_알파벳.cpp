@@ -1,6 +1,6 @@
 // fast campus 강의
 // https://www.acmicpc.net/problem/1987
-// 1
+// 2
 
 #include <iostream>
 #include <algorithm>
@@ -20,12 +20,13 @@ void dfs(int x, int y, int step) {
 		int nx = x + mx[i];
 		int ny = y + my[i];
 
-		if (0 <= nx && nx < R && 0 <= ny && ny < C) {
-			if (!alphabet[((int)matrix[nx][ny]) - 65]) {
-				alphabet[((int)matrix[nx][ny]) - 65]++;
-				dfs(nx, ny, step + 1);
-				alphabet[((int)matrix[nx][ny]) - 65]--;
-			}
+		if (nx < 0 || nx >= R || ny < 0 || ny >= C)
+			continue;
+
+		if (!alphabet[matrix[nx][ny] - 65]) {
+			alphabet[matrix[nx][ny] - 65] = 1;
+			dfs(nx, ny, step + 1);
+			alphabet[matrix[nx][ny] - 65] = 0;
 		}
 	}
 }
@@ -37,8 +38,7 @@ int main() {
 			cin >> matrix[i][j];
 	}
 
-	alphabet[((int)matrix[0][0]) - 65]++;
+	alphabet[matrix[0][0] - 65] = 1;
 	dfs(0, 0, 1);
-
 	cout << result;
 }
