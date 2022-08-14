@@ -144,6 +144,7 @@
         <li><a href="Breadth-first_search(BFS)/c++/05_미로탈출.cpp">05. 미로탈출</a></li>
         <li><a href="Breadth-first_search(BFS)/c++/06_특정거리의_도시찾기.cpp">06. 특정거리의 도시 찾기</a></li>
         <li><a href="Breadth-first_search(BFS)/c++/07_경쟁적전염.cpp">07. 경쟁적 전염</a></li>
+        <li><a href="Breadth-first_search(BFS)/c++/08_인구이동.cpp">08. 인구 이동</a></li>
     </ul>
 </details>
 <details><summary>Python</summary>

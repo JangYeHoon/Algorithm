@@ -1,22 +1,21 @@
 # fast campus 강의
 # https://www.acmicpc.net/problem/1759
-# 1
+# 2
 
 from itertools import combinations
 
-l, c = map(int, input().split())
-alpabet = list(input().split(' '))
-
-alpabet.sort()
+L, C = map(int, input().split())
+alphabet = list(input().split(' '))
+alphabet.sort()
 
 vowels = ['a', 'e', 'i', 'o', 'u']
 result = []
-for s in combinations(alpabet, l):
-    vowels_count = 0
+for passwd in combinations(alphabet, L):
+    vowles_cnt = 0
     for v in vowels:
-        vowels_count += s.count(v)
-    if vowels_count > 0 and l - vowels_count > 1:
-        result.append(''.join(s))
+        vowles_cnt += passwd.count(v)
+    if vowles_cnt > 0 and len(passwd) - vowles_cnt > 1:
+        result.append(''.join(passwd))
 
 for r in result:
     print(r)
