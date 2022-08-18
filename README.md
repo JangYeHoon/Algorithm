@@ -131,6 +131,7 @@
         <li><a href="Sorting/python/09_성적이낮은순서로학생출력.py">09. 성적이 낮은 순서로 학생 출력</a></li>
         <li><a href="Sorting/python/10_두배열의원소교체.py">10. 두 배열의 원소 교체</a></li>
         <li><a href="Sorting/python/11_국영수.py">11. 국영수</a></li>
+        <li><a href="Sorting/python/12_안테나.py">12. 안테나</a></li>
     </ul>
 </details>
 
