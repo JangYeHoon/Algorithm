@@ -132,6 +132,7 @@
         <li><a href="Sorting/python/10_두배열의원소교체.py">10. 두 배열의 원소 교체</a></li>
         <li><a href="Sorting/python/11_국영수.py">11. 국영수</a></li>
         <li><a href="Sorting/python/12_안테나.py">12. 안테나</a></li>
+        <li><a href="Sorting/python/13_실패율.py">13. 실패율</a></li>
     </ul>
 </details>
 
