@@ -1,8 +1,9 @@
 # 이것이 취업을 위한 코딩테스트다
 # https://school.programmers.co.kr/learn/courses/30/lessons/60063
-# 1
+# 2
 
 from collections import deque
+
 
 def get_next_pos(pos, board):
     next_pos = []
@@ -27,13 +28,14 @@ def get_next_pos(pos, board):
                 next_pos.append({(x2, y2), (x2, y2 + i)})
     return next_pos
 
+
 def solution(board):
     N = len(board)
     new_board = [[1] * (N + 2) for _ in range(N + 2)]
     for i in range(N):
         for j in range(N):
             new_board[i + 1][j + 1] = board[i][j]
-    
+
     q = deque()
     pos = {(1, 1), (1, 2)}
     q.append((pos, 0))
@@ -43,7 +45,7 @@ def solution(board):
         pos, cost = q.popleft()
         if (N, N) in pos:
             return cost
-        
+
         for next_pos in get_next_pos(pos, new_board):
             if next_pos not in visited:
                 q.append((next_pos, cost + 1))
