@@ -136,6 +136,7 @@
         <li><a href="Sorting/python/11_국영수.py">11. 국영수</a></li>
         <li><a href="Sorting/python/12_안테나.py">12. 안테나</a></li>
         <li><a href="Sorting/python/13_실패율.py">13. 실패율</a></li>
+        <li><a href="Sorting/python/14_카드정렬하기.py">14. 카드 정렬하기</a></li>
     </ul>
 </details>
 
