@@ -116,6 +116,9 @@
         <li><a href="Sorting/c++/08_위에서아래로.cpp">08. 위에서 아래로</a></li>
         <li><a href="Sorting/c++/09_성적이낮은순서로학생출력.cpp">09. 성적이 낮은 순서로 학생 출력</a></li>
         <li><a href="Sorting/c++/10_두배열의원소교체.cpp">10. 두 배열의 원소 교체</a></li>
+        <li><a href="Sorting/c++/11_국영수.cpp">11. 국영수</a></li>
+        <li><a href="Sorting/c++/12_안테나.cpp">12. 안테나</a></li>
+        <li><a href="Sorting/c++/13_실패율.cpp">13. 실패율</a></li>
     </ul>
 </details>
 <details><summary>Python</summary>
