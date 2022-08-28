@@ -119,6 +119,7 @@
         <li><a href="Sorting/c++/11_국영수.cpp">11. 국영수</a></li>
         <li><a href="Sorting/c++/12_안테나.cpp">12. 안테나</a></li>
         <li><a href="Sorting/c++/13_실패율.cpp">13. 실패율</a></li>
+        <li><a href="Sorting/c++/14_카드정렬하기.cpp">14. 카드 정렬하기</a></li>
     </ul>
 </details>
 <details><summary>Python</summary>
@@ -339,6 +340,8 @@
         <li><a href="Search/c++/15_부품찾기(집합자료형).cpp">15. 부품 찾기 (집합자료형)</a></li>
         <li><a href="Search/c++/16_떡볶이떡만들기(반복).cpp">16. 떡볶이 떡 만들기 (반복)</a></li>
         <li><a href="Search/c++/16_떡볶이떡만들기(재귀).cpp">16. 떡볶이 떡 만들기 (재귀)</a></li>
+        <li><a href="Search/c++/17_정렬된배열에서특정수의개수구하기.cpp">17_정렬된 배열에서 특정 수의 개수 구하기</a></li>
+        <li><a href="Search/c++/18_고정점찾기.cpp">18_고정점 찾기</a></li>
     </ul>
 </details>
 <details><summary>Python</summary>
