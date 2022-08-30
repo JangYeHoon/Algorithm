@@ -367,6 +367,7 @@
         <li><a href="Search/python/16_떡볶이떡만들기(재귀).py">16. 떡볶이 떡 만들기 (재귀)</a></li>
         <li><a href="Search/python/17_정렬된배열에서특정수의개수구하기.py">17. 정렬된 배열에서 특정 수의 개수 구하기</a></li>
         <li><a href="Search/python/18_고정점찾기.py">18. 고정점 찾기</a></li>
+        <li><a href="Search/python/19_가사검색.py">19. 가사 검색</a></li>
     </ul>
 </details>
 
