@@ -246,6 +246,7 @@
         <li><a herf="Dynamic_Programming/python/17_개미전사.py">17. 개미전사</a></li>
         <li><a herf="Dynamic_Programming/python/18_바닥공사.py">18. 바닥공사</a></li>
         <li><a herf="Dynamic_Programming/python/19_효율적인화폐구성.py">19. 효율적인 화폐 구성</a></li>
+        <li><a herf="Dynamic_Programming/python/20_금광.py">20. 금광</a></li>
     </ul>
 </details>
 
