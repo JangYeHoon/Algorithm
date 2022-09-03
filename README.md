@@ -223,6 +223,8 @@
         <li><a href="Dynamic_Programming/c++/17_개미전사.cpp">17. 개미전사</a></li>
         <li><a href="Dynamic_Programming/c++/18_바닥공사.cpp">18. 바닥공사</a></li>
         <li><a href="Dynamic_Programming/c++/19_효율적인화폐구성.cpp">19. 효율적인 화폐 구성</a></li>
+        <li><a href="Dynamic_Programming/c++/20_금광.cpp">20. 금광</a></li>
+        <li><a href="Dynamic_Programming/c++/21_정수삼각형.cpp">21. 정수 삼각형</a></li>
     </ul>
 </details>
 <details><summary>Python</summary>
@@ -342,8 +344,9 @@
         <li><a href="Search/c++/15_부품찾기(집합자료형).cpp">15. 부품 찾기 (집합자료형)</a></li>
         <li><a href="Search/c++/16_떡볶이떡만들기(반복).cpp">16. 떡볶이 떡 만들기 (반복)</a></li>
         <li><a href="Search/c++/16_떡볶이떡만들기(재귀).cpp">16. 떡볶이 떡 만들기 (재귀)</a></li>
-        <li><a href="Search/c++/17_정렬된배열에서특정수의개수구하기.cpp">17_정렬된 배열에서 특정 수의 개수 구하기</a></li>
-        <li><a href="Search/c++/18_고정점찾기.cpp">18_고정점 찾기</a></li>
+        <li><a href="Search/c++/17_정렬된배열에서특정수의개수구하기.cpp">17. 정렬된 배열에서 특정 수의 개수 구하기</a></li>
+        <li><a href="Search/c++/18_고정점찾기.cpp">18. 고정점 찾기</a></li>
+        <li><a href="Search/c++/19_가사검색.cpp">19. 가사 검색</a></li>
     </ul>
 </details>
 <details><summary>Python</summary>
