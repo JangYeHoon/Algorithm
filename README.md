@@ -250,6 +250,7 @@
         <li><a herf="Dynamic_Programming/python/19_효율적인화폐구성.py">19. 효율적인 화폐 구성</a></li>
         <li><a herf="Dynamic_Programming/python/20_금광.py">20. 금광</a></li>
         <li><a herf="Dynamic_Programming/python/21_정수삼각형.py">21. 정수 삼각형</a></li>
+        <li><a herf="Dynamic_Programming/python/22_퇴사.py">22. 퇴사</a></li>
     </ul>
 </details>
 
