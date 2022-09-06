@@ -251,6 +251,7 @@
         <li><a herf="Dynamic_Programming/python/20_금광.py">20. 금광</a></li>
         <li><a herf="Dynamic_Programming/python/21_정수삼각형.py">21. 정수 삼각형</a></li>
         <li><a herf="Dynamic_Programming/python/22_퇴사.py">22. 퇴사</a></li>
+        <li><a herf="Dynamic_Programming/python/23_병사배치하기.py">23. 병사 배치하기</a></li>
     </ul>
 </details>
 
