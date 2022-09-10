@@ -227,7 +227,7 @@
         <li><a href="Dynamic_Programming/c++/21_정수삼각형.cpp">21. 정수 삼각형</a></li>
         <li><a href="Dynamic_Programming/c++/22_퇴사.cpp">22. 퇴사</a></li>
         <li><a href="Dynamic_Programming/c++/23_병사배치하기.cpp">23. 병사 배치하기</a></li>
-        <li><a href="Dynamic_Programming/c++/24_못생긴 수.cpp">24. 못생긴 수</a></li>
+        <li><a href="Dynamic_Programming/c++/24_못생긴수.cpp">24. 못생긴 수</a></li>
     </ul>
 </details>
 <details><summary>Python</summary>
