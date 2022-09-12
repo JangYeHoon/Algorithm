@@ -2,6 +2,7 @@
 
 - [배열에서 특정 값들 사이 범위(count_by_range)](#countbyrange)
 - [문자열에서 찾는 값들을 특정 값으로 변환(replace_string_all)](#replacestringall)
+- [가장 긴 증가하는 부분 수열(LIS)](#LIS)
 
 ### count_by_range
 
@@ -25,4 +26,17 @@ string replace_all(string str, string from, string to) {
     }
     return res;
 }
+```
+
+### LIS
+
+```c++
+vector<int> LIS(vector<int> dp, vector<int> arr)
+    for (int i = 1; i < n; i++) {
+		for (int j = 0; j < i; j++) {
+			if (arr[j] < arr[i])
+				dp[i] = max(dp[i], dp[j] + 1);
+		}
+	}
+    return dp;
 ```
