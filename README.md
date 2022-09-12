@@ -256,6 +256,7 @@
         <li><a herf="Dynamic_Programming/python/22_퇴사.py">22. 퇴사</a></li>
         <li><a herf="Dynamic_Programming/python/23_병사배치하기.py">23. 병사 배치하기</a></li>
         <li><a herf="Dynamic_Programming/python/24_못생긴수.py">24. 못생긴 수</a></li>
+        <li><a herf="Dynamic_Programming/python/25_편집거리.py">25. 편집 거리</a></li>
     </ul>
 </details>
 
