@@ -400,6 +400,7 @@
         <li><a href="Shortest_Path/python/03_미래도시.py">03.미래 도시</a></li>
         <li><a href="Shortest_Path/python/04_전보.py">04. 전보</a></li>
         <li><a href="Shortest_Path/python/05_플로이드.py">05. 플로이드</a></li>
+        <li><a href="Shortest_Path/python/06_정확한순위.py">06. 정확한 순위</a></li>
     </ul>
 </details>
 
