@@ -228,6 +228,7 @@
         <li><a href="Dynamic_Programming/c++/22_퇴사.cpp">22. 퇴사</a></li>
         <li><a href="Dynamic_Programming/c++/23_병사배치하기.cpp">23. 병사 배치하기</a></li>
         <li><a href="Dynamic_Programming/c++/24_못생긴수.cpp">24. 못생긴 수</a></li>
+        <li><a href="Dynamic_Programming/c++/25_편집거리.cpp">25. 편집 거리</a></li>
     </ul>
 </details>
 <details><summary>Python</summary>
@@ -391,6 +392,9 @@
         <li><a href="Shortest_Path/c++/02_거의최단경로.cpp">02. 거의 최단 경로</a></li>
         <li><a href="Shortest_Path/c++/03_미래도시.cpp">03. 미래 도시</a></li>
         <li><a href="Shortest_Path/c++/04_전보.cpp">04. 전보</a></li>
+        <li><a href="Shortest_Path/c++/05_플로이드.cpp">05. 플로이드</a></li>
+        <li><a href="Shortest_Path/c++/06_정확한순위.cpp">06. 정확한 순위</a></li>
+        <li><a href="Shortest_Path/c++/07_화성탐사.cpp">07. 화성 탐사</a></li>
     </ul>
 </details>
 <details><summary>Python</summary>
