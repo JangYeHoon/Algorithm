@@ -406,6 +406,7 @@
         <li><a href="Shortest_Path/python/05_플로이드.py">05. 플로이드</a></li>
         <li><a href="Shortest_Path/python/06_정확한순위.py">06. 정확한 순위</a></li>
         <li><a href="Shortest_Path/python/07_화성탐사.py">07. 화성 탐사</a></li>
+        <li><a href="Shortest_Path/python/08_숨바꼭질.py">08. 숨바꼭질</a></li>
     </ul>
 </details>
 
