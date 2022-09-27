@@ -279,6 +279,7 @@
         <li><a href="Graph/python/03_팀결성.py">03. 팀 결성</a></li>
         <li><a href="Graph/python/04_도시분할계획.py">04. 도시 분할 계획</a></li>
         <li><a href="Graph/python/05_커리큘럼.py">05. 커리큘럼</a></li>
+        <li><a href="Graph/python/06_여행계획.py">06. 여행 계획</a></li>
     </ul>
 </details>
 
