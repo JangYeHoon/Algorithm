@@ -270,6 +270,7 @@
         <li><a href="Graph/c++/03_팀결성.cpp">03. 팀 결성</a></li>
         <li><a href="Graph/c++/04_도시분할계획.cpp">04. 도시 분할 계획</a></li>
         <li><a href="Graph/c++/05_커리큘럼.cpp">05. 커리큘럼</a></li>
+        <li><a href="Graph/c++/06_여행계획.cpp">06. 여행 계획</a></li>
     </ul>
 </details>
 <details><summary>Python</summary>
@@ -396,6 +397,7 @@
         <li><a href="Shortest_Path/c++/05_플로이드.cpp">05. 플로이드</a></li>
         <li><a href="Shortest_Path/c++/06_정확한순위.cpp">06. 정확한 순위</a></li>
         <li><a href="Shortest_Path/c++/07_화성탐사.cpp">07. 화성 탐사</a></li>
+        <li><a href="Shortest_Path/c++/08_숨바꼭질.cpp">08. 숨바꼭질</a></li>
     </ul>
 </details>
 <details><summary>Python</summary>
