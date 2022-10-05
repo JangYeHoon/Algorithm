@@ -282,6 +282,7 @@
         <li><a href="Graph/python/05_커리큘럼.py">05. 커리큘럼</a></li>
         <li><a href="Graph/python/06_여행계획.py">06. 여행 계획</a></li>
         <li><a href="Graph/python/07_탑승구.py">07. 탑승구</a></li>
+        <li><a href="Graph/python/08_어두운길.py">08. 어두운 길</a></li>
     </ul>
 </details>
 
