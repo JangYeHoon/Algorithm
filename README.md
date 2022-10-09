@@ -271,6 +271,8 @@
         <li><a href="Graph/c++/04_도시분할계획.cpp">04. 도시 분할 계획</a></li>
         <li><a href="Graph/c++/05_커리큘럼.cpp">05. 커리큘럼</a></li>
         <li><a href="Graph/c++/06_여행계획.cpp">06. 여행 계획</a></li>
+        <li><a href="Graph/c++/07_탑승구.cpp">07. 탑승구</a></li>
+        <li><a href="Graph/c++/08_어두운길.cpp">08. 어두운 길</a></li>
     </ul>
 </details>
 <details><summary>Python</summary>
