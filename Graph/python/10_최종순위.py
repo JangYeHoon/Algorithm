@@ -1,6 +1,6 @@
 # 이것이 취업을 위한 코딩테스트다
 # https://www.acmicpc.net/problem/3665
-# 0
+# 1
 
 from collections import deque
 

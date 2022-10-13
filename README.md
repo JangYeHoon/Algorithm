@@ -286,6 +286,7 @@
         <li><a href="Graph/python/07_탑승구.py">07. 탑승구</a></li>
         <li><a href="Graph/python/08_어두운길.py">08. 어두운 길</a></li>
         <li><a href="Graph/python/09_행성터널.py">09. 행성 터널</a></li>
+        <li><a href="Graph/python/10_최종순위.py">10. 최종 순위</a></li>
     </ul>
 </details>
 
