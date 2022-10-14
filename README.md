@@ -273,6 +273,8 @@
         <li><a href="Graph/c++/06_여행계획.cpp">06. 여행 계획</a></li>
         <li><a href="Graph/c++/07_탑승구.cpp">07. 탑승구</a></li>
         <li><a href="Graph/c++/08_어두운길.cpp">08. 어두운 길</a></li>
+        <li><a href="Graph/c++/09_행성터널.cpp">09. 행성 터널</a></li>
+        <li><a href="Graph/c++/10_최종순위.cpp">10. 최종 순위</a></li>
     </ul>
 </details>
 <details><summary>Python</summary>
