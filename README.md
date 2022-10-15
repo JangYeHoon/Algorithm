@@ -14,6 +14,7 @@
 10. [Shortest Path](#shortest-path)
 11. [Back Tracking](#back-tracking)
 12. [Memorization](#memorization)
+13. [Programmers](#programmers)
 
 ---
 
@@ -514,4 +515,11 @@
             <li><a href="Memorization/Sorting/python/00_Merge_Sort.py">00. Merge Sort</a></li>
             <li><a href="Memorization/Sorting/python/00_Quick_Sort.py">00. Quick Sort</a></li>
         </ul>
+</details>
+<details><summary>Programmers</summary>
+    <details><summary>String</summary>
+            <ul>
+                <li>01. 옹알이(<a href="programmers/string/01_옹알이.cpp">c++</a>)(<a href="programmers/string/01_옹알이.py">python</a>)</li>
+            </ul>
+    </details>
 </details>
