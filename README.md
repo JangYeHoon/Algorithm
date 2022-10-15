@@ -522,7 +522,7 @@
 <details><summary>Programmers</summary>
     <details><summary>String</summary>
             <ul>
-                <li>01. 옹알이(<a href="programmers/string/01_옹알이.cpp">c++</a>)(<a href="programmers/string/01_옹알이.py">python</a>)</li>
+                <li>01. 옹알이(<a href="programmers/string/01_옹알이.cpp">c++</a>, <a href="programmers/string/01_옹알이.py">python</a>)</li>
             </ul>
     </details>
 </details>
