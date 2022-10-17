@@ -525,4 +525,9 @@
                 <li>01. 옹알이(<a href="programmers/string/01_옹알이.cpp">c++</a>, <a href="programmers/string/01_옹알이.py">python</a>)</li>
             </ul>
     </details>
+    <details><summary>Implementation</summary>
+            <ul>
+                <li>01. 안전지대(<a href="programmers/implementation/01_안전지대.cpp">c++</a>, <a href="programmers/implementation/01_안전지대.py">python</a>)</li>
+            </ul>
+    </details>
 </details>
