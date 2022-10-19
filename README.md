@@ -528,6 +528,7 @@
     <details><summary>Implementation</summary>
             <ul>
                 <li>01. 안전지대(<a href="programmers/implementation/01_안전지대.cpp">c++</a>, <a href="programmers/implementation/01_안전지대.py">python</a>)</li>
+                <li>02. 삼각형의완성조건(<a href="programmers/implementation/02_삼각형의완성조건.cpp">c++</a>, <a href="programmers/implementation/02_삼각형의완성조건.py">python</a>)</li>
             </ul>
     </details>
 </details>
