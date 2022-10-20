@@ -523,7 +523,7 @@
     <details><summary>String</summary>
             <ul>
                 <li>01. 옹알이(<a href="programmers/string/01_옹알이.cpp">c++</a>, <a href="programmers/string/01_옹알이.py">python</a>)</li>
-                <li>02. 성격 유형 검사(<a href="programmers/string/02_성격유형검사.cpp">c++</a>, <a href="programmers/string/02_성격유형검사.py">python</a>)</li>
+                <li>02. 성격 유형 검사하기(<a href="programmers/string/02_성격유형검사하기.cpp">c++</a>, <a href="programmers/string/02_성격유형검사하기.py">python</a>)</li>
             </ul>
     </details>
     <details><summary>Implementation</summary>
