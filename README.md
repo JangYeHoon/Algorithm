@@ -541,7 +541,7 @@
             </ul>
     </details>
 </details>
-<details><summary>Lv. 2/summary>
+<details><summary>Lv. 2</summary>
     <details><summary>Implementation</summary>
             <ul>
                 <li>01. 할인 행사(<a href="programmers/implementation/06_할인행사.cpp">c++</a>, <a href="programmers/implementation/06_할인행사.py">python</a>)</li>
