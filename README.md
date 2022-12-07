@@ -545,6 +545,7 @@
     <details><summary>Implementation</summary>
             <ul>
                 <li>01. 할인 행사(<a href="programmers/implementation/06_할인행사.cpp">c++</a>, <a href="programmers/implementation/06_할인행사.py">python</a>)</li>
+                <li>02. 귤 고르기(<a href="programmers/implementation/07_귤고르기.cpp">c++</a>, <a href="programmers/implementation/07_귤고르기.py">python</a>)</li>
             </ul>
     </details>
 </details>
