@@ -524,6 +524,9 @@
             <ul>
                 <li>01. 옹알이(<a href="programmers/string/01_옹알이.cpp">c++</a>, <a href="programmers/string/01_옹알이.py">python</a>)</li>
                 <li>02. 성격 유형 검사하기(<a href="programmers/string/02_성격유형검사하기.cpp">c++</a>, <a href="programmers/string/02_성격유형검사하기.py">python</a>)</li>
+                <li>03. 신고 결과 받기(<a href="programmers/string/03_신고결과받기.cpp">c++</a>, <a href="programmers/string/03_신고결과받기.py">python</a>)</li>
+                <li>04. 가장 가까운 같은 글자(<a href="programmers/string/04_가장가까운같은글자.py">python</a>)</li>
+                <li>05. 문자열 나누기(<a href="programmers/string/05_문자열나누기.py">python</a>)</li>
             </ul>
     </details>
     <details><summary>Implementation</summary>
@@ -533,11 +536,13 @@
                 <li>03. 햄버거 만들기(<a href="programmers/implementation/03_햄버거만들기.cpp">c++</a>, <a href="programmers/implementation/03_햄버거만들기.py">python</a>)</li>
                 <li>04. 자릿수 더하기(<a href="programmers/implementation/04_자릿수더하기.cpp">c++</a>, <a href="programmers/implementation/04_자릿수더하기.py">python</a>)</li>
                 <li>05. 삼총사(<a href="programmers/implementation/05_삼총사.cpp">c++</a>, <a href="programmers/implementation/05_삼총사.py">python</a>)</li>
+                <li>06. 기사단원의 무기(<a href="programmers/implementation/09_기사단원의무기.py">python</a>)</li>
             </ul>
     </details>
     <details><summary>Sort</summary>
             <ul>
                 <li>01. 배열뒤집기(<a href="programmers/sort/01_배열뒤집기.cpp">c++</a>, <a href="programmers/sort/01_배열뒤집기.py">python</a>)</li>
+                <li>02. 명예의 전당(<a href="programmers/sort/02_명예의전당`.py">python</a>)</li>
             </ul>
     </details>
 </details>
