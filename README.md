@@ -528,6 +528,7 @@
                 <li>04. 가장 가까운 같은 글자(<a href="programmers/string/04_가장가까운같은글자.py">python</a>)</li>
                 <li>05. 문자열 나누기(<a href="programmers/string/05_문자열나누기.py">python</a>)</li>
                 <li>06. 푸드 파이트 대회(<a href="programmers/string/06_푸드파이트대회.py">python</a>)</li>
+                <li>07. 숫자 짝꿍(<a href="programmers/string/07_숫자짝꿍.py">python</a>)</li>
             </ul>
     </details>
     <details><summary>Implementation</summary>
@@ -538,6 +539,7 @@
                 <li>04. 자릿수 더하기(<a href="programmers/implementation/04_자릿수더하기.cpp">c++</a>, <a href="programmers/implementation/04_자릿수더하기.py">python</a>)</li>
                 <li>05. 삼총사(<a href="programmers/implementation/05_삼총사.cpp">c++</a>, <a href="programmers/implementation/05_삼총사.py">python</a>)</li>
                 <li>06. 기사단원의 무기(<a href="programmers/implementation/09_기사단원의무기.py">python</a>)</li>
+                <li>07. 콜라 문제(<a href="programmers/implementation/10_콜라문제.py">python</a>)</li>
             </ul>
     </details>
     <details><summary>Sort</summary>
