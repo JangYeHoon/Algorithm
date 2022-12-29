@@ -540,6 +540,8 @@
                 <li>05. 삼총사(<a href="programmers/implementation/05_삼총사.cpp">c++</a>, <a href="programmers/implementation/05_삼총사.py">python</a>)</li>
                 <li>06. 기사단원의 무기(<a href="programmers/implementation/09_기사단원의무기.py">python</a>)</li>
                 <li>07. 콜라 문제(<a href="programmers/implementation/10_콜라문제.py">python</a>)</li>
+                <li>08. 나머지가 1이 되는 수 찾기(<a href="programmers/implementation/11_나머지가1이되는수찾기.py">python</a>)</li>
+                <li>09. 최소 직사각형(<a href="programmers/implementation/12_최소직사각형.py">python</a>)</li>
             </ul>
     </details>
     <details><summary>Sort</summary>
