@@ -529,6 +529,7 @@
                 <li>05. 문자열 나누기(<a href="programmers/string/05_문자열나누기.py">python</a>)</li>
                 <li>06. 푸드 파이트 대회(<a href="programmers/string/06_푸드파이트대회.py">python</a>)</li>
                 <li>07. 숫자 짝꿍(<a href="programmers/string/07_숫자짝꿍.py">python</a>)</li>
+                <li>08. 숫자 문자열과 영단어(<a href="programmers/string/08_숫자문자열과영단어.py">python</a>)</li>
             </ul>
     </details>
     <details><summary>Implementation</summary>
@@ -542,6 +543,8 @@
                 <li>07. 콜라 문제(<a href="programmers/implementation/10_콜라문제.py">python</a>)</li>
                 <li>08. 나머지가 1이 되는 수 찾기(<a href="programmers/implementation/11_나머지가1이되는수찾기.py">python</a>)</li>
                 <li>09. 최소 직사각형(<a href="programmers/implementation/12_최소직사각형.py">python</a>)</li>
+                <li>10. 없는 숫자 더하기(<a href="programmers/implementation/13_없는숫자더하기.py">python</a>)</li>
+                <li>11. 부족한 금액 계산하기(<a href="programmers/implementation/14_부족한금액계산하기.py">python</a>)</li>
             </ul>
     </details>
     <details><summary>Sort</summary>
