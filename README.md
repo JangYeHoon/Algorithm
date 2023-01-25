@@ -531,6 +531,7 @@
                 <li>06. 푸드 파이트 대회(<a href="programmers/string/06_푸드파이트대회.py">python</a>)</li>
                 <li>07. 숫자 짝꿍(<a href="programmers/string/07_숫자짝꿍.py">python</a>)</li>
                 <li>08. 숫자 문자열과 영단어(<a href="programmers/string/08_숫자문자열과영단어.py">python</a>)</li>
+                <li>09. 크기가 작은 부분 문자열(<a href="programmers/string/09_크기가작은부분문자열.py">python</a>)</li>
             </ul>
     </details>
     <details><summary>Implementation</summary>
@@ -546,6 +547,9 @@
                 <li>09. 최소 직사각형(<a href="programmers/implementation/12_최소직사각형.py">python</a>)</li>
                 <li>10. 없는 숫자 더하기(<a href="programmers/implementation/13_없는숫자더하기.py">python</a>)</li>
                 <li>11. 부족한 금액 계산하기(<a href="programmers/implementation/14_부족한금액계산하기.py">python</a>)</li>
+                <li>12. 같은 숫자는 싫어(<a href="programmers/implementation/15_같은숫자는싫어.py">python</a>)</li>
+                <li>13. 로또의 최고순위와 최저순위(<a href="programmers/implementation/16_로또의최고순위와최저순위.py">python</a>)</li>
+                <li>14. 음양 더하기(<a href="programmers/implementation/17_음양더하기.py">python</a>)</li>
             </ul>
     </details>
     <details><summary>Sort</summary>
