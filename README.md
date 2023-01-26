@@ -532,6 +532,7 @@
                 <li>07. 숫자 짝꿍(<a href="programmers/string/07_숫자짝꿍.py">python</a>)</li>
                 <li>08. 숫자 문자열과 영단어(<a href="programmers/string/08_숫자문자열과영단어.py">python</a>)</li>
                 <li>09. 크기가 작은 부분 문자열(<a href="programmers/string/09_크기가작은부분문자열.py">python</a>)</li>
+                <li>10. 신규 아이디 추천(<a href="programmers/string/10_신규아이디추천.py">python</a>)</li>
             </ul>
     </details>
     <details><summary>Implementation</summary>
@@ -550,6 +551,9 @@
                 <li>12. 같은 숫자는 싫어(<a href="programmers/implementation/15_같은숫자는싫어.py">python</a>)</li>
                 <li>13. 로또의 최고순위와 최저순위(<a href="programmers/implementation/16_로또의최고순위와최저순위.py">python</a>)</li>
                 <li>14. 음양 더하기(<a href="programmers/implementation/17_음양더하기.py">python</a>)</li>
+                <li>15. 내적(<a href="programmers/implementation/18_내적.py">python</a>)</li>
+                <li>16. 3진법 뒤집기(<a href="programmers/implementation/19_3진법뒤집기.py">python</a>)</li>
+                <li>17. 키패드 누르기(<a href="programmers/implementation/20_키패드누르기.py">python</a>)</li>
             </ul>
     </details>
     <details><summary>Sort</summary>
@@ -557,6 +561,7 @@
                 <li>01. 배열뒤집기(<a href="programmers/sort/01_배열뒤집기.cpp">c++</a>, <a href="programmers/sort/01_배열뒤집기.py">python</a>)</li>
                 <li>02. 명예의 전당(<a href="programmers/sort/02_명예의전당`.py">python</a>)</li>
                 <li>03. 과일 장수(<a href="programmers/sort/03_과일장수.py">python</a>)</li>
+                <li>04. 두 개 뽑아서 더하기(<a href="programmers/sort/04_두개뽑아서더하기.py">python</a>)</li>
             </ul>
     </details>
 </details>
