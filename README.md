@@ -533,6 +533,7 @@
                 <li>08. 숫자 문자열과 영단어(<a href="programmers/string/08_숫자문자열과영단어.py">python</a>)</li>
                 <li>09. 크기가 작은 부분 문자열(<a href="programmers/string/09_크기가작은부분문자열.py">python</a>)</li>
                 <li>10. 신규 아이디 추천(<a href="programmers/string/10_신규아이디추천.py">python</a>)</li>
+                <li>11. 추억 점수(<a href="programmers/string/11_추억점수.py">python</a>)</li>
             </ul>
     </details>
     <details><summary>Implementation</summary>
@@ -554,6 +555,7 @@
                 <li>15. 내적(<a href="programmers/implementation/18_내적.py">python</a>)</li>
                 <li>16. 3진법 뒤집기(<a href="programmers/implementation/19_3진법뒤집기.py">python</a>)</li>
                 <li>17. 키패드 누르기(<a href="programmers/implementation/20_키패드누르기.py">python</a>)</li>
+                <li>18. 폰켓몬(<a href="programmers/implementation/21_폰켓몬.py">python</a>)</li>
             </ul>
     </details>
     <details><summary>Sort</summary>
