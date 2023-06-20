@@ -557,6 +557,7 @@
                 <li>17. 키패드 누르기(<a href="programmers/implementation/20_키패드누르기.py">python</a>)</li>
                 <li>18. 폰켓몬(<a href="programmers/implementation/21_폰켓몬.py">python</a>)</li>
                 <li>19. 크레인 인형 뽑기 게임(<a href="programmers/implementation/21_크레인인형뽑기게임.py">python</a>)</li>
+                <li>20. 공원 산책(<a href="programmers/implementation/22_공원산책.py">python</a>)</li>
             </ul>
     </details>
     <details><summary>Sort</summary>
@@ -565,6 +566,7 @@
                 <li>02. 명예의 전당(<a href="programmers/sort/02_명예의전당`.py">python</a>)</li>
                 <li>03. 과일 장수(<a href="programmers/sort/03_과일장수.py">python</a>)</li>
                 <li>04. 두 개 뽑아서 더하기(<a href="programmers/sort/04_두개뽑아서더하기.py">python</a>)</li>
+                <li>05. 달리기 경주(<a href="programmers/sort/05_달리기경주.py">python</a>)</li>
             </ul>
     </details>
 </details>
