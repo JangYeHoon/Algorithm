@@ -534,6 +534,7 @@
                 <li>09. 크기가 작은 부분 문자열(<a href="programmers/string/09_크기가작은부분문자열.py">python</a>)</li>
                 <li>10. 신규 아이디 추천(<a href="programmers/string/10_신규아이디추천.py">python</a>)</li>
                 <li>11. 추억 점수(<a href="programmers/string/11_추억점수.py">python</a>)</li>
+                <li>12. 가운데 글자 가져오기(<a href="programmers/string/12_가운데 글자 가져오기.py">python</a>)</li>
             </ul>
     </details>
     <details><summary>Implementation</summary>
@@ -569,6 +570,7 @@
                 <li>03. 과일 장수(<a href="programmers/sort/03_과일장수.py">python</a>)</li>
                 <li>04. 두 개 뽑아서 더하기(<a href="programmers/sort/04_두개뽑아서더하기.py">python</a>)</li>
                 <li>05. 달리기 경주(<a href="programmers/sort/05_달리기경주.py">python</a>)</li>
+                <li>06. 나누어 떨어지는 숫자 배열(<a href="programmers/sort/06_나누어떨어지는숫자배열.py">python</a>)</li>
             </ul>
     </details>
 </details>
