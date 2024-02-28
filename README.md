@@ -561,6 +561,7 @@
                 <li>20. 공원 산책(<a href="programmers/implementation/22_공원산책.py">python</a>)</li>
                 <li>21. 2016년(<a href="programmers/implementation/23_2016년.py">python</a>)</li>
                 <li>22. 카드뭉치(<a href="programmers/implementation/24_카드뭉치.py">python</a>)</li>
+                <li>23. 두정수사이의합(<a href="programmers/implementation/25_두정수사이의합.py">python</a>)</li>
             </ul>
     </details>
     <details><summary>Sort</summary>
