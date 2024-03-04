@@ -535,6 +535,8 @@
                 <li>10. 신규 아이디 추천(<a href="programmers/string/10_신규아이디추천.py">python</a>)</li>
                 <li>11. 추억 점수(<a href="programmers/string/11_추억점수.py">python</a>)</li>
                 <li>12. 가운데 글자 가져오기(<a href="programmers/string/12_가운데 글자 가져오기.py">python</a>)</li>
+                <li>13. 문자열 내 p와 y의 개수(<a href="programmers/string/13_문자열내p와y의개수.py">python</a>)</li>
+                <li>14. 문자열 내림차순으로 배치하기(<a href="programmers/string/14_문자열내림차순으로배치하기.py">python</a>)</li>
             </ul>
     </details>
     <details><summary>Implementation</summary>
