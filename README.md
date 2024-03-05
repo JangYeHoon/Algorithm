@@ -537,6 +537,8 @@
                 <li>12. 가운데 글자 가져오기(<a href="programmers/string/12_가운데 글자 가져오기.py">python</a>)</li>
                 <li>13. 문자열 내 p와 y의 개수(<a href="programmers/string/13_문자열내p와y의개수.py">python</a>)</li>
                 <li>14. 문자열 내림차순으로 배치하기(<a href="programmers/string/14_문자열내림차순으로배치하기.py">python</a>)</li>
+                <li>15. 문자열 다루기 기본(<a href="programmers/string/15_문자열다루기기본.py">python</a>)</li>
+                <li>16. 서울에서 김서방 찾기(<a href="programmers/string/16_서울에서김서방찾기.py">python</a>)</li>
             </ul>
     </details>
     <details><summary>Implementation</summary>
