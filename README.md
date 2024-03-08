@@ -50,6 +50,7 @@
     <li><a href="programmers/lv1/두개뽑아서더하기.py">두 개 뽑아서 더하기</a></li>
     <li><a href="programmers/lv1/달리기경주.py">달리기 경주</a></li>
     <li><a href="programmers/lv1/나누어떨어지는숫자배열.py">나누어 떨어지는 숫자 배열</a></li>
+    <li><a href="programmers/lv1/정수제곱근판별.py">정수 제곱근 판별</a></li>
     </ul>
 </details>
 <details><summary>Lv. 2</summary>
