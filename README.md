@@ -53,6 +53,8 @@
     <li><a href="programmers/lv1/정수제곱근판별.py">정수 제곱근 판별</a></li>
     <li><a href="programmers/lv1/수박수박수.py">수박수박수</a></li>
     <li><a href="programmers/lv1/문자열을정수로바꾸기.py">문자열을 정수로 바꾸기</a></li>
+    <li><a href="programmers/lv1/시저암호.py">시저암호</a></li>
+    <li><a href="programmers/lv1/약수의합.py">약수의 합</a></li>
     </ul>
 </details>
 <details><summary>Lv. 2</summary>
