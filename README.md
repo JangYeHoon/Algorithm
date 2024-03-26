@@ -57,6 +57,8 @@
     <li><a href="programmers/lv1/약수의합.py">약수의 합</a></li>
     <li><a href="programmers/lv1/문자열내마음대로정렬하기.py">문자열 내 마음대로 정렬하기</a></li>
     <li><a href="programmers/lv1/자연수뒤집어배열로만들기.py">자연수 뒤집어 배열로 만들기</a></li>
+    <li><a href="programmers/lv1/정수내림차순으로배치하기.py">정수 내림차순으로 배치하기</a></li>
+    <li><a href="programmers/lv1/제일작은수제거하기.py">제일 작은 수 제거하기</a></li>
     </ul>
 </details>
 <details><summary>Lv. 2</summary>
