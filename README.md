@@ -59,6 +59,10 @@
     <li><a href="programmers/lv1/자연수뒤집어배열로만들기.py">자연수 뒤집어 배열로 만들기</a></li>
     <li><a href="programmers/lv1/정수내림차순으로배치하기.py">정수 내림차순으로 배치하기</a></li>
     <li><a href="programmers/lv1/제일작은수제거하기.py">제일 작은 수 제거하기</a></li>
+    <li><a href="programmers/lv1/짝수와홀수.py">짝수와 홀수</a></li>
+    <li><a href="programmers/lv1/최대공약수와최소공배수.py">최대공약수와 최소공배수</a></li>
+    <li><a href="programmers/lv1/콜라츠추측.py">콜라츠추측</a></li>
+    <li><a href="programmers/lv1/평균구하기.py">평균 구하기</a></li>
     </ul>
 </details>
 <details><summary>Lv. 2</summary>
