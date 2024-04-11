@@ -63,6 +63,7 @@
     <li><a href="programmers/lv1/최대공약수와최소공배수.py">최대공약수와 최소공배수</a></li>
     <li><a href="programmers/lv1/콜라츠추측.py">콜라츠추측</a></li>
     <li><a href="programmers/lv1/평균구하기.py">평균 구하기</a></li>
+    <li><a href="programmers/lv1/이상한문자만들기.py">이상한 문자 만들기</a></li>
     </ul>
 </details>
 <details><summary>Lv. 2</summary>
