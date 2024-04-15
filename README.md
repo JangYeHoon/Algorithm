@@ -64,6 +64,9 @@
     <li><a href="programmers/lv1/콜라츠추측.py">콜라츠추측</a></li>
     <li><a href="programmers/lv1/평균구하기.py">평균 구하기</a></li>
     <li><a href="programmers/lv1/이상한문자만들기.py">이상한 문자 만들기</a></li>
+    <li><a href="programmers/lv1/하샤드수.py">하샤드 수</a></li>
+    <li><a href="programmers/lv1/핸드폰번호가리기.py">핸드폰 번호 가리기</a></li>
+    <li><a href="programmers/lv1/행렬의덧셈.py">행렬의 덧셈</a></li>
     </ul>
 </details>
 <details><summary>Lv. 2</summary>
