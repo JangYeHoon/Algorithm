@@ -67,6 +67,10 @@
     <li><a href="programmers/lv1/하샤드수.py">하샤드 수</a></li>
     <li><a href="programmers/lv1/핸드폰번호가리기.py">핸드폰 번호 가리기</a></li>
     <li><a href="programmers/lv1/행렬의덧셈.py">행렬의 덧셈</a></li>
+    <li><a href="programmers/lv1/x만큼간격이있는n개의숫자.py">x만큼 간격이 있는 n개의 숫자</a></li>
+    <li><a href="programmers/lv1/직사각형별찍기.py">직사각형 별찍기</a></li>
+    <li><a href="programmers/lv1/소수만들기.py">소수 만들기</a></li>
+    <li><a href="programmers/lv1/예산.py">예산</a></li>
     </ul>
 </details>
 <details><summary>Lv. 2</summary>
