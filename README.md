@@ -71,6 +71,7 @@
     <li><a href="programmers/lv1/직사각형별찍기.py">직사각형 별찍기</a></li>
     <li><a href="programmers/lv1/소수만들기.py">소수 만들기</a></li>
     <li><a href="programmers/lv1/예산.py">예산</a></li>
+    <li><a href="programmers/lv1/비밀지도.py">비밀지도</a></li>
     </ul>
 </details>
 <details><summary>Lv. 2</summary>
