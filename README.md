@@ -72,6 +72,9 @@
     <li><a href="programmers/lv1/소수만들기.py">소수 만들기</a></li>
     <li><a href="programmers/lv1/예산.py">예산</a></li>
     <li><a href="programmers/lv1/비밀지도.py">비밀지도</a></li>
+    <li><a href="programmers/lv1/다트게임.py">다트게임</a></li>
+    <li><a href="programmers/lv1/k번째수.py">k번째 수</a></li>
+    <li><a href="programmers/lv1/완주하지못한선수.py">완주하지 못한 선수</a></li>
     </ul>
 </details>
 <details><summary>Lv. 2</summary>
