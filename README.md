@@ -75,6 +75,9 @@
     <li><a href="programmers/lv1/다트게임.py">다트게임</a></li>
     <li><a href="programmers/lv1/k번째수.py">k번째 수</a></li>
     <li><a href="programmers/lv1/완주하지못한선수.py">완주하지 못한 선수</a></li>
+    <li><a href="programmers/lv1/체육복.py">체육복</a></li>
+    <li><a href="programmers/lv1/약수의개수와덧셈.py">약수의 개수와 덧셈</a></li>
+    <li><a href="programmers/lv1/모의고사.py">모의고사</a></li>
     </ul>
 </details>
 <details><summary>Lv. 2</summary>
