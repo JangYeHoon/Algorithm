@@ -79,6 +79,9 @@
     <li><a href="programmers/lv1/약수의개수와덧셈.py">약수의 개수와 덧셈</a></li>
     <li><a href="programmers/lv1/모의고사.py">모의고사</a></li>
     <li><a href="programmers/lv1/둘만의암호.py">둘만의 암호</a></li>
+    <li><a href="programmers/lv1/대충만든자판.py">대충 만든 자판</a></li>
+    <li><a href="programmers/lv1/덧칠하기.py">덧칠하기</a></li>
+    <li><a href="programmers/lv1/바탕화면정리.py">바탕화면 정리</a></li>
     </ul>
 </details>
 <details><summary>Lv. 2</summary>
