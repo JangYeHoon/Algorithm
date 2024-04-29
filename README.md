@@ -82,6 +82,9 @@
     <li><a href="programmers/lv1/대충만든자판.py">대충 만든 자판</a></li>
     <li><a href="programmers/lv1/덧칠하기.py">덧칠하기</a></li>
     <li><a href="programmers/lv1/바탕화면정리.py">바탕화면 정리</a></li>
+    <li><a href="programmers/lv1/붕대감기.py">붕대감기</a></li>
+    <li><a href="programmers/lv1/이웃한칸.py">이웃한 칸</a></li>
+    <li><a href="programmers/lv1/데이터분석.py">데이터 분석</a></li>
     </ul>
 </details>
 <details><summary>Lv. 2</summary>
