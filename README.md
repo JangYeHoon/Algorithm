@@ -95,4 +95,6 @@
     <li><a href="programmers/lv2/귤고르기.py">귤 고르기</a></li>
     <li><a href="programmers/lv2/점찍기.py">점찍기</a></li>
     </ul>
+    <li><a href="programmers/lv2/게임맵최단거리.py">게임 맵 최단거리</a></li>
+    </ul>
 </details>
