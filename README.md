@@ -96,5 +96,6 @@
     <li><a href="programmers/lv2/점찍기.py">점찍기</a></li>
     </ul>
     <li><a href="programmers/lv2/게임맵최단거리.py">게임 맵 최단거리</a></li>
+    <li><a href="programmers/lv2/124나라의숫자.py">124 나라의 숫자</a></li>
     </ul>
 </details>
