@@ -97,5 +97,6 @@
     </ul>
     <li><a href="programmers/lv2/게임맵최단거리.py">게임 맵 최단거리</a></li>
     <li><a href="programmers/lv2/124나라의숫자.py">124 나라의 숫자</a></li>
+    <li><a href="programmers/lv2/2n타일링.py">2 * n 타일링</a></li>
     </ul>
 </details>
